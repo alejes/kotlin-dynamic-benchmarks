@@ -1,0 +1,949 @@
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 10)
+
+# Run progress: 0.00% complete, ETA 00:10:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.372 us/op
+# Warmup Iteration   2: 0.981 us/op
+# Warmup Iteration   3: 0.969 us/op
+# Warmup Iteration   4: 0.968 us/op
+# Warmup Iteration   5: 0.968 us/op
+# Warmup Iteration   6: 0.969 us/op
+# Warmup Iteration   7: 0.968 us/op
+# Warmup Iteration   8: 0.969 us/op
+# Warmup Iteration   9: 0.967 us/op
+# Warmup Iteration  10: 0.968 us/op
+# Warmup Iteration  11: 0.968 us/op
+# Warmup Iteration  12: 0.967 us/op
+# Warmup Iteration  13: 0.970 us/op
+# Warmup Iteration  14: 1.012 us/op
+# Warmup Iteration  15: 0.973 us/op
+# Warmup Iteration  16: 1.001 us/op
+# Warmup Iteration  17: 1.088 us/op
+# Warmup Iteration  18: 1.050 us/op
+# Warmup Iteration  19: 0.973 us/op
+# Warmup Iteration  20: 0.967 us/op
+Iteration   1: 0.967 us/op
+Iteration   2: 0.967 us/op
+Iteration   3: 0.968 us/op
+Iteration   4: 0.967 us/op
+Iteration   5: 0.966 us/op
+Iteration   6: 0.966 us/op
+Iteration   7: 0.967 us/op
+Iteration   8: 0.966 us/op
+Iteration   9: 0.966 us/op
+Iteration  10: 0.966 us/op
+Iteration  11: 0.966 us/op
+Iteration  12: 0.966 us/op
+Iteration  13: 0.967 us/op
+Iteration  14: 0.966 us/op
+Iteration  15: 0.966 us/op
+Iteration  16: 0.965 us/op
+Iteration  17: 0.965 us/op
+Iteration  18: 0.965 us/op
+Iteration  19: 0.965 us/op
+Iteration  20: 0.966 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  0.966 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.965, 0.966, 0.968), stdev = 0.001
+  CI (99.9%): [0.965, 0.967] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 20)
+
+# Run progress: 6.67% complete, ETA 00:09:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 156.657 us/op
+# Warmup Iteration   2: 117.960 us/op
+# Warmup Iteration   3: 117.821 us/op
+# Warmup Iteration   4: 117.866 us/op
+# Warmup Iteration   5: 117.751 us/op
+# Warmup Iteration   6: 118.132 us/op
+# Warmup Iteration   7: 118.336 us/op
+# Warmup Iteration   8: 118.140 us/op
+# Warmup Iteration   9: 118.460 us/op
+# Warmup Iteration  10: 118.645 us/op
+# Warmup Iteration  11: 119.198 us/op
+# Warmup Iteration  12: 118.561 us/op
+# Warmup Iteration  13: 119.417 us/op
+# Warmup Iteration  14: 118.857 us/op
+# Warmup Iteration  15: 117.986 us/op
+# Warmup Iteration  16: 117.989 us/op
+# Warmup Iteration  17: 117.586 us/op
+# Warmup Iteration  18: 117.645 us/op
+# Warmup Iteration  19: 117.568 us/op
+# Warmup Iteration  20: 117.551 us/op
+Iteration   1: 118.143 us/op
+Iteration   2: 117.676 us/op
+Iteration   3: 117.556 us/op
+Iteration   4: 117.543 us/op
+Iteration   5: 117.582 us/op
+Iteration   6: 117.629 us/op
+Iteration   7: 117.569 us/op
+Iteration   8: 117.677 us/op
+Iteration   9: 118.019 us/op
+Iteration  10: 117.645 us/op
+Iteration  11: 117.535 us/op
+Iteration  12: 117.534 us/op
+Iteration  13: 117.775 us/op
+Iteration  14: 117.617 us/op
+Iteration  15: 117.515 us/op
+Iteration  16: 118.091 us/op
+Iteration  17: 117.811 us/op
+Iteration  18: 117.813 us/op
+Iteration  19: 117.826 us/op
+Iteration  20: 117.825 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  117.719 ±(99.9%) 0.165 us/op [Average]
+  (min, avg, max) = (117.515, 117.719, 118.143), stdev = 0.190
+  CI (99.9%): [117.554, 117.884] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 30)
+
+# Run progress: 13.33% complete, ETA 00:08:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 18411.464 us/op
+# Warmup Iteration   2: 14513.710 us/op
+# Warmup Iteration   3: 14478.422 us/op
+# Warmup Iteration   4: 14487.273 us/op
+# Warmup Iteration   5: 14480.941 us/op
+# Warmup Iteration   6: 14504.626 us/op
+# Warmup Iteration   7: 14538.137 us/op
+# Warmup Iteration   8: 14469.755 us/op
+# Warmup Iteration   9: 14469.825 us/op
+# Warmup Iteration  10: 14467.578 us/op
+# Warmup Iteration  11: 14469.461 us/op
+# Warmup Iteration  12: 14461.426 us/op
+# Warmup Iteration  13: 14473.287 us/op
+# Warmup Iteration  14: 14543.238 us/op
+# Warmup Iteration  15: 14478.113 us/op
+# Warmup Iteration  16: 14477.201 us/op
+# Warmup Iteration  17: 14476.830 us/op
+# Warmup Iteration  18: 14481.095 us/op
+# Warmup Iteration  19: 14470.039 us/op
+# Warmup Iteration  20: 14503.102 us/op
+Iteration   1: 14543.072 us/op
+Iteration   2: 14474.300 us/op
+Iteration   3: 14481.709 us/op
+Iteration   4: 14460.240 us/op
+Iteration   5: 14476.227 us/op
+Iteration   6: 14460.849 us/op
+Iteration   7: 14477.113 us/op
+Iteration   8: 14525.997 us/op
+Iteration   9: 14480.362 us/op
+Iteration  10: 14483.215 us/op
+Iteration  11: 14471.688 us/op
+Iteration  12: 14487.746 us/op
+Iteration  13: 14472.235 us/op
+Iteration  14: 14485.196 us/op
+Iteration  15: 14538.695 us/op
+Iteration  16: 14499.598 us/op
+Iteration  17: 14493.013 us/op
+Iteration  18: 14485.755 us/op
+Iteration  19: 14490.048 us/op
+Iteration  20: 14469.098 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  14487.808 ±(99.9%) 20.088 us/op [Average]
+  (min, avg, max) = (14460.240, 14487.808, 14543.072), stdev = 23.133
+  CI (99.9%): [14467.720, 14507.896] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 10)
+
+# Run progress: 20.00% complete, ETA 00:08:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.171 us/op
+# Warmup Iteration   2: 0.172 us/op
+# Warmup Iteration   3: 0.169 us/op
+# Warmup Iteration   4: 0.170 us/op
+# Warmup Iteration   5: 0.169 us/op
+# Warmup Iteration   6: 0.170 us/op
+# Warmup Iteration   7: 0.169 us/op
+# Warmup Iteration   8: 0.169 us/op
+# Warmup Iteration   9: 0.170 us/op
+# Warmup Iteration  10: 0.170 us/op
+# Warmup Iteration  11: 0.169 us/op
+# Warmup Iteration  12: 0.170 us/op
+# Warmup Iteration  13: 0.169 us/op
+# Warmup Iteration  14: 0.170 us/op
+# Warmup Iteration  15: 0.169 us/op
+# Warmup Iteration  16: 0.169 us/op
+# Warmup Iteration  17: 0.170 us/op
+# Warmup Iteration  18: 0.170 us/op
+# Warmup Iteration  19: 0.170 us/op
+# Warmup Iteration  20: 0.169 us/op
+Iteration   1: 0.170 us/op
+Iteration   2: 0.169 us/op
+Iteration   3: 0.169 us/op
+Iteration   4: 0.169 us/op
+Iteration   5: 0.169 us/op
+Iteration   6: 0.169 us/op
+Iteration   7: 0.169 us/op
+Iteration   8: 0.169 us/op
+Iteration   9: 0.169 us/op
+Iteration  10: 0.169 us/op
+Iteration  11: 0.169 us/op
+Iteration  12: 0.169 us/op
+Iteration  13: 0.169 us/op
+Iteration  14: 0.169 us/op
+Iteration  15: 0.169 us/op
+Iteration  16: 0.169 us/op
+Iteration  17: 0.169 us/op
+Iteration  18: 0.169 us/op
+Iteration  19: 0.169 us/op
+Iteration  20: 0.169 us/op
+
+
+Result "groovyFibLongStatic":
+  0.169 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.169, 0.169, 0.170), stdev = 0.001
+  CI (99.9%): [0.169, 0.169] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 20)
+
+# Run progress: 26.67% complete, ETA 00:07:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.473 us/op
+# Warmup Iteration   2: 21.443 us/op
+# Warmup Iteration   3: 21.427 us/op
+# Warmup Iteration   4: 21.419 us/op
+# Warmup Iteration   5: 21.411 us/op
+# Warmup Iteration   6: 21.408 us/op
+# Warmup Iteration   7: 21.419 us/op
+# Warmup Iteration   8: 21.465 us/op
+# Warmup Iteration   9: 21.422 us/op
+# Warmup Iteration  10: 21.399 us/op
+# Warmup Iteration  11: 21.386 us/op
+# Warmup Iteration  12: 21.574 us/op
+# Warmup Iteration  13: 21.413 us/op
+# Warmup Iteration  14: 21.395 us/op
+# Warmup Iteration  15: 21.405 us/op
+# Warmup Iteration  16: 21.392 us/op
+# Warmup Iteration  17: 21.409 us/op
+# Warmup Iteration  18: 21.407 us/op
+# Warmup Iteration  19: 21.401 us/op
+# Warmup Iteration  20: 21.398 us/op
+Iteration   1: 21.396 us/op
+Iteration   2: 21.396 us/op
+Iteration   3: 21.423 us/op
+Iteration   4: 21.404 us/op
+Iteration   5: 21.410 us/op
+Iteration   6: 21.412 us/op
+Iteration   7: 21.413 us/op
+Iteration   8: 21.403 us/op
+Iteration   9: 21.417 us/op
+Iteration  10: 21.398 us/op
+Iteration  11: 21.440 us/op
+Iteration  12: 21.408 us/op
+Iteration  13: 21.414 us/op
+Iteration  14: 21.395 us/op
+Iteration  15: 21.426 us/op
+Iteration  16: 21.411 us/op
+Iteration  17: 21.411 us/op
+Iteration  18: 21.391 us/op
+Iteration  19: 21.411 us/op
+Iteration  20: 21.406 us/op
+
+
+Result "groovyFibLongStatic":
+  21.409 ±(99.9%) 0.010 us/op [Average]
+  (min, avg, max) = (21.391, 21.409, 21.440), stdev = 0.012
+  CI (99.9%): [21.399, 21.419] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 30)
+
+# Run progress: 33.33% complete, ETA 00:06:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 2635.224 us/op
+# Warmup Iteration   2: 2633.040 us/op
+# Warmup Iteration   3: 2630.507 us/op
+# Warmup Iteration   4: 2630.806 us/op
+# Warmup Iteration   5: 2630.023 us/op
+# Warmup Iteration   6: 2629.175 us/op
+# Warmup Iteration   7: 2631.055 us/op
+# Warmup Iteration   8: 2733.149 us/op
+# Warmup Iteration   9: 2632.085 us/op
+# Warmup Iteration  10: 2630.059 us/op
+# Warmup Iteration  11: 2637.210 us/op
+# Warmup Iteration  12: 2631.126 us/op
+# Warmup Iteration  13: 2630.959 us/op
+# Warmup Iteration  14: 2629.652 us/op
+# Warmup Iteration  15: 2634.764 us/op
+# Warmup Iteration  16: 2632.202 us/op
+# Warmup Iteration  17: 2632.021 us/op
+# Warmup Iteration  18: 2630.195 us/op
+# Warmup Iteration  19: 2633.402 us/op
+# Warmup Iteration  20: 2631.665 us/op
+Iteration   1: 2632.665 us/op
+Iteration   2: 2632.738 us/op
+Iteration   3: 2633.807 us/op
+Iteration   4: 2631.278 us/op
+Iteration   5: 2631.564 us/op
+Iteration   6: 2630.784 us/op
+Iteration   7: 2632.561 us/op
+Iteration   8: 2631.843 us/op
+Iteration   9: 2632.641 us/op
+Iteration  10: 2630.397 us/op
+Iteration  11: 2634.391 us/op
+Iteration  12: 2631.544 us/op
+Iteration  13: 2635.232 us/op
+Iteration  14: 2631.866 us/op
+Iteration  15: 2632.216 us/op
+Iteration  16: 2633.144 us/op
+Iteration  17: 2633.536 us/op
+Iteration  18: 2630.555 us/op
+Iteration  19: 2633.384 us/op
+Iteration  20: 2632.317 us/op
+
+
+Result "groovyFibLongStatic":
+  2632.423 ±(99.9%) 1.098 us/op [Average]
+  (min, avg, max) = (2630.397, 2632.423, 2635.232), stdev = 1.265
+  CI (99.9%): [2631.325, 2633.521] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 10)
+
+# Run progress: 40.00% complete, ETA 00:06:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.706 us/op
+# Warmup Iteration   2: 2.078 us/op
+# Warmup Iteration   3: 2.068 us/op
+# Warmup Iteration   4: 2.068 us/op
+# Warmup Iteration   5: 2.068 us/op
+# Warmup Iteration   6: 2.067 us/op
+# Warmup Iteration   7: 2.068 us/op
+# Warmup Iteration   8: 2.067 us/op
+# Warmup Iteration   9: 2.068 us/op
+# Warmup Iteration  10: 2.068 us/op
+# Warmup Iteration  11: 2.070 us/op
+# Warmup Iteration  12: 2.068 us/op
+# Warmup Iteration  13: 2.067 us/op
+# Warmup Iteration  14: 2.067 us/op
+# Warmup Iteration  15: 2.068 us/op
+# Warmup Iteration  16: 2.068 us/op
+# Warmup Iteration  17: 2.069 us/op
+# Warmup Iteration  18: 2.067 us/op
+# Warmup Iteration  19: 2.069 us/op
+# Warmup Iteration  20: 2.068 us/op
+Iteration   1: 2.068 us/op
+Iteration   2: 2.068 us/op
+Iteration   3: 2.071 us/op
+Iteration   4: 2.068 us/op
+Iteration   5: 2.067 us/op
+Iteration   6: 2.067 us/op
+Iteration   7: 2.067 us/op
+Iteration   8: 2.068 us/op
+Iteration   9: 2.068 us/op
+Iteration  10: 2.067 us/op
+Iteration  11: 2.067 us/op
+Iteration  12: 2.068 us/op
+Iteration  13: 2.068 us/op
+Iteration  14: 2.068 us/op
+Iteration  15: 2.067 us/op
+Iteration  16: 2.068 us/op
+Iteration  17: 2.068 us/op
+Iteration  18: 2.068 us/op
+Iteration  19: 2.068 us/op
+Iteration  20: 2.067 us/op
+
+
+Result "groovyFibTraditional":
+  2.068 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (2.067, 2.068, 2.071), stdev = 0.001
+  CI (99.9%): [2.067, 2.069] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 20)
+
+# Run progress: 46.67% complete, ETA 00:05:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 371.973 us/op
+# Warmup Iteration   2: 297.881 us/op
+# Warmup Iteration   3: 296.404 us/op
+# Warmup Iteration   4: 296.439 us/op
+# Warmup Iteration   5: 296.442 us/op
+# Warmup Iteration   6: 296.282 us/op
+# Warmup Iteration   7: 296.232 us/op
+# Warmup Iteration   8: 296.456 us/op
+# Warmup Iteration   9: 296.277 us/op
+# Warmup Iteration  10: 295.762 us/op
+# Warmup Iteration  11: 295.672 us/op
+# Warmup Iteration  12: 296.578 us/op
+# Warmup Iteration  13: 295.678 us/op
+# Warmup Iteration  14: 295.830 us/op
+# Warmup Iteration  15: 295.817 us/op
+# Warmup Iteration  16: 322.176 us/op
+# Warmup Iteration  17: 326.039 us/op
+# Warmup Iteration  18: 325.874 us/op
+# Warmup Iteration  19: 326.610 us/op
+# Warmup Iteration  20: 326.801 us/op
+Iteration   1: 326.605 us/op
+Iteration   2: 326.559 us/op
+Iteration   3: 325.742 us/op
+Iteration   4: 326.731 us/op
+Iteration   5: 326.616 us/op
+Iteration   6: 326.506 us/op
+Iteration   7: 326.648 us/op
+Iteration   8: 326.576 us/op
+Iteration   9: 329.184 us/op
+Iteration  10: 331.265 us/op
+Iteration  11: 326.790 us/op
+Iteration  12: 326.887 us/op
+Iteration  13: 326.370 us/op
+Iteration  14: 326.234 us/op
+Iteration  15: 327.157 us/op
+Iteration  16: 339.569 us/op
+Iteration  17: 333.504 us/op
+Iteration  18: 333.709 us/op
+Iteration  19: 333.708 us/op
+Iteration  20: 334.061 us/op
+
+
+Result "groovyFibTraditional":
+  329.021 ±(99.9%) 3.364 us/op [Average]
+  (min, avg, max) = (325.742, 329.021, 339.569), stdev = 3.874
+  CI (99.9%): [325.657, 332.385] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 30)
+
+# Run progress: 53.33% complete, ETA 00:04:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 46554.651 us/op
+# Warmup Iteration   2: 36228.670 us/op
+# Warmup Iteration   3: 36162.835 us/op
+# Warmup Iteration   4: 36203.009 us/op
+# Warmup Iteration   5: 36164.849 us/op
+# Warmup Iteration   6: 36203.142 us/op
+# Warmup Iteration   7: 36159.642 us/op
+# Warmup Iteration   8: 36202.771 us/op
+# Warmup Iteration   9: 36159.382 us/op
+# Warmup Iteration  10: 36185.158 us/op
+# Warmup Iteration  11: 36146.014 us/op
+# Warmup Iteration  12: 36173.824 us/op
+# Warmup Iteration  13: 36128.354 us/op
+# Warmup Iteration  14: 36170.246 us/op
+# Warmup Iteration  15: 37150.262 us/op
+# Warmup Iteration  16: 39744.225 us/op
+# Warmup Iteration  17: 39688.125 us/op
+# Warmup Iteration  18: 39748.370 us/op
+# Warmup Iteration  19: 39699.622 us/op
+# Warmup Iteration  20: 39728.638 us/op
+Iteration   1: 39743.200 us/op
+Iteration   2: 39686.702 us/op
+Iteration   3: 39754.066 us/op
+Iteration   4: 39978.967 us/op
+Iteration   5: 40187.803 us/op
+Iteration   6: 39835.827 us/op
+Iteration   7: 39879.335 us/op
+Iteration   8: 39821.992 us/op
+Iteration   9: 39802.380 us/op
+Iteration  10: 39832.401 us/op
+Iteration  11: 39839.540 us/op
+Iteration  12: 40109.891 us/op
+Iteration  13: 40252.760 us/op
+Iteration  14: 44664.926 us/op
+Iteration  15: 37088.513 us/op
+Iteration  16: 37127.903 us/op
+Iteration  17: 38995.019 us/op
+Iteration  18: 38308.297 us/op
+Iteration  19: 37457.599 us/op
+Iteration  20: 38997.521 us/op
+
+
+Result "groovyFibTraditional":
+  39568.232 ±(99.9%) 1359.947 us/op [Average]
+  (min, avg, max) = (37088.513, 39568.232, 44664.926), stdev = 1566.117
+  CI (99.9%): [38208.285, 40928.179] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 10)
+
+# Run progress: 60.00% complete, ETA 00:04:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.455 us/op
+# Warmup Iteration   2: 0.418 us/op
+# Warmup Iteration   3: 0.417 us/op
+# Warmup Iteration   4: 0.416 us/op
+# Warmup Iteration   5: 0.416 us/op
+# Warmup Iteration   6: 0.416 us/op
+# Warmup Iteration   7: 0.416 us/op
+# Warmup Iteration   8: 0.416 us/op
+# Warmup Iteration   9: 0.417 us/op
+# Warmup Iteration  10: 0.416 us/op
+# Warmup Iteration  11: 0.416 us/op
+# Warmup Iteration  12: 0.416 us/op
+# Warmup Iteration  13: 0.416 us/op
+# Warmup Iteration  14: 0.417 us/op
+# Warmup Iteration  15: 0.416 us/op
+# Warmup Iteration  16: 0.416 us/op
+# Warmup Iteration  17: 0.415 us/op
+# Warmup Iteration  18: 0.415 us/op
+# Warmup Iteration  19: 0.416 us/op
+# Warmup Iteration  20: 0.415 us/op
+Iteration   1: 0.416 us/op
+Iteration   2: 0.415 us/op
+Iteration   3: 0.416 us/op
+Iteration   4: 0.416 us/op
+Iteration   5: 0.416 us/op
+Iteration   6: 0.416 us/op
+Iteration   7: 0.416 us/op
+Iteration   8: 0.415 us/op
+Iteration   9: 0.416 us/op
+Iteration  10: 0.415 us/op
+Iteration  11: 0.415 us/op
+Iteration  12: 0.416 us/op
+Iteration  13: 0.416 us/op
+Iteration  14: 0.415 us/op
+Iteration  15: 0.416 us/op
+Iteration  16: 0.415 us/op
+Iteration  17: 0.416 us/op
+Iteration  18: 0.416 us/op
+Iteration  19: 0.416 us/op
+Iteration  20: 0.416 us/op
+
+
+Result "kotlinFibDynamic":
+  0.416 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.415, 0.416, 0.416), stdev = 0.001
+  CI (99.9%): [0.415, 0.416] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 20)
+
+# Run progress: 66.67% complete, ETA 00:03:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 69.143 us/op
+# Warmup Iteration   2: 64.266 us/op
+# Warmup Iteration   3: 64.112 us/op
+# Warmup Iteration   4: 63.235 us/op
+# Warmup Iteration   5: 61.010 us/op
+# Warmup Iteration   6: 60.991 us/op
+# Warmup Iteration   7: 61.025 us/op
+# Warmup Iteration   8: 61.359 us/op
+# Warmup Iteration   9: 60.890 us/op
+# Warmup Iteration  10: 60.902 us/op
+# Warmup Iteration  11: 61.011 us/op
+# Warmup Iteration  12: 61.139 us/op
+# Warmup Iteration  13: 61.036 us/op
+# Warmup Iteration  14: 61.083 us/op
+# Warmup Iteration  15: 61.246 us/op
+# Warmup Iteration  16: 62.266 us/op
+# Warmup Iteration  17: 60.994 us/op
+# Warmup Iteration  18: 60.963 us/op
+# Warmup Iteration  19: 61.167 us/op
+# Warmup Iteration  20: 60.979 us/op
+Iteration   1: 60.866 us/op
+Iteration   2: 60.896 us/op
+Iteration   3: 61.161 us/op
+Iteration   4: 60.942 us/op
+Iteration   5: 61.025 us/op
+Iteration   6: 61.011 us/op
+Iteration   7: 61.111 us/op
+Iteration   8: 61.209 us/op
+Iteration   9: 61.304 us/op
+Iteration  10: 61.137 us/op
+Iteration  11: 61.022 us/op
+Iteration  12: 61.544 us/op
+Iteration  13: 63.192 us/op
+Iteration  14: 61.309 us/op
+Iteration  15: 60.953 us/op
+Iteration  16: 61.019 us/op
+Iteration  17: 61.251 us/op
+Iteration  18: 61.041 us/op
+Iteration  19: 61.115 us/op
+Iteration  20: 61.041 us/op
+
+
+Result "kotlinFibDynamic":
+  61.207 ±(99.9%) 0.429 us/op [Average]
+  (min, avg, max) = (60.866, 61.207, 63.192), stdev = 0.494
+  CI (99.9%): [60.778, 61.637] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 30)
+
+# Run progress: 73.33% complete, ETA 00:02:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 8342.085 us/op
+# Warmup Iteration   2: 7501.370 us/op
+# Warmup Iteration   3: 7517.113 us/op
+# Warmup Iteration   4: 7534.520 us/op
+# Warmup Iteration   5: 7504.388 us/op
+# Warmup Iteration   6: 7499.745 us/op
+# Warmup Iteration   7: 7501.892 us/op
+# Warmup Iteration   8: 7721.479 us/op
+# Warmup Iteration   9: 7707.307 us/op
+# Warmup Iteration  10: 7708.092 us/op
+# Warmup Iteration  11: 7752.921 us/op
+# Warmup Iteration  12: 7947.107 us/op
+# Warmup Iteration  13: 7958.077 us/op
+# Warmup Iteration  14: 7947.412 us/op
+# Warmup Iteration  15: 7931.826 us/op
+# Warmup Iteration  16: 7485.597 us/op
+# Warmup Iteration  17: 7478.445 us/op
+# Warmup Iteration  18: 7498.383 us/op
+# Warmup Iteration  19: 7522.885 us/op
+# Warmup Iteration  20: 7512.391 us/op
+Iteration   1: 7521.355 us/op
+Iteration   2: 7514.926 us/op
+Iteration   3: 7524.551 us/op
+Iteration   4: 7529.028 us/op
+Iteration   5: 7500.526 us/op
+Iteration   6: 7622.360 us/op
+Iteration   7: 8153.222 us/op
+Iteration   8: 8143.094 us/op
+Iteration   9: 8159.875 us/op
+Iteration  10: 8165.283 us/op
+Iteration  11: 8154.165 us/op
+Iteration  12: 8151.409 us/op
+Iteration  13: 8162.144 us/op
+Iteration  14: 8155.802 us/op
+Iteration  15: 8141.509 us/op
+Iteration  16: 8152.122 us/op
+Iteration  17: 8150.941 us/op
+Iteration  18: 8155.949 us/op
+Iteration  19: 8155.479 us/op
+Iteration  20: 8142.812 us/op
+
+
+Result "kotlinFibDynamic":
+  7967.828 ±(99.9%) 252.977 us/op [Average]
+  (min, avg, max) = (7500.526, 7967.828, 8165.283), stdev = 291.329
+  CI (99.9%): [7714.851, 8220.805] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 10)
+
+# Run progress: 80.00% complete, ETA 00:02:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.170 us/op
+# Warmup Iteration   2: 0.170 us/op
+# Warmup Iteration   3: 0.169 us/op
+# Warmup Iteration   4: 0.170 us/op
+# Warmup Iteration   5: 0.169 us/op
+# Warmup Iteration   6: 0.169 us/op
+# Warmup Iteration   7: 0.170 us/op
+# Warmup Iteration   8: 0.170 us/op
+# Warmup Iteration   9: 0.170 us/op
+# Warmup Iteration  10: 0.169 us/op
+# Warmup Iteration  11: 0.169 us/op
+# Warmup Iteration  12: 0.169 us/op
+# Warmup Iteration  13: 0.170 us/op
+# Warmup Iteration  14: 0.169 us/op
+# Warmup Iteration  15: 0.169 us/op
+# Warmup Iteration  16: 0.170 us/op
+# Warmup Iteration  17: 0.170 us/op
+# Warmup Iteration  18: 0.169 us/op
+# Warmup Iteration  19: 0.169 us/op
+# Warmup Iteration  20: 0.169 us/op
+Iteration   1: 0.169 us/op
+Iteration   2: 0.169 us/op
+Iteration   3: 0.168 us/op
+Iteration   4: 0.169 us/op
+Iteration   5: 0.169 us/op
+Iteration   6: 0.169 us/op
+Iteration   7: 0.169 us/op
+Iteration   8: 0.169 us/op
+Iteration   9: 0.169 us/op
+Iteration  10: 0.169 us/op
+Iteration  11: 0.168 us/op
+Iteration  12: 0.169 us/op
+Iteration  13: 0.169 us/op
+Iteration  14: 0.169 us/op
+Iteration  15: 0.169 us/op
+Iteration  16: 0.169 us/op
+Iteration  17: 0.169 us/op
+Iteration  18: 0.169 us/op
+Iteration  19: 0.169 us/op
+Iteration  20: 0.169 us/op
+
+
+Result "kotlinFibLong":
+  0.169 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.168, 0.169, 0.169), stdev = 0.001
+  CI (99.9%): [0.169, 0.169] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 20)
+
+# Run progress: 86.67% complete, ETA 00:01:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 20.379 us/op
+# Warmup Iteration   2: 20.405 us/op
+# Warmup Iteration   3: 20.364 us/op
+# Warmup Iteration   4: 20.331 us/op
+# Warmup Iteration   5: 20.321 us/op
+# Warmup Iteration   6: 20.339 us/op
+# Warmup Iteration   7: 20.320 us/op
+# Warmup Iteration   8: 20.349 us/op
+# Warmup Iteration   9: 20.378 us/op
+# Warmup Iteration  10: 20.340 us/op
+# Warmup Iteration  11: 20.336 us/op
+# Warmup Iteration  12: 20.378 us/op
+# Warmup Iteration  13: 20.348 us/op
+# Warmup Iteration  14: 20.367 us/op
+# Warmup Iteration  15: 20.351 us/op
+# Warmup Iteration  16: 20.315 us/op
+# Warmup Iteration  17: 20.326 us/op
+# Warmup Iteration  18: 20.395 us/op
+# Warmup Iteration  19: 20.318 us/op
+# Warmup Iteration  20: 20.389 us/op
+Iteration   1: 20.341 us/op
+Iteration   2: 20.342 us/op
+Iteration   3: 20.331 us/op
+Iteration   4: 20.331 us/op
+Iteration   5: 20.316 us/op
+Iteration   6: 20.337 us/op
+Iteration   7: 20.321 us/op
+Iteration   8: 20.373 us/op
+Iteration   9: 20.339 us/op
+Iteration  10: 20.366 us/op
+Iteration  11: 20.322 us/op
+Iteration  12: 20.342 us/op
+Iteration  13: 20.325 us/op
+Iteration  14: 20.349 us/op
+Iteration  15: 20.321 us/op
+Iteration  16: 20.307 us/op
+Iteration  17: 20.341 us/op
+Iteration  18: 20.312 us/op
+Iteration  19: 20.286 us/op
+Iteration  20: 20.336 us/op
+
+
+Result "kotlinFibLong":
+  20.332 ±(99.9%) 0.017 us/op [Average]
+  (min, avg, max) = (20.286, 20.332, 20.373), stdev = 0.020
+  CI (99.9%): [20.315, 20.349] (assumes normal distribution)
+
+
+# JMH 1.15 (released 199 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 30)
+
+# Run progress: 93.33% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 2500.561 us/op
+# Warmup Iteration   2: 2503.930 us/op
+# Warmup Iteration   3: 2502.237 us/op
+# Warmup Iteration   4: 2502.539 us/op
+# Warmup Iteration   5: 2505.528 us/op
+# Warmup Iteration   6: 2501.658 us/op
+# Warmup Iteration   7: 2502.363 us/op
+# Warmup Iteration   8: 2502.993 us/op
+# Warmup Iteration   9: 2502.712 us/op
+# Warmup Iteration  10: 2502.196 us/op
+# Warmup Iteration  11: 2504.262 us/op
+# Warmup Iteration  12: 2502.508 us/op
+# Warmup Iteration  13: 2503.675 us/op
+# Warmup Iteration  14: 2505.081 us/op
+# Warmup Iteration  15: 2503.540 us/op
+# Warmup Iteration  16: 2502.944 us/op
+# Warmup Iteration  17: 2501.754 us/op
+# Warmup Iteration  18: 2498.375 us/op
+# Warmup Iteration  19: 2502.813 us/op
+# Warmup Iteration  20: 2499.808 us/op
+Iteration   1: 2500.885 us/op
+Iteration   2: 2515.373 us/op
+Iteration   3: 2496.953 us/op
+Iteration   4: 2493.795 us/op
+Iteration   5: 2504.206 us/op
+Iteration   6: 2504.808 us/op
+Iteration   7: 2505.639 us/op
+Iteration   8: 2502.691 us/op
+Iteration   9: 2500.826 us/op
+Iteration  10: 2511.922 us/op
+Iteration  11: 2503.188 us/op
+Iteration  12: 2501.836 us/op
+Iteration  13: 2508.859 us/op
+Iteration  14: 2503.432 us/op
+Iteration  15: 2502.147 us/op
+Iteration  16: 2504.852 us/op
+Iteration  17: 2505.811 us/op
+Iteration  18: 2505.975 us/op
+Iteration  19: 2503.734 us/op
+Iteration  20: 2507.213 us/op
+
+
+Result "kotlinFibLong":
+  2504.207 ±(99.9%) 4.087 us/op [Average]
+  (min, avg, max) = (2493.795, 2504.207, 2515.373), stdev = 4.707
+  CI (99.9%): [2500.120, 2508.294] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:05
+
+Benchmark                           (n)  Mode  Cnt      Score      Error  Units
+MyBenchmark.groovyFibInvokeDynamic   10  avgt   20      0.966 ±    0.001  us/op
+MyBenchmark.groovyFibInvokeDynamic   20  avgt   20    117.719 ±    0.165  us/op
+MyBenchmark.groovyFibInvokeDynamic   30  avgt   20  14487.808 ±   20.088  us/op
+MyBenchmark.groovyFibLongStatic      10  avgt   20      0.169 ±    0.001  us/op
+MyBenchmark.groovyFibLongStatic      20  avgt   20     21.409 ±    0.010  us/op
+MyBenchmark.groovyFibLongStatic      30  avgt   20   2632.423 ±    1.098  us/op
+MyBenchmark.groovyFibTraditional     10  avgt   20      2.068 ±    0.001  us/op
+MyBenchmark.groovyFibTraditional     20  avgt   20    329.021 ±    3.364  us/op
+MyBenchmark.groovyFibTraditional     30  avgt   20  39568.232 ± 1359.947  us/op
+MyBenchmark.kotlinFibDynamic         10  avgt   20      0.416 ±    0.001  us/op
+MyBenchmark.kotlinFibDynamic         20  avgt   20     61.207 ±    0.429  us/op
+MyBenchmark.kotlinFibDynamic         30  avgt   20   7967.828 ±  252.977  us/op
+MyBenchmark.kotlinFibLong            10  avgt   20      0.169 ±    0.001  us/op
+MyBenchmark.kotlinFibLong            20  avgt   20     20.332 ±    0.017  us/op
+MyBenchmark.kotlinFibLong            30  avgt   20   2504.207 ±    4.087  us/op
+
