@@ -1,3 +1,5 @@
+package org.sample.kotlin
+
 class KotlinRunnerString {
     companion object {
         @JvmStatic
