@@ -24,6 +24,6 @@
 
 ```mvn install```
 
-3. Запуск теста:
+3. Запуск теста из папки ```test```:
 
 ```java -jar target/benchmarks.jar```
