@@ -1,5 +1,7 @@
 package org.sample.kotlin
 
+import java.util.stream.Collectors
+
 class MyComplex(val re: Double, val im: Double) {
 
     constructor(re: Double) : this(re, 0.0)
@@ -70,9 +72,10 @@ class KotlinRunnerStatic {
         }
 
         @JvmStatic
-        fun fftProxy(list: MutableList<MyComplex>): MutableList<MyComplex> {
-            fft(list, false)
-            return list
+        fun fftProxy(list: MutableList<Double>): MutableList<Double> {
+            val complexList = list.stream().map { MyComplex(it) }.collect(Collectors.toList())
+            fft(complexList, false)
+            return complexList.stream().map { it.re }.collect(Collectors.toList())
         }
     }
 }
@@ -115,9 +118,10 @@ class KotlinRunnerDynamic {
         }
 
         @JvmStatic
-        fun fftProxy(list: MutableList<MyComplex>): MutableList<MyComplex> {
-            fft(list, false)
-            return list
+        fun fftProxy(list: MutableList<Double>): MutableList<Double> {
+            val complexList = list.stream().map { MyComplex(it) }.collect(Collectors.toList())
+            fft(complexList, false)
+            return complexList.stream().map { it.re }.collect(Collectors.toList())
         }
     }
 }

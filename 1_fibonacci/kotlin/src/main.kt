@@ -1,6 +1,7 @@
 package org.sample.kotlin
 
-class KotlinRunnerDynamic {
+
+class KotlinRunnerLongDynamic {
     companion object {
         @JvmStatic
         fun fib(n: dynamic): dynamic {
@@ -10,26 +11,29 @@ class KotlinRunnerDynamic {
                 return fib(n - 1) + fib(n - 2)
             }
         }
+
         @JvmStatic
-        fun fibProxy(n: Int): Int {
+        fun fibProxy(n: Long): Long {
             return fib(n)
         }
     }
 }
 
-class KotlinRunnerInt {
+class KotlinRunnerLong {
     companion object {
         @JvmStatic
-        fun fib(n: Int): Int {
+        fun fib(n: Long): Long {
             if (n < 2) {
                 return n
             } else {
                 return fib(n - 1) + fib(n - 2)
             }
         }
+
         @JvmStatic
-        fun fibProxy(n: Int): Int {
+        fun fibProxy(n: Long): Long {
             return fib(n)
         }
     }
 }
+

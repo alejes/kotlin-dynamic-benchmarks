@@ -9,7 +9,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 import org.sample.groovy.GroovyRunnerLongDynamic;
 import org.sample.groovy.GroovyRunnerLongInvokeDynamic;
 import org.sample.groovy.GroovyRunnerLongStatic;
-import org.sample.kotlin.KotlinRunnerDynamic;
+import org.sample.kotlin.KotlinRunnerLongDynamic;
 import org.sample.kotlin.KotlinRunnerLong;
 
 import java.util.concurrent.TimeUnit;
@@ -36,7 +36,7 @@ public class MyBenchmark {
 
     @Benchmark
     public long kotlinFibDynamic() {
-        return KotlinRunnerDynamic.Companion.fibProxy(n);
+        return KotlinRunnerLongDynamic.Companion.fibProxy(n);
     }
 
     @Benchmark
