@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 public class MyBenchmark {
 
-    @Param({"10", "20", "30"})
+    @Param({"10", "15", "20", "25", "30"})
     private int n = 0;
 
     public static void main(String[] args) throws RunnerException {
