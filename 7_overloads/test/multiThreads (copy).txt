@@ -1,0 +1,25 @@
+# JMH 1.15 (released 217 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod0_0
+
+# Run progress: 0.00% complete, ETA 00:30:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.044 ±(99.9%) 0.006 us/op
+# Warmup Iteration   2: 0.039 ±(99.9%) 0.001 us/op
+# Warmup Iteration   3: 0.037 ±(99.9%) 0.001 us/op
+# Warmup Iteration   4: 0.038 ±(99.9%) 0.001 us/op
+# Warmup Iteration   5: 0.039 ±(99.9%) 0.003 us/op
+# Warmup Iteration   6: 0.037 ±(99.9%) 0.001 us/op
+# Warmup Iteration   7: 0.038 ±(99.9%) 0.002 us/op
+# Warmup Iteration   8: 0.038 ±(99.9%) 0.002 us/op
+# Warmup Iteration   9: 0.038 ±(99.9%) 0.002 us/op
+# Warmup Iteration  10: 0.038 ±(99.9%) 0.001 us/op
+# Warmup Iteration  11: 0.038 ±(99.9%) 0.001 us/op
+# Warmup Iteration  12: 

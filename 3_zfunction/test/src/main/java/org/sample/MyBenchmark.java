@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 public class MyBenchmark {
 
-    @Param({"100", "500", "1000", "1500"})
+    @Param({"100", "500", "1000", "1250", "1500"})
     private int n = 0;
 
     private String str = "";
