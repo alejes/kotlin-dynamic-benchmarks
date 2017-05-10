@@ -1,0 +1,2503 @@
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 10)
+
+# Run progress: 0.00% complete, ETA 00:08:20
+# Fork: 1 of 20
+Iteration   1: 1.374 us/op
+
+# Run progress: 0.20% complete, ETA 00:09:55
+# Fork: 2 of 20
+Iteration   1: 1.322 us/op
+
+# Run progress: 0.40% complete, ETA 00:09:49
+# Fork: 3 of 20
+Iteration   1: 1.267 us/op
+
+# Run progress: 0.60% complete, ETA 00:09:45
+# Fork: 4 of 20
+Iteration   1: 1.298 us/op
+
+# Run progress: 0.80% complete, ETA 00:09:43
+# Fork: 5 of 20
+Iteration   1: 1.325 us/op
+
+# Run progress: 1.00% complete, ETA 00:09:42
+# Fork: 6 of 20
+Iteration   1: 1.343 us/op
+
+# Run progress: 1.20% complete, ETA 00:09:41
+# Fork: 7 of 20
+Iteration   1: 1.290 us/op
+
+# Run progress: 1.40% complete, ETA 00:09:40
+# Fork: 8 of 20
+Iteration   1: 1.293 us/op
+
+# Run progress: 1.60% complete, ETA 00:09:39
+# Fork: 9 of 20
+Iteration   1: 1.270 us/op
+
+# Run progress: 1.80% complete, ETA 00:09:37
+# Fork: 10 of 20
+Iteration   1: 1.274 us/op
+
+# Run progress: 2.00% complete, ETA 00:09:36
+# Fork: 11 of 20
+Iteration   1: 1.275 us/op
+
+# Run progress: 2.20% complete, ETA 00:09:34
+# Fork: 12 of 20
+Iteration   1: 1.245 us/op
+
+# Run progress: 2.40% complete, ETA 00:09:33
+# Fork: 13 of 20
+Iteration   1: 1.269 us/op
+
+# Run progress: 2.60% complete, ETA 00:09:31
+# Fork: 14 of 20
+Iteration   1: 1.266 us/op
+
+# Run progress: 2.80% complete, ETA 00:09:30
+# Fork: 15 of 20
+Iteration   1: 1.229 us/op
+
+# Run progress: 3.00% complete, ETA 00:09:29
+# Fork: 16 of 20
+Iteration   1: 1.278 us/op
+
+# Run progress: 3.20% complete, ETA 00:09:27
+# Fork: 17 of 20
+Iteration   1: 1.319 us/op
+
+# Run progress: 3.40% complete, ETA 00:09:26
+# Fork: 18 of 20
+Iteration   1: 1.242 us/op
+
+# Run progress: 3.60% complete, ETA 00:09:25
+# Fork: 19 of 20
+Iteration   1: 1.328 us/op
+
+# Run progress: 3.80% complete, ETA 00:09:23
+# Fork: 20 of 20
+Iteration   1: 1.249 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  1.288 ±(99.9%) 0.032 us/op [Average]
+  (min, avg, max) = (1.229, 1.288, 1.374), stdev = 0.037
+  CI (99.9%): [1.255, 1.320] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 15)
+
+# Run progress: 4.00% complete, ETA 00:09:22
+# Fork: 1 of 20
+Iteration   1: 14.516 us/op
+
+# Run progress: 4.20% complete, ETA 00:09:22
+# Fork: 2 of 20
+Iteration   1: 14.363 us/op
+
+# Run progress: 4.40% complete, ETA 00:09:21
+# Fork: 3 of 20
+Iteration   1: 14.132 us/op
+
+# Run progress: 4.60% complete, ETA 00:09:20
+# Fork: 4 of 20
+Iteration   1: 14.679 us/op
+
+# Run progress: 4.80% complete, ETA 00:09:18
+# Fork: 5 of 20
+Iteration   1: 13.892 us/op
+
+# Run progress: 5.00% complete, ETA 00:09:17
+# Fork: 6 of 20
+Iteration   1: 14.714 us/op
+
+# Run progress: 5.20% complete, ETA 00:09:16
+# Fork: 7 of 20
+Iteration   1: 13.483 us/op
+
+# Run progress: 5.40% complete, ETA 00:09:14
+# Fork: 8 of 20
+Iteration   1: 14.358 us/op
+
+# Run progress: 5.60% complete, ETA 00:09:13
+# Fork: 9 of 20
+Iteration   1: 13.700 us/op
+
+# Run progress: 5.80% complete, ETA 00:09:12
+# Fork: 10 of 20
+Iteration   1: 14.055 us/op
+
+# Run progress: 6.00% complete, ETA 00:09:11
+# Fork: 11 of 20
+Iteration   1: 13.881 us/op
+
+# Run progress: 6.20% complete, ETA 00:09:09
+# Fork: 12 of 20
+Iteration   1: 14.044 us/op
+
+# Run progress: 6.40% complete, ETA 00:09:08
+# Fork: 13 of 20
+Iteration   1: 13.883 us/op
+
+# Run progress: 6.60% complete, ETA 00:09:07
+# Fork: 14 of 20
+Iteration   1: 13.733 us/op
+
+# Run progress: 6.80% complete, ETA 00:09:06
+# Fork: 15 of 20
+Iteration   1: 13.670 us/op
+
+# Run progress: 7.00% complete, ETA 00:09:04
+# Fork: 16 of 20
+Iteration   1: 13.900 us/op
+
+# Run progress: 7.20% complete, ETA 00:09:03
+# Fork: 17 of 20
+Iteration   1: 14.008 us/op
+
+# Run progress: 7.40% complete, ETA 00:09:02
+# Fork: 18 of 20
+Iteration   1: 14.199 us/op
+
+# Run progress: 7.60% complete, ETA 00:09:01
+# Fork: 19 of 20
+Iteration   1: 14.032 us/op
+
+# Run progress: 7.80% complete, ETA 00:09:00
+# Fork: 20 of 20
+Iteration   1: 13.715 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  14.048 ±(99.9%) 0.294 us/op [Average]
+  (min, avg, max) = (13.483, 14.048, 14.714), stdev = 0.339
+  CI (99.9%): [13.754, 14.342] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 20)
+
+# Run progress: 8.00% complete, ETA 00:08:58
+# Fork: 1 of 20
+Iteration   1: 156.694 us/op
+
+# Run progress: 8.20% complete, ETA 00:08:58
+# Fork: 2 of 20
+Iteration   1: 161.916 us/op
+
+# Run progress: 8.40% complete, ETA 00:08:57
+# Fork: 3 of 20
+Iteration   1: 159.397 us/op
+
+# Run progress: 8.60% complete, ETA 00:08:55
+# Fork: 4 of 20
+Iteration   1: 155.403 us/op
+
+# Run progress: 8.80% complete, ETA 00:08:54
+# Fork: 5 of 20
+Iteration   1: 155.346 us/op
+
+# Run progress: 9.00% complete, ETA 00:08:53
+# Fork: 6 of 20
+Iteration   1: 154.417 us/op
+
+# Run progress: 9.20% complete, ETA 00:08:52
+# Fork: 7 of 20
+Iteration   1: 157.415 us/op
+
+# Run progress: 9.40% complete, ETA 00:08:51
+# Fork: 8 of 20
+Iteration   1: 160.706 us/op
+
+# Run progress: 9.60% complete, ETA 00:08:50
+# Fork: 9 of 20
+Iteration   1: 161.153 us/op
+
+# Run progress: 9.80% complete, ETA 00:08:48
+# Fork: 10 of 20
+Iteration   1: 165.194 us/op
+
+# Run progress: 10.00% complete, ETA 00:08:47
+# Fork: 11 of 20
+Iteration   1: 155.282 us/op
+
+# Run progress: 10.20% complete, ETA 00:08:46
+# Fork: 12 of 20
+Iteration   1: 155.660 us/op
+
+# Run progress: 10.40% complete, ETA 00:08:45
+# Fork: 13 of 20
+Iteration   1: 156.742 us/op
+
+# Run progress: 10.60% complete, ETA 00:08:43
+# Fork: 14 of 20
+Iteration   1: 155.222 us/op
+
+# Run progress: 10.80% complete, ETA 00:08:42
+# Fork: 15 of 20
+Iteration   1: 164.658 us/op
+
+# Run progress: 11.00% complete, ETA 00:08:41
+# Fork: 16 of 20
+Iteration   1: 152.099 us/op
+
+# Run progress: 11.20% complete, ETA 00:08:40
+# Fork: 17 of 20
+Iteration   1: 168.299 us/op
+
+# Run progress: 11.40% complete, ETA 00:08:39
+# Fork: 18 of 20
+Iteration   1: 160.346 us/op
+
+# Run progress: 11.60% complete, ETA 00:08:37
+# Fork: 19 of 20
+Iteration   1: 165.567 us/op
+
+# Run progress: 11.80% complete, ETA 00:08:36
+# Fork: 20 of 20
+Iteration   1: 154.581 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  158.805 ±(99.9%) 3.903 us/op [Average]
+  (min, avg, max) = (152.099, 158.805, 168.299), stdev = 4.495
+  CI (99.9%): [154.902, 162.708] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 25)
+
+# Run progress: 12.00% complete, ETA 00:08:35
+# Fork: 1 of 20
+Iteration   1: 1662.182 us/op
+
+# Run progress: 12.20% complete, ETA 00:08:34
+# Fork: 2 of 20
+Iteration   1: 1727.960 us/op
+
+# Run progress: 12.40% complete, ETA 00:08:33
+# Fork: 3 of 20
+Iteration   1: 1747.163 us/op
+
+# Run progress: 12.60% complete, ETA 00:08:32
+# Fork: 4 of 20
+Iteration   1: 1777.996 us/op
+
+# Run progress: 12.80% complete, ETA 00:08:31
+# Fork: 5 of 20
+Iteration   1: 1729.068 us/op
+
+# Run progress: 13.00% complete, ETA 00:08:30
+# Fork: 6 of 20
+Iteration   1: 1762.895 us/op
+
+# Run progress: 13.20% complete, ETA 00:08:29
+# Fork: 7 of 20
+Iteration   1: 1723.680 us/op
+
+# Run progress: 13.40% complete, ETA 00:08:27
+# Fork: 8 of 20
+Iteration   1: 1700.448 us/op
+
+# Run progress: 13.60% complete, ETA 00:08:26
+# Fork: 9 of 20
+Iteration   1: 1749.210 us/op
+
+# Run progress: 13.80% complete, ETA 00:08:25
+# Fork: 10 of 20
+Iteration   1: 1693.942 us/op
+
+# Run progress: 14.00% complete, ETA 00:08:24
+# Fork: 11 of 20
+Iteration   1: 1782.284 us/op
+
+# Run progress: 14.20% complete, ETA 00:08:23
+# Fork: 12 of 20
+Iteration   1: 1687.957 us/op
+
+# Run progress: 14.40% complete, ETA 00:08:21
+# Fork: 13 of 20
+Iteration   1: 1718.874 us/op
+
+# Run progress: 14.60% complete, ETA 00:08:20
+# Fork: 14 of 20
+Iteration   1: 1699.275 us/op
+
+# Run progress: 14.80% complete, ETA 00:08:19
+# Fork: 15 of 20
+Iteration   1: 1734.310 us/op
+
+# Run progress: 15.00% complete, ETA 00:08:18
+# Fork: 16 of 20
+Iteration   1: 1741.167 us/op
+
+# Run progress: 15.20% complete, ETA 00:08:17
+# Fork: 17 of 20
+Iteration   1: 1738.881 us/op
+
+# Run progress: 15.40% complete, ETA 00:08:16
+# Fork: 18 of 20
+Iteration   1: 1768.904 us/op
+
+# Run progress: 15.60% complete, ETA 00:08:14
+# Fork: 19 of 20
+Iteration   1: 1698.584 us/op
+
+# Run progress: 15.80% complete, ETA 00:08:13
+# Fork: 20 of 20
+Iteration   1: 1721.853 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  1728.332 ±(99.9%) 27.582 us/op [Average]
+  (min, avg, max) = (1662.182, 1728.332, 1782.284), stdev = 31.764
+  CI (99.9%): [1700.749, 1755.914] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibInvokeDynamic
+# Parameters: (n = 30)
+
+# Run progress: 16.00% complete, ETA 00:08:12
+# Fork: 1 of 20
+Iteration   1: 18707.224 us/op
+
+# Run progress: 16.20% complete, ETA 00:08:11
+# Fork: 2 of 20
+Iteration   1: 19067.455 us/op
+
+# Run progress: 16.40% complete, ETA 00:08:10
+# Fork: 3 of 20
+Iteration   1: 18933.484 us/op
+
+# Run progress: 16.60% complete, ETA 00:08:09
+# Fork: 4 of 20
+Iteration   1: 18717.396 us/op
+
+# Run progress: 16.80% complete, ETA 00:08:08
+# Fork: 5 of 20
+Iteration   1: 18366.893 us/op
+
+# Run progress: 17.00% complete, ETA 00:08:07
+# Fork: 6 of 20
+Iteration   1: 19630.033 us/op
+
+# Run progress: 17.20% complete, ETA 00:08:05
+# Fork: 7 of 20
+Iteration   1: 18645.450 us/op
+
+# Run progress: 17.40% complete, ETA 00:08:04
+# Fork: 8 of 20
+Iteration   1: 18766.269 us/op
+
+# Run progress: 17.60% complete, ETA 00:08:03
+# Fork: 9 of 20
+Iteration   1: 18943.403 us/op
+
+# Run progress: 17.80% complete, ETA 00:08:02
+# Fork: 10 of 20
+Iteration   1: 18948.080 us/op
+
+# Run progress: 18.00% complete, ETA 00:08:01
+# Fork: 11 of 20
+Iteration   1: 18770.013 us/op
+
+# Run progress: 18.20% complete, ETA 00:07:59
+# Fork: 12 of 20
+Iteration   1: 19644.598 us/op
+
+# Run progress: 18.40% complete, ETA 00:07:58
+# Fork: 13 of 20
+Iteration   1: 18614.296 us/op
+
+# Run progress: 18.60% complete, ETA 00:07:57
+# Fork: 14 of 20
+Iteration   1: 19275.058 us/op
+
+# Run progress: 18.80% complete, ETA 00:07:56
+# Fork: 15 of 20
+Iteration   1: 18712.729 us/op
+
+# Run progress: 19.00% complete, ETA 00:07:55
+# Fork: 16 of 20
+Iteration   1: 18382.924 us/op
+
+# Run progress: 19.20% complete, ETA 00:07:54
+# Fork: 17 of 20
+Iteration   1: 19837.960 us/op
+
+# Run progress: 19.40% complete, ETA 00:07:52
+# Fork: 18 of 20
+Iteration   1: 18988.937 us/op
+
+# Run progress: 19.60% complete, ETA 00:07:51
+# Fork: 19 of 20
+Iteration   1: 18996.093 us/op
+
+# Run progress: 19.80% complete, ETA 00:07:50
+# Fork: 20 of 20
+Iteration   1: 18952.871 us/op
+
+
+Result "groovyFibInvokeDynamic":
+  18945.058 ±(99.9%) 342.675 us/op [Average]
+  (min, avg, max) = (18366.893, 18945.058, 19837.960), stdev = 394.625
+  CI (99.9%): [18602.383, 19287.734] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 10)
+
+# Run progress: 20.00% complete, ETA 00:07:49
+# Fork: 1 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 20.20% complete, ETA 00:07:48
+# Fork: 2 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 20.40% complete, ETA 00:07:47
+# Fork: 3 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 20.60% complete, ETA 00:07:46
+# Fork: 4 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 20.80% complete, ETA 00:07:44
+# Fork: 5 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 21.00% complete, ETA 00:07:43
+# Fork: 6 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 21.20% complete, ETA 00:07:42
+# Fork: 7 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 21.40% complete, ETA 00:07:41
+# Fork: 8 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 21.60% complete, ETA 00:07:40
+# Fork: 9 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 21.80% complete, ETA 00:07:38
+# Fork: 10 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 22.00% complete, ETA 00:07:37
+# Fork: 11 of 20
+Iteration   1: 0.172 us/op
+
+# Run progress: 22.20% complete, ETA 00:07:36
+# Fork: 12 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 22.40% complete, ETA 00:07:35
+# Fork: 13 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 22.60% complete, ETA 00:07:34
+# Fork: 14 of 20
+Iteration   1: 0.175 us/op
+
+# Run progress: 22.80% complete, ETA 00:07:33
+# Fork: 15 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 23.00% complete, ETA 00:07:31
+# Fork: 16 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 23.20% complete, ETA 00:07:30
+# Fork: 17 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 23.40% complete, ETA 00:07:29
+# Fork: 18 of 20
+Iteration   1: 0.171 us/op
+
+# Run progress: 23.60% complete, ETA 00:07:28
+# Fork: 19 of 20
+Iteration   1: 0.172 us/op
+
+# Run progress: 23.80% complete, ETA 00:07:27
+# Fork: 20 of 20
+Iteration   1: 0.171 us/op
+
+
+Result "groovyFibLongStatic":
+  0.171 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.171, 0.171, 0.175), stdev = 0.001
+  CI (99.9%): [0.171, 0.172] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 15)
+
+# Run progress: 24.00% complete, ETA 00:07:25
+# Fork: 1 of 20
+Iteration   1: 1.930 us/op
+
+# Run progress: 24.20% complete, ETA 00:07:24
+# Fork: 2 of 20
+Iteration   1: 1.928 us/op
+
+# Run progress: 24.40% complete, ETA 00:07:23
+# Fork: 3 of 20
+Iteration   1: 1.929 us/op
+
+# Run progress: 24.60% complete, ETA 00:07:22
+# Fork: 4 of 20
+Iteration   1: 1.938 us/op
+
+# Run progress: 24.80% complete, ETA 00:07:21
+# Fork: 5 of 20
+Iteration   1: 1.932 us/op
+
+# Run progress: 25.00% complete, ETA 00:07:20
+# Fork: 6 of 20
+Iteration   1: 1.931 us/op
+
+# Run progress: 25.20% complete, ETA 00:07:18
+# Fork: 7 of 20
+Iteration   1: 1.930 us/op
+
+# Run progress: 25.40% complete, ETA 00:07:17
+# Fork: 8 of 20
+Iteration   1: 1.930 us/op
+
+# Run progress: 25.60% complete, ETA 00:07:16
+# Fork: 9 of 20
+Iteration   1: 1.937 us/op
+
+# Run progress: 25.80% complete, ETA 00:07:15
+# Fork: 10 of 20
+Iteration   1: 1.933 us/op
+
+# Run progress: 26.00% complete, ETA 00:07:14
+# Fork: 11 of 20
+Iteration   1: 1.930 us/op
+
+# Run progress: 26.20% complete, ETA 00:07:13
+# Fork: 12 of 20
+Iteration   1: 1.930 us/op
+
+# Run progress: 26.40% complete, ETA 00:07:11
+# Fork: 13 of 20
+Iteration   1: 1.928 us/op
+
+# Run progress: 26.60% complete, ETA 00:07:10
+# Fork: 14 of 20
+Iteration   1: 1.932 us/op
+
+# Run progress: 26.80% complete, ETA 00:07:09
+# Fork: 15 of 20
+Iteration   1: 1.927 us/op
+
+# Run progress: 27.00% complete, ETA 00:07:08
+# Fork: 16 of 20
+Iteration   1: 1.927 us/op
+
+# Run progress: 27.20% complete, ETA 00:07:07
+# Fork: 17 of 20
+Iteration   1: 1.932 us/op
+
+# Run progress: 27.40% complete, ETA 00:07:05
+# Fork: 18 of 20
+Iteration   1: 1.929 us/op
+
+# Run progress: 27.60% complete, ETA 00:07:04
+# Fork: 19 of 20
+Iteration   1: 1.929 us/op
+
+# Run progress: 27.80% complete, ETA 00:07:03
+# Fork: 20 of 20
+Iteration   1: 1.930 us/op
+
+
+Result "groovyFibLongStatic":
+  1.931 ±(99.9%) 0.003 us/op [Average]
+  (min, avg, max) = (1.927, 1.931, 1.938), stdev = 0.003
+  CI (99.9%): [1.928, 1.933] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 20)
+
+# Run progress: 28.00% complete, ETA 00:07:02
+# Fork: 1 of 20
+Iteration   1: 21.474 us/op
+
+# Run progress: 28.20% complete, ETA 00:07:01
+# Fork: 2 of 20
+Iteration   1: 21.445 us/op
+
+# Run progress: 28.40% complete, ETA 00:07:00
+# Fork: 3 of 20
+Iteration   1: 21.470 us/op
+
+# Run progress: 28.60% complete, ETA 00:06:58
+# Fork: 4 of 20
+Iteration   1: 21.563 us/op
+
+# Run progress: 28.80% complete, ETA 00:06:57
+# Fork: 5 of 20
+Iteration   1: 21.485 us/op
+
+# Run progress: 29.00% complete, ETA 00:06:56
+# Fork: 6 of 20
+Iteration   1: 21.478 us/op
+
+# Run progress: 29.20% complete, ETA 00:06:55
+# Fork: 7 of 20
+Iteration   1: 21.459 us/op
+
+# Run progress: 29.40% complete, ETA 00:06:54
+# Fork: 8 of 20
+Iteration   1: 21.470 us/op
+
+# Run progress: 29.60% complete, ETA 00:06:52
+# Fork: 9 of 20
+Iteration   1: 21.423 us/op
+
+# Run progress: 29.80% complete, ETA 00:06:51
+# Fork: 10 of 20
+Iteration   1: 21.464 us/op
+
+# Run progress: 30.00% complete, ETA 00:06:50
+# Fork: 11 of 20
+Iteration   1: 21.461 us/op
+
+# Run progress: 30.20% complete, ETA 00:06:49
+# Fork: 12 of 20
+Iteration   1: 21.452 us/op
+
+# Run progress: 30.40% complete, ETA 00:06:48
+# Fork: 13 of 20
+Iteration   1: 21.426 us/op
+
+# Run progress: 30.60% complete, ETA 00:06:47
+# Fork: 14 of 20
+Iteration   1: 21.450 us/op
+
+# Run progress: 30.80% complete, ETA 00:06:45
+# Fork: 15 of 20
+Iteration   1: 21.534 us/op
+
+# Run progress: 31.00% complete, ETA 00:06:44
+# Fork: 16 of 20
+Iteration   1: 21.462 us/op
+
+# Run progress: 31.20% complete, ETA 00:06:43
+# Fork: 17 of 20
+Iteration   1: 21.452 us/op
+
+# Run progress: 31.40% complete, ETA 00:06:42
+# Fork: 18 of 20
+Iteration   1: 21.406 us/op
+
+# Run progress: 31.60% complete, ETA 00:06:41
+# Fork: 19 of 20
+Iteration   1: 21.459 us/op
+
+# Run progress: 31.80% complete, ETA 00:06:39
+# Fork: 20 of 20
+Iteration   1: 21.455 us/op
+
+
+Result "groovyFibLongStatic":
+  21.464 ±(99.9%) 0.030 us/op [Average]
+  (min, avg, max) = (21.406, 21.464, 21.563), stdev = 0.035
+  CI (99.9%): [21.434, 21.495] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 25)
+
+# Run progress: 32.00% complete, ETA 00:06:38
+# Fork: 1 of 20
+Iteration   1: 237.479 us/op
+
+# Run progress: 32.20% complete, ETA 00:06:37
+# Fork: 2 of 20
+Iteration   1: 237.508 us/op
+
+# Run progress: 32.40% complete, ETA 00:06:36
+# Fork: 3 of 20
+Iteration   1: 238.097 us/op
+
+# Run progress: 32.60% complete, ETA 00:06:35
+# Fork: 4 of 20
+Iteration   1: 237.551 us/op
+
+# Run progress: 32.80% complete, ETA 00:06:34
+# Fork: 5 of 20
+Iteration   1: 237.938 us/op
+
+# Run progress: 33.00% complete, ETA 00:06:33
+# Fork: 6 of 20
+Iteration   1: 237.004 us/op
+
+# Run progress: 33.20% complete, ETA 00:06:31
+# Fork: 7 of 20
+Iteration   1: 237.638 us/op
+
+# Run progress: 33.40% complete, ETA 00:06:30
+# Fork: 8 of 20
+Iteration   1: 237.473 us/op
+
+# Run progress: 33.60% complete, ETA 00:06:29
+# Fork: 9 of 20
+Iteration   1: 237.551 us/op
+
+# Run progress: 33.80% complete, ETA 00:06:28
+# Fork: 10 of 20
+Iteration   1: 237.550 us/op
+
+# Run progress: 34.00% complete, ETA 00:06:27
+# Fork: 11 of 20
+Iteration   1: 238.006 us/op
+
+# Run progress: 34.20% complete, ETA 00:06:25
+# Fork: 12 of 20
+Iteration   1: 236.944 us/op
+
+# Run progress: 34.40% complete, ETA 00:06:24
+# Fork: 13 of 20
+Iteration   1: 237.501 us/op
+
+# Run progress: 34.60% complete, ETA 00:06:23
+# Fork: 14 of 20
+Iteration   1: 236.970 us/op
+
+# Run progress: 34.80% complete, ETA 00:06:22
+# Fork: 15 of 20
+Iteration   1: 237.546 us/op
+
+# Run progress: 35.00% complete, ETA 00:06:21
+# Fork: 16 of 20
+Iteration   1: 240.869 us/op
+
+# Run progress: 35.20% complete, ETA 00:06:20
+# Fork: 17 of 20
+Iteration   1: 237.548 us/op
+
+# Run progress: 35.40% complete, ETA 00:06:18
+# Fork: 18 of 20
+Iteration   1: 238.971 us/op
+
+# Run progress: 35.60% complete, ETA 00:06:17
+# Fork: 19 of 20
+Iteration   1: 237.517 us/op
+
+# Run progress: 35.80% complete, ETA 00:06:16
+# Fork: 20 of 20
+Iteration   1: 237.988 us/op
+
+
+Result "groovyFibLongStatic":
+  237.782 ±(99.9%) 0.741 us/op [Average]
+  (min, avg, max) = (236.944, 237.782, 240.869), stdev = 0.853
+  CI (99.9%): [237.042, 238.523] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibLongStatic
+# Parameters: (n = 30)
+
+# Run progress: 36.00% complete, ETA 00:06:15
+# Fork: 1 of 20
+Iteration   1: 2643.468 us/op
+
+# Run progress: 36.20% complete, ETA 00:06:14
+# Fork: 2 of 20
+Iteration   1: 2635.413 us/op
+
+# Run progress: 36.40% complete, ETA 00:06:13
+# Fork: 3 of 20
+Iteration   1: 2626.150 us/op
+
+# Run progress: 36.60% complete, ETA 00:06:11
+# Fork: 4 of 20
+Iteration   1: 2635.205 us/op
+
+# Run progress: 36.80% complete, ETA 00:06:10
+# Fork: 5 of 20
+Iteration   1: 2632.832 us/op
+
+# Run progress: 37.00% complete, ETA 00:06:09
+# Fork: 6 of 20
+Iteration   1: 2658.253 us/op
+
+# Run progress: 37.20% complete, ETA 00:06:08
+# Fork: 7 of 20
+Iteration   1: 2636.497 us/op
+
+# Run progress: 37.40% complete, ETA 00:06:07
+# Fork: 8 of 20
+Iteration   1: 2628.870 us/op
+
+# Run progress: 37.60% complete, ETA 00:06:06
+# Fork: 9 of 20
+Iteration   1: 2637.247 us/op
+
+# Run progress: 37.80% complete, ETA 00:06:04
+# Fork: 10 of 20
+Iteration   1: 2636.780 us/op
+
+# Run progress: 38.00% complete, ETA 00:06:03
+# Fork: 11 of 20
+Iteration   1: 2648.891 us/op
+
+# Run progress: 38.20% complete, ETA 00:06:02
+# Fork: 12 of 20
+Iteration   1: 2634.417 us/op
+
+# Run progress: 38.40% complete, ETA 00:06:01
+# Fork: 13 of 20
+Iteration   1: 2633.813 us/op
+
+# Run progress: 38.60% complete, ETA 00:06:00
+# Fork: 14 of 20
+Iteration   1: 2635.738 us/op
+
+# Run progress: 38.80% complete, ETA 00:05:59
+# Fork: 15 of 20
+Iteration   1: 2636.645 us/op
+
+# Run progress: 39.00% complete, ETA 00:05:57
+# Fork: 16 of 20
+Iteration   1: 2636.920 us/op
+
+# Run progress: 39.20% complete, ETA 00:05:56
+# Fork: 17 of 20
+Iteration   1: 2635.885 us/op
+
+# Run progress: 39.40% complete, ETA 00:05:55
+# Fork: 18 of 20
+Iteration   1: 2628.004 us/op
+
+# Run progress: 39.60% complete, ETA 00:05:54
+# Fork: 19 of 20
+Iteration   1: 2633.637 us/op
+
+# Run progress: 39.80% complete, ETA 00:05:53
+# Fork: 20 of 20
+Iteration   1: 2637.170 us/op
+
+
+Result "groovyFibLongStatic":
+  2636.592 ±(99.9%) 6.143 us/op [Average]
+  (min, avg, max) = (2626.150, 2636.592, 2658.253), stdev = 7.075
+  CI (99.9%): [2630.449, 2642.735] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 10)
+
+# Run progress: 40.00% complete, ETA 00:05:51
+# Fork: 1 of 20
+Iteration   1: 2.732 us/op
+
+# Run progress: 40.20% complete, ETA 00:05:50
+# Fork: 2 of 20
+Iteration   1: 2.777 us/op
+
+# Run progress: 40.40% complete, ETA 00:05:49
+# Fork: 3 of 20
+Iteration   1: 2.600 us/op
+
+# Run progress: 40.60% complete, ETA 00:05:48
+# Fork: 4 of 20
+Iteration   1: 2.580 us/op
+
+# Run progress: 40.80% complete, ETA 00:05:47
+# Fork: 5 of 20
+Iteration   1: 2.697 us/op
+
+# Run progress: 41.00% complete, ETA 00:05:46
+# Fork: 6 of 20
+Iteration   1: 2.626 us/op
+
+# Run progress: 41.20% complete, ETA 00:05:44
+# Fork: 7 of 20
+Iteration   1: 2.597 us/op
+
+# Run progress: 41.40% complete, ETA 00:05:43
+# Fork: 8 of 20
+Iteration   1: 2.685 us/op
+
+# Run progress: 41.60% complete, ETA 00:05:42
+# Fork: 9 of 20
+Iteration   1: 3.108 us/op
+
+# Run progress: 41.80% complete, ETA 00:05:41
+# Fork: 10 of 20
+Iteration   1: 2.788 us/op
+
+# Run progress: 42.00% complete, ETA 00:05:40
+# Fork: 11 of 20
+Iteration   1: 2.582 us/op
+
+# Run progress: 42.20% complete, ETA 00:05:39
+# Fork: 12 of 20
+Iteration   1: 2.573 us/op
+
+# Run progress: 42.40% complete, ETA 00:05:37
+# Fork: 13 of 20
+Iteration   1: 2.643 us/op
+
+# Run progress: 42.60% complete, ETA 00:05:36
+# Fork: 14 of 20
+Iteration   1: 2.733 us/op
+
+# Run progress: 42.80% complete, ETA 00:05:35
+# Fork: 15 of 20
+Iteration   1: 3.184 us/op
+
+# Run progress: 43.00% complete, ETA 00:05:34
+# Fork: 16 of 20
+Iteration   1: 2.668 us/op
+
+# Run progress: 43.20% complete, ETA 00:05:33
+# Fork: 17 of 20
+Iteration   1: 2.740 us/op
+
+# Run progress: 43.40% complete, ETA 00:05:31
+# Fork: 18 of 20
+Iteration   1: 2.590 us/op
+
+# Run progress: 43.60% complete, ETA 00:05:30
+# Fork: 19 of 20
+Iteration   1: 2.656 us/op
+
+# Run progress: 43.80% complete, ETA 00:05:29
+# Fork: 20 of 20
+Iteration   1: 2.683 us/op
+
+
+Result "groovyFibTraditional":
+  2.712 ±(99.9%) 0.141 us/op [Average]
+  (min, avg, max) = (2.573, 2.712, 3.184), stdev = 0.163
+  CI (99.9%): [2.571, 2.853] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 15)
+
+# Run progress: 44.00% complete, ETA 00:05:28
+# Fork: 1 of 20
+Iteration   1: 34.032 us/op
+
+# Run progress: 44.20% complete, ETA 00:05:27
+# Fork: 2 of 20
+Iteration   1: 36.008 us/op
+
+# Run progress: 44.40% complete, ETA 00:05:26
+# Fork: 3 of 20
+Iteration   1: 33.509 us/op
+
+# Run progress: 44.60% complete, ETA 00:05:24
+# Fork: 4 of 20
+Iteration   1: 34.345 us/op
+
+# Run progress: 44.80% complete, ETA 00:05:23
+# Fork: 5 of 20
+Iteration   1: 34.999 us/op
+
+# Run progress: 45.00% complete, ETA 00:05:22
+# Fork: 6 of 20
+Iteration   1: 35.242 us/op
+
+# Run progress: 45.20% complete, ETA 00:05:21
+# Fork: 7 of 20
+Iteration   1: 35.572 us/op
+
+# Run progress: 45.40% complete, ETA 00:05:20
+# Fork: 8 of 20
+Iteration   1: 35.120 us/op
+
+# Run progress: 45.60% complete, ETA 00:05:19
+# Fork: 9 of 20
+Iteration   1: 34.676 us/op
+
+# Run progress: 45.80% complete, ETA 00:05:17
+# Fork: 10 of 20
+Iteration   1: 34.728 us/op
+
+# Run progress: 46.00% complete, ETA 00:05:16
+# Fork: 11 of 20
+Iteration   1: 35.208 us/op
+
+# Run progress: 46.20% complete, ETA 00:05:15
+# Fork: 12 of 20
+Iteration   1: 34.053 us/op
+
+# Run progress: 46.40% complete, ETA 00:05:14
+# Fork: 13 of 20
+Iteration   1: 35.661 us/op
+
+# Run progress: 46.60% complete, ETA 00:05:13
+# Fork: 14 of 20
+Iteration   1: 34.141 us/op
+
+# Run progress: 46.80% complete, ETA 00:05:11
+# Fork: 15 of 20
+Iteration   1: 35.806 us/op
+
+# Run progress: 47.00% complete, ETA 00:05:10
+# Fork: 16 of 20
+Iteration   1: 34.677 us/op
+
+# Run progress: 47.20% complete, ETA 00:05:09
+# Fork: 17 of 20
+Iteration   1: 34.574 us/op
+
+# Run progress: 47.40% complete, ETA 00:05:08
+# Fork: 18 of 20
+Iteration   1: 35.569 us/op
+
+# Run progress: 47.60% complete, ETA 00:05:07
+# Fork: 19 of 20
+Iteration   1: 34.119 us/op
+
+# Run progress: 47.80% complete, ETA 00:05:06
+# Fork: 20 of 20
+Iteration   1: 34.868 us/op
+
+
+Result "groovyFibTraditional":
+  34.845 ±(99.9%) 0.593 us/op [Average]
+  (min, avg, max) = (33.509, 34.845, 36.008), stdev = 0.683
+  CI (99.9%): [34.252, 35.439] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 20)
+
+# Run progress: 48.00% complete, ETA 00:05:04
+# Fork: 1 of 20
+Iteration   1: 381.330 us/op
+
+# Run progress: 48.20% complete, ETA 00:05:03
+# Fork: 2 of 20
+Iteration   1: 370.888 us/op
+
+# Run progress: 48.40% complete, ETA 00:05:02
+# Fork: 3 of 20
+Iteration   1: 388.482 us/op
+
+# Run progress: 48.60% complete, ETA 00:05:01
+# Fork: 4 of 20
+Iteration   1: 373.523 us/op
+
+# Run progress: 48.80% complete, ETA 00:05:00
+# Fork: 5 of 20
+Iteration   1: 379.292 us/op
+
+# Run progress: 49.00% complete, ETA 00:04:59
+# Fork: 6 of 20
+Iteration   1: 374.601 us/op
+
+# Run progress: 49.20% complete, ETA 00:04:57
+# Fork: 7 of 20
+Iteration   1: 368.793 us/op
+
+# Run progress: 49.40% complete, ETA 00:04:56
+# Fork: 8 of 20
+Iteration   1: 390.853 us/op
+
+# Run progress: 49.60% complete, ETA 00:04:55
+# Fork: 9 of 20
+Iteration   1: 379.688 us/op
+
+# Run progress: 49.80% complete, ETA 00:04:54
+# Fork: 10 of 20
+Iteration   1: 391.385 us/op
+
+# Run progress: 50.00% complete, ETA 00:04:53
+# Fork: 11 of 20
+Iteration   1: 374.712 us/op
+
+# Run progress: 50.20% complete, ETA 00:04:51
+# Fork: 12 of 20
+Iteration   1: 383.306 us/op
+
+# Run progress: 50.40% complete, ETA 00:04:50
+# Fork: 13 of 20
+Iteration   1: 374.154 us/op
+
+# Run progress: 50.60% complete, ETA 00:04:49
+# Fork: 14 of 20
+Iteration   1: 376.070 us/op
+
+# Run progress: 50.80% complete, ETA 00:04:48
+# Fork: 15 of 20
+Iteration   1: 382.391 us/op
+
+# Run progress: 51.00% complete, ETA 00:04:47
+# Fork: 16 of 20
+Iteration   1: 388.213 us/op
+
+# Run progress: 51.20% complete, ETA 00:04:46
+# Fork: 17 of 20
+Iteration   1: 383.889 us/op
+
+# Run progress: 51.40% complete, ETA 00:04:44
+# Fork: 18 of 20
+Iteration   1: 363.301 us/op
+
+# Run progress: 51.60% complete, ETA 00:04:43
+# Fork: 19 of 20
+Iteration   1: 381.611 us/op
+
+# Run progress: 51.80% complete, ETA 00:04:42
+# Fork: 20 of 20
+Iteration   1: 383.056 us/op
+
+
+Result "groovyFibTraditional":
+  379.477 ±(99.9%) 6.497 us/op [Average]
+  (min, avg, max) = (363.301, 379.477, 391.385), stdev = 7.482
+  CI (99.9%): [372.980, 385.974] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 25)
+
+# Run progress: 52.00% complete, ETA 00:04:41
+# Fork: 1 of 20
+Iteration   1: 4145.131 us/op
+
+# Run progress: 52.20% complete, ETA 00:04:40
+# Fork: 2 of 20
+Iteration   1: 4154.257 us/op
+
+# Run progress: 52.40% complete, ETA 00:04:39
+# Fork: 3 of 20
+Iteration   1: 4305.310 us/op
+
+# Run progress: 52.60% complete, ETA 00:04:37
+# Fork: 4 of 20
+Iteration   1: 4174.324 us/op
+
+# Run progress: 52.80% complete, ETA 00:04:36
+# Fork: 5 of 20
+Iteration   1: 4012.073 us/op
+
+# Run progress: 53.00% complete, ETA 00:04:35
+# Fork: 6 of 20
+Iteration   1: 4296.345 us/op
+
+# Run progress: 53.20% complete, ETA 00:04:34
+# Fork: 7 of 20
+Iteration   1: 4225.815 us/op
+
+# Run progress: 53.40% complete, ETA 00:04:33
+# Fork: 8 of 20
+Iteration   1: 4281.256 us/op
+
+# Run progress: 53.60% complete, ETA 00:04:32
+# Fork: 9 of 20
+Iteration   1: 4315.726 us/op
+
+# Run progress: 53.80% complete, ETA 00:04:30
+# Fork: 10 of 20
+Iteration   1: 4414.896 us/op
+
+# Run progress: 54.00% complete, ETA 00:04:29
+# Fork: 11 of 20
+Iteration   1: 4341.474 us/op
+
+# Run progress: 54.20% complete, ETA 00:04:28
+# Fork: 12 of 20
+Iteration   1: 4261.845 us/op
+
+# Run progress: 54.40% complete, ETA 00:04:27
+# Fork: 13 of 20
+Iteration   1: 4368.849 us/op
+
+# Run progress: 54.60% complete, ETA 00:04:26
+# Fork: 14 of 20
+Iteration   1: 4227.005 us/op
+
+# Run progress: 54.80% complete, ETA 00:04:24
+# Fork: 15 of 20
+Iteration   1: 4109.322 us/op
+
+# Run progress: 55.00% complete, ETA 00:04:23
+# Fork: 16 of 20
+Iteration   1: 4111.860 us/op
+
+# Run progress: 55.20% complete, ETA 00:04:22
+# Fork: 17 of 20
+Iteration   1: 4285.366 us/op
+
+# Run progress: 55.40% complete, ETA 00:04:21
+# Fork: 18 of 20
+Iteration   1: 4376.953 us/op
+
+# Run progress: 55.60% complete, ETA 00:04:20
+# Fork: 19 of 20
+Iteration   1: 4397.458 us/op
+
+# Run progress: 55.80% complete, ETA 00:04:19
+# Fork: 20 of 20
+Iteration   1: 4143.221 us/op
+
+
+Result "groovyFibTraditional":
+  4247.424 ±(99.9%) 96.201 us/op [Average]
+  (min, avg, max) = (4012.073, 4247.424, 4414.896), stdev = 110.786
+  CI (99.9%): [4151.223, 4343.626] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.groovyFibTraditional
+# Parameters: (n = 30)
+
+# Run progress: 56.00% complete, ETA 00:04:17
+# Fork: 1 of 20
+Iteration   1: 46597.775 us/op
+
+# Run progress: 56.20% complete, ETA 00:04:16
+# Fork: 2 of 20
+Iteration   1: 46209.384 us/op
+
+# Run progress: 56.40% complete, ETA 00:04:15
+# Fork: 3 of 20
+Iteration   1: 46579.171 us/op
+
+# Run progress: 56.60% complete, ETA 00:04:14
+# Fork: 4 of 20
+Iteration   1: 45706.569 us/op
+
+# Run progress: 56.80% complete, ETA 00:04:13
+# Fork: 5 of 20
+Iteration   1: 46894.356 us/op
+
+# Run progress: 57.00% complete, ETA 00:04:12
+# Fork: 6 of 20
+Iteration   1: 49205.507 us/op
+
+# Run progress: 57.20% complete, ETA 00:04:11
+# Fork: 7 of 20
+Iteration   1: 45904.212 us/op
+
+# Run progress: 57.40% complete, ETA 00:04:09
+# Fork: 8 of 20
+Iteration   1: 48199.835 us/op
+
+# Run progress: 57.60% complete, ETA 00:04:08
+# Fork: 9 of 20
+Iteration   1: 46647.427 us/op
+
+# Run progress: 57.80% complete, ETA 00:04:07
+# Fork: 10 of 20
+Iteration   1: 48003.655 us/op
+
+# Run progress: 58.00% complete, ETA 00:04:06
+# Fork: 11 of 20
+Iteration   1: 47000.894 us/op
+
+# Run progress: 58.20% complete, ETA 00:04:05
+# Fork: 12 of 20
+Iteration   1: 46103.209 us/op
+
+# Run progress: 58.40% complete, ETA 00:04:04
+# Fork: 13 of 20
+Iteration   1: 47976.864 us/op
+
+# Run progress: 58.60% complete, ETA 00:04:02
+# Fork: 14 of 20
+Iteration   1: 45560.273 us/op
+
+# Run progress: 58.80% complete, ETA 00:04:01
+# Fork: 15 of 20
+Iteration   1: 48520.639 us/op
+
+# Run progress: 59.00% complete, ETA 00:04:00
+# Fork: 16 of 20
+Iteration   1: 48538.944 us/op
+
+# Run progress: 59.20% complete, ETA 00:03:59
+# Fork: 17 of 20
+Iteration   1: 46902.457 us/op
+
+# Run progress: 59.40% complete, ETA 00:03:58
+# Fork: 18 of 20
+Iteration   1: 48133.747 us/op
+
+# Run progress: 59.60% complete, ETA 00:03:57
+# Fork: 19 of 20
+Iteration   1: 44529.109 us/op
+
+# Run progress: 59.80% complete, ETA 00:03:55
+# Fork: 20 of 20
+Iteration   1: 46586.980 us/op
+
+
+Result "groovyFibTraditional":
+  46990.050 ±(99.9%) 1042.125 us/op [Average]
+  (min, avg, max) = (44529.109, 46990.050, 49205.507), stdev = 1200.113
+  CI (99.9%): [45947.925, 48032.175] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 10)
+
+# Run progress: 60.00% complete, ETA 00:03:54
+# Fork: 1 of 20
+Iteration   1: 0.450 us/op
+
+# Run progress: 60.20% complete, ETA 00:03:53
+# Fork: 2 of 20
+Iteration   1: 0.455 us/op
+
+# Run progress: 60.40% complete, ETA 00:03:52
+# Fork: 3 of 20
+Iteration   1: 0.452 us/op
+
+# Run progress: 60.60% complete, ETA 00:03:51
+# Fork: 4 of 20
+Iteration   1: 0.451 us/op
+
+# Run progress: 60.80% complete, ETA 00:03:50
+# Fork: 5 of 20
+Iteration   1: 0.450 us/op
+
+# Run progress: 61.00% complete, ETA 00:03:48
+# Fork: 6 of 20
+Iteration   1: 0.525 us/op
+
+# Run progress: 61.20% complete, ETA 00:03:47
+# Fork: 7 of 20
+Iteration   1: 0.473 us/op
+
+# Run progress: 61.40% complete, ETA 00:03:46
+# Fork: 8 of 20
+Iteration   1: 0.452 us/op
+
+# Run progress: 61.60% complete, ETA 00:03:45
+# Fork: 9 of 20
+Iteration   1: 0.449 us/op
+
+# Run progress: 61.80% complete, ETA 00:03:44
+# Fork: 10 of 20
+Iteration   1: 0.522 us/op
+
+# Run progress: 62.00% complete, ETA 00:03:42
+# Fork: 11 of 20
+Iteration   1: 0.451 us/op
+
+# Run progress: 62.20% complete, ETA 00:03:41
+# Fork: 12 of 20
+Iteration   1: 0.455 us/op
+
+# Run progress: 62.40% complete, ETA 00:03:40
+# Fork: 13 of 20
+Iteration   1: 0.450 us/op
+
+# Run progress: 62.60% complete, ETA 00:03:39
+# Fork: 14 of 20
+Iteration   1: 0.450 us/op
+
+# Run progress: 62.80% complete, ETA 00:03:38
+# Fork: 15 of 20
+Iteration   1: 0.456 us/op
+
+# Run progress: 63.00% complete, ETA 00:03:37
+# Fork: 16 of 20
+Iteration   1: 0.451 us/op
+
+# Run progress: 63.20% complete, ETA 00:03:35
+# Fork: 17 of 20
+Iteration   1: 0.458 us/op
+
+# Run progress: 63.40% complete, ETA 00:03:34
+# Fork: 18 of 20
+Iteration   1: 0.449 us/op
+
+# Run progress: 63.60% complete, ETA 00:03:33
+# Fork: 19 of 20
+Iteration   1: 0.450 us/op
+
+# Run progress: 63.80% complete, ETA 00:03:32
+# Fork: 20 of 20
+Iteration   1: 0.456 us/op
+
+
+Result "kotlinFibDynamic":
+  0.460 ±(99.9%) 0.019 us/op [Average]
+  (min, avg, max) = (0.449, 0.460, 0.525), stdev = 0.022
+  CI (99.9%): [0.441, 0.480] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 15)
+
+# Run progress: 64.00% complete, ETA 00:03:31
+# Fork: 1 of 20
+Iteration   1: 5.967 us/op
+
+# Run progress: 64.20% complete, ETA 00:03:30
+# Fork: 2 of 20
+Iteration   1: 5.866 us/op
+
+# Run progress: 64.40% complete, ETA 00:03:28
+# Fork: 3 of 20
+Iteration   1: 5.955 us/op
+
+# Run progress: 64.60% complete, ETA 00:03:27
+# Fork: 4 of 20
+Iteration   1: 6.001 us/op
+
+# Run progress: 64.80% complete, ETA 00:03:26
+# Fork: 5 of 20
+Iteration   1: 6.013 us/op
+
+# Run progress: 65.00% complete, ETA 00:03:25
+# Fork: 6 of 20
+Iteration   1: 5.997 us/op
+
+# Run progress: 65.20% complete, ETA 00:03:24
+# Fork: 7 of 20
+Iteration   1: 5.961 us/op
+
+# Run progress: 65.40% complete, ETA 00:03:22
+# Fork: 8 of 20
+Iteration   1: 5.961 us/op
+
+# Run progress: 65.60% complete, ETA 00:03:21
+# Fork: 9 of 20
+Iteration   1: 5.978 us/op
+
+# Run progress: 65.80% complete, ETA 00:03:20
+# Fork: 10 of 20
+Iteration   1: 6.007 us/op
+
+# Run progress: 66.00% complete, ETA 00:03:19
+# Fork: 11 of 20
+Iteration   1: 6.043 us/op
+
+# Run progress: 66.20% complete, ETA 00:03:18
+# Fork: 12 of 20
+Iteration   1: 5.966 us/op
+
+# Run progress: 66.40% complete, ETA 00:03:17
+# Fork: 13 of 20
+Iteration   1: 5.995 us/op
+
+# Run progress: 66.60% complete, ETA 00:03:15
+# Fork: 14 of 20
+Iteration   1: 5.979 us/op
+
+# Run progress: 66.80% complete, ETA 00:03:14
+# Fork: 15 of 20
+Iteration   1: 6.071 us/op
+
+# Run progress: 67.00% complete, ETA 00:03:13
+# Fork: 16 of 20
+Iteration   1: 5.855 us/op
+
+# Run progress: 67.20% complete, ETA 00:03:12
+# Fork: 17 of 20
+Iteration   1: 5.975 us/op
+
+# Run progress: 67.40% complete, ETA 00:03:11
+# Fork: 18 of 20
+Iteration   1: 6.019 us/op
+
+# Run progress: 67.60% complete, ETA 00:03:10
+# Fork: 19 of 20
+Iteration   1: 5.958 us/op
+
+# Run progress: 67.80% complete, ETA 00:03:08
+# Fork: 20 of 20
+Iteration   1: 5.985 us/op
+
+
+Result "kotlinFibDynamic":
+  5.978 ±(99.9%) 0.043 us/op [Average]
+  (min, avg, max) = (5.855, 5.978, 6.071), stdev = 0.050
+  CI (99.9%): [5.934, 6.021] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 20)
+
+# Run progress: 68.00% complete, ETA 00:03:07
+# Fork: 1 of 20
+Iteration   1: 67.125 us/op
+
+# Run progress: 68.20% complete, ETA 00:03:06
+# Fork: 2 of 20
+Iteration   1: 66.082 us/op
+
+# Run progress: 68.40% complete, ETA 00:03:05
+# Fork: 3 of 20
+Iteration   1: 65.963 us/op
+
+# Run progress: 68.60% complete, ETA 00:03:04
+# Fork: 4 of 20
+Iteration   1: 67.486 us/op
+
+# Run progress: 68.80% complete, ETA 00:03:03
+# Fork: 5 of 20
+Iteration   1: 66.271 us/op
+
+# Run progress: 69.00% complete, ETA 00:03:01
+# Fork: 6 of 20
+Iteration   1: 66.238 us/op
+
+# Run progress: 69.20% complete, ETA 00:03:00
+# Fork: 7 of 20
+Iteration   1: 67.875 us/op
+
+# Run progress: 69.40% complete, ETA 00:02:59
+# Fork: 8 of 20
+Iteration   1: 66.116 us/op
+
+# Run progress: 69.60% complete, ETA 00:02:58
+# Fork: 9 of 20
+Iteration   1: 66.191 us/op
+
+# Run progress: 69.80% complete, ETA 00:02:57
+# Fork: 10 of 20
+Iteration   1: 67.064 us/op
+
+# Run progress: 70.00% complete, ETA 00:02:55
+# Fork: 11 of 20
+Iteration   1: 67.791 us/op
+
+# Run progress: 70.20% complete, ETA 00:02:54
+# Fork: 12 of 20
+Iteration   1: 66.106 us/op
+
+# Run progress: 70.40% complete, ETA 00:02:53
+# Fork: 13 of 20
+Iteration   1: 66.329 us/op
+
+# Run progress: 70.60% complete, ETA 00:02:52
+# Fork: 14 of 20
+Iteration   1: 65.940 us/op
+
+# Run progress: 70.80% complete, ETA 00:02:51
+# Fork: 15 of 20
+Iteration   1: 68.712 us/op
+
+# Run progress: 71.00% complete, ETA 00:02:50
+# Fork: 16 of 20
+Iteration   1: 66.021 us/op
+
+# Run progress: 71.20% complete, ETA 00:02:48
+# Fork: 17 of 20
+Iteration   1: 64.926 us/op
+
+# Run progress: 71.40% complete, ETA 00:02:47
+# Fork: 18 of 20
+Iteration   1: 67.109 us/op
+
+# Run progress: 71.60% complete, ETA 00:02:46
+# Fork: 19 of 20
+Iteration   1: 67.894 us/op
+
+# Run progress: 71.80% complete, ETA 00:02:45
+# Fork: 20 of 20
+Iteration   1: 66.350 us/op
+
+
+Result "kotlinFibDynamic":
+  66.679 ±(99.9%) 0.793 us/op [Average]
+  (min, avg, max) = (64.926, 66.679, 68.712), stdev = 0.913
+  CI (99.9%): [65.886, 67.473] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 25)
+
+# Run progress: 72.00% complete, ETA 00:02:44
+# Fork: 1 of 20
+Iteration   1: 741.645 us/op
+
+# Run progress: 72.20% complete, ETA 00:02:43
+# Fork: 2 of 20
+Iteration   1: 731.886 us/op
+
+# Run progress: 72.40% complete, ETA 00:02:41
+# Fork: 3 of 20
+Iteration   1: 737.632 us/op
+
+# Run progress: 72.60% complete, ETA 00:02:40
+# Fork: 4 of 20
+Iteration   1: 735.971 us/op
+
+# Run progress: 72.80% complete, ETA 00:02:39
+# Fork: 5 of 20
+Iteration   1: 731.028 us/op
+
+# Run progress: 73.00% complete, ETA 00:02:38
+# Fork: 6 of 20
+Iteration   1: 734.081 us/op
+
+# Run progress: 73.20% complete, ETA 00:02:37
+# Fork: 7 of 20
+Iteration   1: 746.870 us/op
+
+# Run progress: 73.40% complete, ETA 00:02:36
+# Fork: 8 of 20
+Iteration   1: 732.805 us/op
+
+# Run progress: 73.60% complete, ETA 00:02:34
+# Fork: 9 of 20
+Iteration   1: 730.283 us/op
+
+# Run progress: 73.80% complete, ETA 00:02:33
+# Fork: 10 of 20
+Iteration   1: 721.553 us/op
+
+# Run progress: 74.00% complete, ETA 00:02:32
+# Fork: 11 of 20
+Iteration   1: 739.963 us/op
+
+# Run progress: 74.20% complete, ETA 00:02:31
+# Fork: 12 of 20
+Iteration   1: 730.386 us/op
+
+# Run progress: 74.40% complete, ETA 00:02:30
+# Fork: 13 of 20
+Iteration   1: 719.456 us/op
+
+# Run progress: 74.60% complete, ETA 00:02:28
+# Fork: 14 of 20
+Iteration   1: 736.600 us/op
+
+# Run progress: 74.80% complete, ETA 00:02:27
+# Fork: 15 of 20
+Iteration   1: 741.415 us/op
+
+# Run progress: 75.00% complete, ETA 00:02:26
+# Fork: 16 of 20
+Iteration   1: 734.090 us/op
+
+# Run progress: 75.20% complete, ETA 00:02:25
+# Fork: 17 of 20
+Iteration   1: 742.953 us/op
+
+# Run progress: 75.40% complete, ETA 00:02:24
+# Fork: 18 of 20
+Iteration   1: 731.940 us/op
+
+# Run progress: 75.60% complete, ETA 00:02:23
+# Fork: 19 of 20
+Iteration   1: 739.211 us/op
+
+# Run progress: 75.80% complete, ETA 00:02:21
+# Fork: 20 of 20
+Iteration   1: 731.960 us/op
+
+
+Result "kotlinFibDynamic":
+  734.586 ±(99.9%) 5.826 us/op [Average]
+  (min, avg, max) = (719.456, 734.586, 746.870), stdev = 6.710
+  CI (99.9%): [728.760, 740.413] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibDynamic
+# Parameters: (n = 30)
+
+# Run progress: 76.00% complete, ETA 00:02:20
+# Fork: 1 of 20
+Iteration   1: 8448.230 us/op
+
+# Run progress: 76.20% complete, ETA 00:02:19
+# Fork: 2 of 20
+Iteration   1: 8163.787 us/op
+
+# Run progress: 76.40% complete, ETA 00:02:18
+# Fork: 3 of 20
+Iteration   1: 8124.282 us/op
+
+# Run progress: 76.60% complete, ETA 00:02:17
+# Fork: 4 of 20
+Iteration   1: 8411.540 us/op
+
+# Run progress: 76.80% complete, ETA 00:02:16
+# Fork: 5 of 20
+Iteration   1: 8416.634 us/op
+
+# Run progress: 77.00% complete, ETA 00:02:14
+# Fork: 6 of 20
+Iteration   1: 8279.223 us/op
+
+# Run progress: 77.20% complete, ETA 00:02:13
+# Fork: 7 of 20
+Iteration   1: 8114.816 us/op
+
+# Run progress: 77.40% complete, ETA 00:02:12
+# Fork: 8 of 20
+Iteration   1: 8290.760 us/op
+
+# Run progress: 77.60% complete, ETA 00:02:11
+# Fork: 9 of 20
+Iteration   1: 8127.557 us/op
+
+# Run progress: 77.80% complete, ETA 00:02:10
+# Fork: 10 of 20
+Iteration   1: 8124.639 us/op
+
+# Run progress: 78.00% complete, ETA 00:02:09
+# Fork: 11 of 20
+Iteration   1: 8241.946 us/op
+
+# Run progress: 78.20% complete, ETA 00:02:07
+# Fork: 12 of 20
+Iteration   1: 8322.752 us/op
+
+# Run progress: 78.40% complete, ETA 00:02:06
+# Fork: 13 of 20
+Iteration   1: 8375.198 us/op
+
+# Run progress: 78.60% complete, ETA 00:02:05
+# Fork: 14 of 20
+Iteration   1: 8238.193 us/op
+
+# Run progress: 78.80% complete, ETA 00:02:04
+# Fork: 15 of 20
+Iteration   1: 8180.410 us/op
+
+# Run progress: 79.00% complete, ETA 00:02:03
+# Fork: 16 of 20
+Iteration   1: 8205.744 us/op
+
+# Run progress: 79.20% complete, ETA 00:02:01
+# Fork: 17 of 20
+Iteration   1: 8099.992 us/op
+
+# Run progress: 79.40% complete, ETA 00:02:00
+# Fork: 18 of 20
+Iteration   1: 8311.428 us/op
+
+# Run progress: 79.60% complete, ETA 00:01:59
+# Fork: 19 of 20
+Iteration   1: 7979.669 us/op
+
+# Run progress: 79.80% complete, ETA 00:01:58
+# Fork: 20 of 20
+Iteration   1: 8245.821 us/op
+
+
+Result "kotlinFibDynamic":
+  8235.131 ±(99.9%) 107.431 us/op [Average]
+  (min, avg, max) = (7979.669, 8235.131, 8448.230), stdev = 123.718
+  CI (99.9%): [8127.700, 8342.562] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 10)
+
+# Run progress: 80.00% complete, ETA 00:01:57
+# Fork: 1 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 80.20% complete, ETA 00:01:56
+# Fork: 2 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 80.40% complete, ETA 00:01:54
+# Fork: 3 of 20
+Iteration   1: 0.170 us/op
+
+# Run progress: 80.60% complete, ETA 00:01:53
+# Fork: 4 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 80.80% complete, ETA 00:01:52
+# Fork: 5 of 20
+Iteration   1: 0.172 us/op
+
+# Run progress: 81.00% complete, ETA 00:01:51
+# Fork: 6 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 81.20% complete, ETA 00:01:50
+# Fork: 7 of 20
+Iteration   1: 0.170 us/op
+
+# Run progress: 81.40% complete, ETA 00:01:49
+# Fork: 8 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 81.60% complete, ETA 00:01:47
+# Fork: 9 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 81.80% complete, ETA 00:01:46
+# Fork: 10 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 82.00% complete, ETA 00:01:45
+# Fork: 11 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 82.20% complete, ETA 00:01:44
+# Fork: 12 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 82.40% complete, ETA 00:01:43
+# Fork: 13 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 82.60% complete, ETA 00:01:42
+# Fork: 14 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 82.80% complete, ETA 00:01:40
+# Fork: 15 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 83.00% complete, ETA 00:01:39
+# Fork: 16 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 83.20% complete, ETA 00:01:38
+# Fork: 17 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 83.40% complete, ETA 00:01:37
+# Fork: 18 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 83.60% complete, ETA 00:01:36
+# Fork: 19 of 20
+Iteration   1: 0.169 us/op
+
+# Run progress: 83.80% complete, ETA 00:01:34
+# Fork: 20 of 20
+Iteration   1: 0.168 us/op
+
+
+Result "kotlinFibLong":
+  0.169 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.168, 0.169, 0.172), stdev = 0.001
+  CI (99.9%): [0.169, 0.170] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 15)
+
+# Run progress: 84.00% complete, ETA 00:01:33
+# Fork: 1 of 20
+Iteration   1: 1.833 us/op
+
+# Run progress: 84.20% complete, ETA 00:01:32
+# Fork: 2 of 20
+Iteration   1: 1.832 us/op
+
+# Run progress: 84.40% complete, ETA 00:01:31
+# Fork: 3 of 20
+Iteration   1: 1.834 us/op
+
+# Run progress: 84.60% complete, ETA 00:01:30
+# Fork: 4 of 20
+Iteration   1: 1.834 us/op
+
+# Run progress: 84.80% complete, ETA 00:01:29
+# Fork: 5 of 20
+Iteration   1: 1.864 us/op
+
+# Run progress: 85.00% complete, ETA 00:01:27
+# Fork: 6 of 20
+Iteration   1: 1.833 us/op
+
+# Run progress: 85.20% complete, ETA 00:01:26
+# Fork: 7 of 20
+Iteration   1: 1.837 us/op
+
+# Run progress: 85.40% complete, ETA 00:01:25
+# Fork: 8 of 20
+Iteration   1: 1.832 us/op
+
+# Run progress: 85.60% complete, ETA 00:01:24
+# Fork: 9 of 20
+Iteration   1: 1.839 us/op
+
+# Run progress: 85.80% complete, ETA 00:01:23
+# Fork: 10 of 20
+Iteration   1: 1.861 us/op
+
+# Run progress: 86.00% complete, ETA 00:01:22
+# Fork: 11 of 20
+Iteration   1: 1.836 us/op
+
+# Run progress: 86.20% complete, ETA 00:01:20
+# Fork: 12 of 20
+Iteration   1: 1.840 us/op
+
+# Run progress: 86.40% complete, ETA 00:01:19
+# Fork: 13 of 20
+Iteration   1: 1.841 us/op
+
+# Run progress: 86.60% complete, ETA 00:01:18
+# Fork: 14 of 20
+Iteration   1: 1.839 us/op
+
+# Run progress: 86.80% complete, ETA 00:01:17
+# Fork: 15 of 20
+Iteration   1: 1.834 us/op
+
+# Run progress: 87.00% complete, ETA 00:01:16
+# Fork: 16 of 20
+Iteration   1: 1.837 us/op
+
+# Run progress: 87.20% complete, ETA 00:01:15
+# Fork: 17 of 20
+Iteration   1: 1.834 us/op
+
+# Run progress: 87.40% complete, ETA 00:01:13
+# Fork: 18 of 20
+Iteration   1: 1.836 us/op
+
+# Run progress: 87.60% complete, ETA 00:01:12
+# Fork: 19 of 20
+Iteration   1: 1.834 us/op
+
+# Run progress: 87.80% complete, ETA 00:01:11
+# Fork: 20 of 20
+Iteration   1: 1.844 us/op
+
+
+Result "kotlinFibLong":
+  1.839 ±(99.9%) 0.008 us/op [Average]
+  (min, avg, max) = (1.832, 1.839, 1.864), stdev = 0.009
+  CI (99.9%): [1.831, 1.846] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 20)
+
+# Run progress: 88.00% complete, ETA 00:01:10
+# Fork: 1 of 20
+Iteration   1: 20.783 us/op
+
+# Run progress: 88.20% complete, ETA 00:01:09
+# Fork: 2 of 20
+Iteration   1: 20.413 us/op
+
+# Run progress: 88.40% complete, ETA 00:01:08
+# Fork: 3 of 20
+Iteration   1: 21.542 us/op
+
+# Run progress: 88.60% complete, ETA 00:01:06
+# Fork: 4 of 20
+Iteration   1: 20.429 us/op
+
+# Run progress: 88.80% complete, ETA 00:01:05
+# Fork: 5 of 20
+Iteration   1: 20.437 us/op
+
+# Run progress: 89.00% complete, ETA 00:01:04
+# Fork: 6 of 20
+Iteration   1: 20.352 us/op
+
+# Run progress: 89.20% complete, ETA 00:01:03
+# Fork: 7 of 20
+Iteration   1: 20.387 us/op
+
+# Run progress: 89.40% complete, ETA 00:01:02
+# Fork: 8 of 20
+Iteration   1: 20.400 us/op
+
+# Run progress: 89.60% complete, ETA 00:01:00
+# Fork: 9 of 20
+Iteration   1: 20.416 us/op
+
+# Run progress: 89.80% complete, ETA 00:00:59
+# Fork: 10 of 20
+Iteration   1: 20.432 us/op
+
+# Run progress: 90.00% complete, ETA 00:00:58
+# Fork: 11 of 20
+Iteration   1: 20.377 us/op
+
+# Run progress: 90.20% complete, ETA 00:00:57
+# Fork: 12 of 20
+Iteration   1: 20.376 us/op
+
+# Run progress: 90.40% complete, ETA 00:00:56
+# Fork: 13 of 20
+Iteration   1: 20.406 us/op
+
+# Run progress: 90.60% complete, ETA 00:00:55
+# Fork: 14 of 20
+Iteration   1: 20.686 us/op
+
+# Run progress: 90.80% complete, ETA 00:00:53
+# Fork: 15 of 20
+Iteration   1: 20.381 us/op
+
+# Run progress: 91.00% complete, ETA 00:00:52
+# Fork: 16 of 20
+Iteration   1: 20.381 us/op
+
+# Run progress: 91.20% complete, ETA 00:00:51
+# Fork: 17 of 20
+Iteration   1: 20.373 us/op
+
+# Run progress: 91.40% complete, ETA 00:00:50
+# Fork: 18 of 20
+Iteration   1: 20.398 us/op
+
+# Run progress: 91.60% complete, ETA 00:00:49
+# Fork: 19 of 20
+Iteration   1: 20.345 us/op
+
+# Run progress: 91.80% complete, ETA 00:00:48
+# Fork: 20 of 20
+Iteration   1: 20.391 us/op
+
+
+Result "kotlinFibLong":
+  20.485 ±(99.9%) 0.236 us/op [Average]
+  (min, avg, max) = (20.345, 20.485, 21.542), stdev = 0.271
+  CI (99.9%): [20.250, 20.721] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 25)
+
+# Run progress: 92.00% complete, ETA 00:00:46
+# Fork: 1 of 20
+Iteration   1: 225.606 us/op
+
+# Run progress: 92.20% complete, ETA 00:00:45
+# Fork: 2 of 20
+Iteration   1: 225.928 us/op
+
+# Run progress: 92.40% complete, ETA 00:00:44
+# Fork: 3 of 20
+Iteration   1: 225.998 us/op
+
+# Run progress: 92.60% complete, ETA 00:00:43
+# Fork: 4 of 20
+Iteration   1: 224.939 us/op
+
+# Run progress: 92.80% complete, ETA 00:00:42
+# Fork: 5 of 20
+Iteration   1: 224.967 us/op
+
+# Run progress: 93.00% complete, ETA 00:00:41
+# Fork: 6 of 20
+Iteration   1: 225.190 us/op
+
+# Run progress: 93.20% complete, ETA 00:00:39
+# Fork: 7 of 20
+Iteration   1: 225.388 us/op
+
+# Run progress: 93.40% complete, ETA 00:00:38
+# Fork: 8 of 20
+Iteration   1: 225.142 us/op
+
+# Run progress: 93.60% complete, ETA 00:00:37
+# Fork: 9 of 20
+Iteration   1: 229.173 us/op
+
+# Run progress: 93.80% complete, ETA 00:00:36
+# Fork: 10 of 20
+Iteration   1: 225.722 us/op
+
+# Run progress: 94.00% complete, ETA 00:00:35
+# Fork: 11 of 20
+Iteration   1: 225.103 us/op
+
+# Run progress: 94.20% complete, ETA 00:00:34
+# Fork: 12 of 20
+Iteration   1: 225.643 us/op
+
+# Run progress: 94.40% complete, ETA 00:00:32
+# Fork: 13 of 20
+Iteration   1: 225.594 us/op
+
+# Run progress: 94.60% complete, ETA 00:00:31
+# Fork: 14 of 20
+Iteration   1: 225.473 us/op
+
+# Run progress: 94.80% complete, ETA 00:00:30
+# Fork: 15 of 20
+Iteration   1: 225.270 us/op
+
+# Run progress: 95.00% complete, ETA 00:00:29
+# Fork: 16 of 20
+Iteration   1: 225.523 us/op
+
+# Run progress: 95.20% complete, ETA 00:00:28
+# Fork: 17 of 20
+Iteration   1: 225.099 us/op
+
+# Run progress: 95.40% complete, ETA 00:00:26
+# Fork: 18 of 20
+Iteration   1: 225.699 us/op
+
+# Run progress: 95.60% complete, ETA 00:00:25
+# Fork: 19 of 20
+Iteration   1: 226.212 us/op
+
+# Run progress: 95.80% complete, ETA 00:00:24
+# Fork: 20 of 20
+Iteration   1: 224.826 us/op
+
+
+Result "kotlinFibLong":
+  225.625 ±(99.9%) 0.795 us/op [Average]
+  (min, avg, max) = (224.826, 225.625, 229.173), stdev = 0.915
+  CI (99.9%): [224.830, 226.419] (assumes normal distribution)
+
+
+# JMH 1.15 (released 222 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: <none>
+# Measurement: 1 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinFibLong
+# Parameters: (n = 30)
+
+# Run progress: 96.00% complete, ETA 00:00:23
+# Fork: 1 of 20
+Iteration   1: 2500.024 us/op
+
+# Run progress: 96.20% complete, ETA 00:00:22
+# Fork: 2 of 20
+Iteration   1: 2491.506 us/op
+
+# Run progress: 96.40% complete, ETA 00:00:21
+# Fork: 3 of 20
+Iteration   1: 2520.443 us/op
+
+# Run progress: 96.60% complete, ETA 00:00:19
+# Fork: 4 of 20
+Iteration   1: 2502.503 us/op
+
+# Run progress: 96.80% complete, ETA 00:00:18
+# Fork: 5 of 20
+Iteration   1: 2499.169 us/op
+
+# Run progress: 97.00% complete, ETA 00:00:17
+# Fork: 6 of 20
+Iteration   1: 2498.268 us/op
+
+# Run progress: 97.20% complete, ETA 00:00:16
+# Fork: 7 of 20
+Iteration   1: 2499.003 us/op
+
+# Run progress: 97.40% complete, ETA 00:00:15
+# Fork: 8 of 20
+Iteration   1: 2506.221 us/op
+
+# Run progress: 97.60% complete, ETA 00:00:14
+# Fork: 9 of 20
+Iteration   1: 2538.556 us/op
+
+# Run progress: 97.80% complete, ETA 00:00:12
+# Fork: 10 of 20
+Iteration   1: 2498.992 us/op
+
+# Run progress: 98.00% complete, ETA 00:00:11
+# Fork: 11 of 20
+Iteration   1: 2497.442 us/op
+
+# Run progress: 98.20% complete, ETA 00:00:10
+# Fork: 12 of 20
+Iteration   1: 2499.005 us/op
+
+# Run progress: 98.40% complete, ETA 00:00:09
+# Fork: 13 of 20
+Iteration   1: 2539.850 us/op
+
+# Run progress: 98.60% complete, ETA 00:00:08
+# Fork: 14 of 20
+Iteration   1: 2498.868 us/op
+
+# Run progress: 98.80% complete, ETA 00:00:07
+# Fork: 15 of 20
+Iteration   1: 2502.768 us/op
+
+# Run progress: 99.00% complete, ETA 00:00:05
+# Fork: 16 of 20
+Iteration   1: 2494.075 us/op
+
+# Run progress: 99.20% complete, ETA 00:00:04
+# Fork: 17 of 20
+Iteration   1: 2499.557 us/op
+
+# Run progress: 99.40% complete, ETA 00:00:03
+# Fork: 18 of 20
+Iteration   1: 2501.180 us/op
+
+# Run progress: 99.60% complete, ETA 00:00:02
+# Fork: 19 of 20
+Iteration   1: 2495.763 us/op
+
+# Run progress: 99.80% complete, ETA 00:00:01
+# Fork: 20 of 20
+Iteration   1: 2490.304 us/op
+
+
+Result "kotlinFibLong":
+  2503.675 ±(99.9%) 11.803 us/op [Average]
+  (min, avg, max) = (2490.304, 2503.675, 2539.850), stdev = 13.593
+  CI (99.9%): [2491.872, 2515.478] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:09:46
+
+Benchmark                           (n)  Mode  Cnt      Score      Error  Units
+MyBenchmark.groovyFibInvokeDynamic   10  avgt   20      1.288 ±    0.032  us/op
+MyBenchmark.groovyFibInvokeDynamic   15  avgt   20     14.048 ±    0.294  us/op
+MyBenchmark.groovyFibInvokeDynamic   20  avgt   20    158.805 ±    3.903  us/op
+MyBenchmark.groovyFibInvokeDynamic   25  avgt   20   1728.332 ±   27.582  us/op
+MyBenchmark.groovyFibInvokeDynamic   30  avgt   20  18945.058 ±  342.675  us/op
+MyBenchmark.groovyFibLongStatic      10  avgt   20      0.171 ±    0.001  us/op
+MyBenchmark.groovyFibLongStatic      15  avgt   20      1.931 ±    0.003  us/op
+MyBenchmark.groovyFibLongStatic      20  avgt   20     21.464 ±    0.030  us/op
+MyBenchmark.groovyFibLongStatic      25  avgt   20    237.782 ±    0.741  us/op
+MyBenchmark.groovyFibLongStatic      30  avgt   20   2636.592 ±    6.143  us/op
+MyBenchmark.groovyFibTraditional     10  avgt   20      2.712 ±    0.141  us/op
+MyBenchmark.groovyFibTraditional     15  avgt   20     34.845 ±    0.593  us/op
+MyBenchmark.groovyFibTraditional     20  avgt   20    379.477 ±    6.497  us/op
+MyBenchmark.groovyFibTraditional     25  avgt   20   4247.424 ±   96.201  us/op
+MyBenchmark.groovyFibTraditional     30  avgt   20  46990.050 ± 1042.125  us/op
+MyBenchmark.kotlinFibDynamic         10  avgt   20      0.460 ±    0.019  us/op
+MyBenchmark.kotlinFibDynamic         15  avgt   20      5.978 ±    0.043  us/op
+MyBenchmark.kotlinFibDynamic         20  avgt   20     66.679 ±    0.793  us/op
+MyBenchmark.kotlinFibDynamic         25  avgt   20    734.586 ±    5.826  us/op
+MyBenchmark.kotlinFibDynamic         30  avgt   20   8235.131 ±  107.431  us/op
+MyBenchmark.kotlinFibLong            10  avgt   20      0.169 ±    0.001  us/op
+MyBenchmark.kotlinFibLong            15  avgt   20      1.839 ±    0.008  us/op
+MyBenchmark.kotlinFibLong            20  avgt   20     20.485 ±    0.236  us/op
+MyBenchmark.kotlinFibLong            25  avgt   20    225.625 ±    0.795  us/op
+MyBenchmark.kotlinFibLong            30  avgt   20   2503.675 ±   11.803  us/op

@@ -85,68 +85,60 @@ class Overloads {
 
 class KotlinRunnerStatic {
     companion object {
+        val overloads = Overloads()
         @JvmStatic
         fun method0_0Proxy(): String {
-            val x = Overloads()
-            return x.method0_1()
+            return overloads.method0_1()
         }
 
         @JvmStatic
         fun method3_3Proxy(arg1: Int): String {
-            val x = Overloads()
-            return x.method3_3(5, "eew", arg1)
+            return overloads.method3_3(5, "eew", arg1)
         }
 
         @JvmStatic
         fun method5_5Proxy(arg1: Int): String {
-            val x = Overloads()
-            return x.method5_5(11, "33d", 5, "eew", arg1)
+            return overloads.method5_5(11, "33d", 5, "eew", arg1)
         }
 
         @JvmStatic
         fun method5_1_default3Proxy(arg1: Int): String {
-            val x = Overloads()
-            return x.method5_1_default3(11, arg1)
+            return overloads.method5_1_default3(11, arg1)
         }
 
         @JvmStatic
         fun method5_10Proxy(arg1: Int): String {
-            val x = Overloads()
-            return x.method5_10(11, "33d", arg1, "eew", 55)
+            return overloads.method5_10(11, "33d", arg1, "eew", 55)
         }
     }
 }
 
 class KotlinRunnerDynamic {
     companion object {
+        val overloads: dynamic = Overloads()
         @JvmStatic
         fun method0_0Proxy(): String {
-            val x: dynamic = Overloads()
-            return x.method0_1()
+            return overloads.method0_1()
         }
 
         @JvmStatic
         fun method3_3Proxy(arg1: Int): String {
-            val x: dynamic = Overloads()
-            return x.method3_3(5, "eew", arg1)
+            return overloads.method3_3(5, "eew", arg1)
         }
 
         @JvmStatic
         fun method5_5Proxy(arg1: Int): String {
-            val x: dynamic = Overloads()
-            return x.method5_5(11, "33d", 5, "eew", arg1)
+            return overloads.method5_5(11, "33d", 5, "eew", arg1)
         }
 
         @JvmStatic
         fun method5_1_default3Proxy(arg1: Int): String {
-            val x: dynamic = Overloads()
-            return x.method5_1_default3(11, arg1)
+            return overloads.method5_1_default3(11, arg1)
         }
 
         @JvmStatic
         fun method5_10Proxy(arg1: Int): String {
-            val x: dynamic = Overloads()
-            return x.method5_10(11, "33d", arg1, "eew", 55)
+            return overloads.method5_10(11, "33d", arg1, "eew", 55)
         }
     }
 }

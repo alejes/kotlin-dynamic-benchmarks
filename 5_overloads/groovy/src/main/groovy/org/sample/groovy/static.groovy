@@ -87,28 +87,25 @@ class OverloadsStatic {
 
 @CompileStatic
 class GroovyRunnerStatic {
+    static OverloadsDynamic overloads = new OverloadsDynamic()
+
     static String method0_0Proxy() {
-        def x = new OverloadsStatic()
-        return x.method0_1()
+        return overloads.method0_1()
     }
 
     static String method3_3Proxy(int arg1) {
-        def x = new OverloadsStatic()
-        return x.method3_3(5, "eew", arg1)
+        return overloads.method3_3(5, "eew", arg1)
     }
 
     static String method5_5Proxy(int arg1) {
-        def x = new OverloadsStatic()
-        return x.method5_5(11, "33d", arg1, "eew", 55)
+        return overloads.method5_5(11, "33d", arg1, "eew", 55)
     }
 
     static String method5_1_default3Proxy(int arg1) {
-        def x = new OverloadsStatic()
-        return x.method5_1_default3(11, arg1)
+        return overloads.method5_1_default3(11, arg1)
     }
 
     static String method5_10Proxy(int arg1) {
-        def x = new OverloadsStatic()
-        return x.method5_10(11, "33d", arg1, "eew", 55)
+        return overloads.method5_10(11, "33d", arg1, "eew", 55)
     }
 }
