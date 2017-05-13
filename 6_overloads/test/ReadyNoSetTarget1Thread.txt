@@ -1,0 +1,2223 @@
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod0_0
+
+# Run progress: 0.00% complete, ETA 00:30:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.008 us/op
+# Warmup Iteration   3: 0.007 us/op
+# Warmup Iteration   4: 0.008 us/op
+# Warmup Iteration   5: 0.008 us/op
+# Warmup Iteration   6: 0.007 us/op
+# Warmup Iteration   7: 0.007 us/op
+# Warmup Iteration   8: 0.007 us/op
+# Warmup Iteration   9: 0.007 us/op
+# Warmup Iteration  10: 0.007 us/op
+# Warmup Iteration  11: 0.007 us/op
+# Warmup Iteration  12: 0.007 us/op
+# Warmup Iteration  13: 0.007 us/op
+# Warmup Iteration  14: 0.007 us/op
+# Warmup Iteration  15: 0.007 us/op
+# Warmup Iteration  16: 0.007 us/op
+# Warmup Iteration  17: 0.007 us/op
+# Warmup Iteration  18: 0.007 us/op
+# Warmup Iteration  19: 0.007 us/op
+# Warmup Iteration  20: 0.007 us/op
+Iteration   1: 0.007 us/op
+Iteration   2: 0.007 us/op
+Iteration   3: 0.007 us/op
+Iteration   4: 0.007 us/op
+Iteration   5: 0.007 us/op
+Iteration   6: 0.007 us/op
+Iteration   7: 0.007 us/op
+Iteration   8: 0.007 us/op
+Iteration   9: 0.007 us/op
+Iteration  10: 0.007 us/op
+Iteration  11: 0.007 us/op
+Iteration  12: 0.007 us/op
+Iteration  13: 0.007 us/op
+Iteration  14: 0.007 us/op
+Iteration  15: 0.007 us/op
+Iteration  16: 0.007 us/op
+Iteration  17: 0.007 us/op
+Iteration  18: 0.007 us/op
+Iteration  19: 0.007 us/op
+Iteration  20: 0.007 us/op
+
+# Run progress: 2.22% complete, ETA 00:29:29
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.008 us/op
+# Warmup Iteration   3: 0.007 us/op
+# Warmup Iteration   4: 0.007 us/op
+# Warmup Iteration   5: 0.008 us/op
+# Warmup Iteration   6: 0.007 us/op
+# Warmup Iteration   7: 0.007 us/op
+# Warmup Iteration   8: 0.007 us/op
+# Warmup Iteration   9: 0.007 us/op
+# Warmup Iteration  10: 0.007 us/op
+# Warmup Iteration  11: 0.007 us/op
+# Warmup Iteration  12: 0.007 us/op
+# Warmup Iteration  13: 0.007 us/op
+# Warmup Iteration  14: 0.007 us/op
+# Warmup Iteration  15: 0.007 us/op
+# Warmup Iteration  16: 0.007 us/op
+# Warmup Iteration  17: 0.007 us/op
+# Warmup Iteration  18: 0.007 us/op
+# Warmup Iteration  19: 0.007 us/op
+# Warmup Iteration  20: 0.007 us/op
+Iteration   1: 0.007 us/op
+Iteration   2: 0.007 us/op
+Iteration   3: 0.007 us/op
+Iteration   4: 0.007 us/op
+Iteration   5: 0.007 us/op
+Iteration   6: 0.007 us/op
+Iteration   7: 0.007 us/op
+Iteration   8: 0.007 us/op
+Iteration   9: 0.007 us/op
+Iteration  10: 0.007 us/op
+Iteration  11: 0.007 us/op
+Iteration  12: 0.007 us/op
+Iteration  13: 0.007 us/op
+Iteration  14: 0.007 us/op
+Iteration  15: 0.007 us/op
+Iteration  16: 0.007 us/op
+Iteration  17: 0.007 us/op
+Iteration  18: 0.007 us/op
+Iteration  19: 0.007 us/op
+Iteration  20: 0.007 us/op
+
+# Run progress: 4.44% complete, ETA 00:28:48
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.009 us/op
+# Warmup Iteration   2: 0.008 us/op
+# Warmup Iteration   3: 0.007 us/op
+# Warmup Iteration   4: 0.007 us/op
+# Warmup Iteration   5: 0.007 us/op
+# Warmup Iteration   6: 0.007 us/op
+# Warmup Iteration   7: 0.007 us/op
+# Warmup Iteration   8: 0.007 us/op
+# Warmup Iteration   9: 0.007 us/op
+# Warmup Iteration  10: 0.007 us/op
+# Warmup Iteration  11: 0.007 us/op
+# Warmup Iteration  12: 0.007 us/op
+# Warmup Iteration  13: 0.007 us/op
+# Warmup Iteration  14: 0.007 us/op
+# Warmup Iteration  15: 0.007 us/op
+# Warmup Iteration  16: 0.007 us/op
+# Warmup Iteration  17: 0.007 us/op
+# Warmup Iteration  18: 0.007 us/op
+# Warmup Iteration  19: 0.007 us/op
+# Warmup Iteration  20: 0.007 us/op
+Iteration   1: 0.007 us/op
+Iteration   2: 0.007 us/op
+Iteration   3: 0.007 us/op
+Iteration   4: 0.007 us/op
+Iteration   5: 0.007 us/op
+Iteration   6: 0.007 us/op
+Iteration   7: 0.007 us/op
+Iteration   8: 0.007 us/op
+Iteration   9: 0.007 us/op
+Iteration  10: 0.007 us/op
+Iteration  11: 0.007 us/op
+Iteration  12: 0.007 us/op
+Iteration  13: 0.007 us/op
+Iteration  14: 0.007 us/op
+Iteration  15: 0.007 us/op
+Iteration  16: 0.007 us/op
+Iteration  17: 0.007 us/op
+Iteration  18: 0.007 us/op
+Iteration  19: 0.007 us/op
+Iteration  20: 0.007 us/op
+
+
+Result "GroovyDynamicMethod0_0":
+  0.007 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.007, 0.007, 0.007), stdev = 0.001
+  CI (99.9%): [0.007, 0.007] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod3_3
+
+# Run progress: 6.67% complete, ETA 00:28:08
+# Fork: 1 of 3
+# Warmup Iteration   1: 237.664 us/op
+# Warmup Iteration   2: 178.163 us/op
+# Warmup Iteration   3: 178.885 us/op
+# Warmup Iteration   4: 174.710 us/op
+# Warmup Iteration   5: 175.211 us/op
+# Warmup Iteration   6: 175.256 us/op
+# Warmup Iteration   7: 175.882 us/op
+# Warmup Iteration   8: 175.009 us/op
+# Warmup Iteration   9: 174.815 us/op
+# Warmup Iteration  10: 176.211 us/op
+# Warmup Iteration  11: 175.062 us/op
+# Warmup Iteration  12: 174.548 us/op
+# Warmup Iteration  13: 174.802 us/op
+# Warmup Iteration  14: 175.588 us/op
+# Warmup Iteration  15: 175.023 us/op
+# Warmup Iteration  16: 174.649 us/op
+# Warmup Iteration  17: 174.932 us/op
+# Warmup Iteration  18: 176.685 us/op
+# Warmup Iteration  19: 175.376 us/op
+# Warmup Iteration  20: 176.488 us/op
+Iteration   1: 175.024 us/op
+Iteration   2: 175.774 us/op
+Iteration   3: 175.598 us/op
+Iteration   4: 177.158 us/op
+Iteration   5: 175.554 us/op
+Iteration   6: 176.214 us/op
+Iteration   7: 175.899 us/op
+Iteration   8: 175.429 us/op
+Iteration   9: 175.859 us/op
+Iteration  10: 176.278 us/op
+Iteration  11: 176.257 us/op
+Iteration  12: 176.496 us/op
+Iteration  13: 176.093 us/op
+Iteration  14: 175.863 us/op
+Iteration  15: 176.565 us/op
+Iteration  16: 174.595 us/op
+Iteration  17: 175.314 us/op
+Iteration  18: 175.866 us/op
+Iteration  19: 175.644 us/op
+Iteration  20: 175.167 us/op
+
+# Run progress: 8.89% complete, ETA 00:27:28
+# Fork: 2 of 3
+# Warmup Iteration   1: 240.394 us/op
+# Warmup Iteration   2: 170.984 us/op
+# Warmup Iteration   3: 172.163 us/op
+# Warmup Iteration   4: 168.215 us/op
+# Warmup Iteration   5: 174.288 us/op
+# Warmup Iteration   6: 167.787 us/op
+# Warmup Iteration   7: 167.449 us/op
+# Warmup Iteration   8: 167.739 us/op
+# Warmup Iteration   9: 167.732 us/op
+# Warmup Iteration  10: 167.760 us/op
+# Warmup Iteration  11: 167.354 us/op
+# Warmup Iteration  12: 167.826 us/op
+# Warmup Iteration  13: 167.880 us/op
+# Warmup Iteration  14: 168.128 us/op
+# Warmup Iteration  15: 167.670 us/op
+# Warmup Iteration  16: 167.610 us/op
+# Warmup Iteration  17: 167.116 us/op
+# Warmup Iteration  18: 166.963 us/op
+# Warmup Iteration  19: 167.469 us/op
+# Warmup Iteration  20: 166.624 us/op
+Iteration   1: 166.129 us/op
+Iteration   2: 166.030 us/op
+Iteration   3: 166.093 us/op
+Iteration   4: 166.684 us/op
+Iteration   5: 167.279 us/op
+Iteration   6: 166.545 us/op
+Iteration   7: 166.281 us/op
+Iteration   8: 167.111 us/op
+Iteration   9: 166.711 us/op
+Iteration  10: 167.312 us/op
+Iteration  11: 168.277 us/op
+Iteration  12: 167.288 us/op
+Iteration  13: 167.778 us/op
+Iteration  14: 167.489 us/op
+Iteration  15: 167.426 us/op
+Iteration  16: 168.185 us/op
+Iteration  17: 166.298 us/op
+Iteration  18: 166.633 us/op
+Iteration  19: 167.383 us/op
+Iteration  20: 166.680 us/op
+
+# Run progress: 11.11% complete, ETA 00:26:48
+# Fork: 3 of 3
+# Warmup Iteration   1: 254.895 us/op
+# Warmup Iteration   2: 175.646 us/op
+# Warmup Iteration   3: 176.112 us/op
+# Warmup Iteration   4: 171.707 us/op
+# Warmup Iteration   5: 176.546 us/op
+# Warmup Iteration   6: 171.193 us/op
+# Warmup Iteration   7: 171.446 us/op
+# Warmup Iteration   8: 171.505 us/op
+# Warmup Iteration   9: 171.889 us/op
+# Warmup Iteration  10: 171.391 us/op
+# Warmup Iteration  11: 171.511 us/op
+# Warmup Iteration  12: 171.756 us/op
+# Warmup Iteration  13: 171.524 us/op
+# Warmup Iteration  14: 171.992 us/op
+# Warmup Iteration  15: 172.050 us/op
+# Warmup Iteration  16: 171.594 us/op
+# Warmup Iteration  17: 171.484 us/op
+# Warmup Iteration  18: 171.889 us/op
+# Warmup Iteration  19: 171.490 us/op
+# Warmup Iteration  20: 171.828 us/op
+Iteration   1: 171.913 us/op
+Iteration   2: 171.808 us/op
+Iteration   3: 171.739 us/op
+Iteration   4: 171.481 us/op
+Iteration   5: 172.022 us/op
+Iteration   6: 172.063 us/op
+Iteration   7: 171.822 us/op
+Iteration   8: 172.211 us/op
+Iteration   9: 172.245 us/op
+Iteration  10: 173.125 us/op
+Iteration  11: 172.705 us/op
+Iteration  12: 173.541 us/op
+Iteration  13: 173.541 us/op
+Iteration  14: 172.965 us/op
+Iteration  15: 172.145 us/op
+Iteration  16: 172.461 us/op
+Iteration  17: 172.714 us/op
+Iteration  18: 173.193 us/op
+Iteration  19: 173.001 us/op
+Iteration  20: 173.303 us/op
+
+
+Result "GroovyDynamicMethod3_3":
+  171.771 ±(99.9%) 1.669 us/op [Average]
+  (min, avg, max) = (166.030, 171.771, 177.158), stdev = 3.734
+  CI (99.9%): [170.102, 173.440] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod5Proxy
+
+# Run progress: 13.33% complete, ETA 00:26:08
+# Fork: 1 of 3
+# Warmup Iteration   1: 433.885 us/op
+# Warmup Iteration   2: 215.944 us/op
+# Warmup Iteration   3: 216.123 us/op
+# Warmup Iteration   4: 216.499 us/op
+# Warmup Iteration   5: 217.811 us/op
+# Warmup Iteration   6: 210.530 us/op
+# Warmup Iteration   7: 212.161 us/op
+# Warmup Iteration   8: 215.283 us/op
+# Warmup Iteration   9: 210.833 us/op
+# Warmup Iteration  10: 210.248 us/op
+# Warmup Iteration  11: 210.298 us/op
+# Warmup Iteration  12: 210.221 us/op
+# Warmup Iteration  13: 210.192 us/op
+# Warmup Iteration  14: 210.405 us/op
+# Warmup Iteration  15: 210.129 us/op
+# Warmup Iteration  16: 210.426 us/op
+# Warmup Iteration  17: 210.070 us/op
+# Warmup Iteration  18: 211.099 us/op
+# Warmup Iteration  19: 210.702 us/op
+# Warmup Iteration  20: 210.443 us/op
+Iteration   1: 210.742 us/op
+Iteration   2: 211.808 us/op
+Iteration   3: 210.454 us/op
+Iteration   4: 210.933 us/op
+Iteration   5: 210.334 us/op
+Iteration   6: 210.664 us/op
+Iteration   7: 210.379 us/op
+Iteration   8: 210.614 us/op
+Iteration   9: 211.315 us/op
+Iteration  10: 211.331 us/op
+Iteration  11: 210.489 us/op
+Iteration  12: 210.936 us/op
+Iteration  13: 211.039 us/op
+Iteration  14: 211.182 us/op
+Iteration  15: 210.910 us/op
+Iteration  16: 211.279 us/op
+Iteration  17: 212.129 us/op
+Iteration  18: 211.544 us/op
+Iteration  19: 211.668 us/op
+Iteration  20: 211.911 us/op
+
+# Run progress: 15.56% complete, ETA 00:25:28
+# Fork: 2 of 3
+# Warmup Iteration   1: 473.205 us/op
+# Warmup Iteration   2: 231.321 us/op
+# Warmup Iteration   3: 231.280 us/op
+# Warmup Iteration   4: 226.688 us/op
+# Warmup Iteration   5: 225.999 us/op
+# Warmup Iteration   6: 225.530 us/op
+# Warmup Iteration   7: 226.609 us/op
+# Warmup Iteration   8: 225.943 us/op
+# Warmup Iteration   9: 226.190 us/op
+# Warmup Iteration  10: 225.808 us/op
+# Warmup Iteration  11: 226.030 us/op
+# Warmup Iteration  12: 226.099 us/op
+# Warmup Iteration  13: 227.344 us/op
+# Warmup Iteration  14: 227.855 us/op
+# Warmup Iteration  15: 227.964 us/op
+# Warmup Iteration  16: 227.348 us/op
+# Warmup Iteration  17: 227.726 us/op
+# Warmup Iteration  18: 226.996 us/op
+# Warmup Iteration  19: 226.990 us/op
+# Warmup Iteration  20: 226.243 us/op
+Iteration   1: 227.621 us/op
+Iteration   2: 227.228 us/op
+Iteration   3: 227.536 us/op
+Iteration   4: 226.631 us/op
+Iteration   5: 225.988 us/op
+Iteration   6: 225.493 us/op
+Iteration   7: 226.374 us/op
+Iteration   8: 225.988 us/op
+Iteration   9: 226.014 us/op
+Iteration  10: 224.726 us/op
+Iteration  11: 224.813 us/op
+Iteration  12: 224.168 us/op
+Iteration  13: 224.747 us/op
+Iteration  14: 224.485 us/op
+Iteration  15: 224.737 us/op
+Iteration  16: 225.647 us/op
+Iteration  17: 226.401 us/op
+Iteration  18: 224.716 us/op
+Iteration  19: 226.450 us/op
+Iteration  20: 225.766 us/op
+
+# Run progress: 17.78% complete, ETA 00:24:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 435.401 us/op
+# Warmup Iteration   2: 206.975 us/op
+# Warmup Iteration   3: 207.504 us/op
+# Warmup Iteration   4: 208.288 us/op
+# Warmup Iteration   5: 202.845 us/op
+# Warmup Iteration   6: 202.408 us/op
+# Warmup Iteration   7: 202.437 us/op
+# Warmup Iteration   8: 202.263 us/op
+# Warmup Iteration   9: 202.384 us/op
+# Warmup Iteration  10: 202.710 us/op
+# Warmup Iteration  11: 202.625 us/op
+# Warmup Iteration  12: 202.626 us/op
+# Warmup Iteration  13: 202.472 us/op
+# Warmup Iteration  14: 203.147 us/op
+# Warmup Iteration  15: 203.040 us/op
+# Warmup Iteration  16: 203.513 us/op
+# Warmup Iteration  17: 205.094 us/op
+# Warmup Iteration  18: 203.100 us/op
+# Warmup Iteration  19: 203.807 us/op
+# Warmup Iteration  20: 203.825 us/op
+Iteration   1: 203.013 us/op
+Iteration   2: 203.748 us/op
+Iteration   3: 204.713 us/op
+Iteration   4: 203.540 us/op
+Iteration   5: 203.054 us/op
+Iteration   6: 203.816 us/op
+Iteration   7: 203.964 us/op
+Iteration   8: 203.994 us/op
+Iteration   9: 205.019 us/op
+Iteration  10: 203.956 us/op
+Iteration  11: 205.123 us/op
+Iteration  12: 204.282 us/op
+Iteration  13: 204.139 us/op
+Iteration  14: 204.212 us/op
+Iteration  15: 203.528 us/op
+Iteration  16: 203.975 us/op
+Iteration  17: 204.127 us/op
+Iteration  18: 203.916 us/op
+Iteration  19: 204.392 us/op
+Iteration  20: 203.822 us/op
+
+
+Result "GroovyDynamicMethod5Proxy":
+  213.625 ±(99.9%) 4.099 us/op [Average]
+  (min, avg, max) = (203.013, 213.625, 227.621), stdev = 9.169
+  CI (99.9%): [209.526, 217.725] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod5_10
+
+# Run progress: 20.00% complete, ETA 00:24:07
+# Fork: 1 of 3
+# Warmup Iteration   1: 453.785 us/op
+# Warmup Iteration   2: 250.939 us/op
+# Warmup Iteration   3: 252.091 us/op
+# Warmup Iteration   4: 246.724 us/op
+# Warmup Iteration   5: 246.249 us/op
+# Warmup Iteration   6: 246.210 us/op
+# Warmup Iteration   7: 246.208 us/op
+# Warmup Iteration   8: 247.266 us/op
+# Warmup Iteration   9: 246.454 us/op
+# Warmup Iteration  10: 247.212 us/op
+# Warmup Iteration  11: 247.715 us/op
+# Warmup Iteration  12: 246.291 us/op
+# Warmup Iteration  13: 247.762 us/op
+# Warmup Iteration  14: 247.082 us/op
+# Warmup Iteration  15: 248.325 us/op
+# Warmup Iteration  16: 248.295 us/op
+# Warmup Iteration  17: 248.412 us/op
+# Warmup Iteration  18: 248.618 us/op
+# Warmup Iteration  19: 249.648 us/op
+# Warmup Iteration  20: 250.631 us/op
+Iteration   1: 248.944 us/op
+Iteration   2: 248.341 us/op
+Iteration   3: 248.191 us/op
+Iteration   4: 248.146 us/op
+Iteration   5: 250.225 us/op
+Iteration   6: 248.729 us/op
+Iteration   7: 248.520 us/op
+Iteration   8: 247.615 us/op
+Iteration   9: 248.386 us/op
+Iteration  10: 248.030 us/op
+Iteration  11: 248.670 us/op
+Iteration  12: 248.721 us/op
+Iteration  13: 248.507 us/op
+Iteration  14: 248.571 us/op
+Iteration  15: 248.328 us/op
+Iteration  16: 247.872 us/op
+Iteration  17: 249.567 us/op
+Iteration  18: 247.742 us/op
+Iteration  19: 248.221 us/op
+Iteration  20: 248.484 us/op
+
+# Run progress: 22.22% complete, ETA 00:23:27
+# Fork: 2 of 3
+# Warmup Iteration   1: 445.692 us/op
+# Warmup Iteration   2: 243.203 us/op
+# Warmup Iteration   3: 241.104 us/op
+# Warmup Iteration   4: 236.580 us/op
+# Warmup Iteration   5: 243.974 us/op
+# Warmup Iteration   6: 235.930 us/op
+# Warmup Iteration   7: 236.732 us/op
+# Warmup Iteration   8: 236.471 us/op
+# Warmup Iteration   9: 236.389 us/op
+# Warmup Iteration  10: 236.310 us/op
+# Warmup Iteration  11: 236.349 us/op
+# Warmup Iteration  12: 236.356 us/op
+# Warmup Iteration  13: 236.346 us/op
+# Warmup Iteration  14: 238.203 us/op
+# Warmup Iteration  15: 236.489 us/op
+# Warmup Iteration  16: 236.053 us/op
+# Warmup Iteration  17: 235.987 us/op
+# Warmup Iteration  18: 235.840 us/op
+# Warmup Iteration  19: 237.584 us/op
+# Warmup Iteration  20: 236.355 us/op
+Iteration   1: 236.613 us/op
+Iteration   2: 236.733 us/op
+Iteration   3: 236.320 us/op
+Iteration   4: 237.175 us/op
+Iteration   5: 236.936 us/op
+Iteration   6: 238.408 us/op
+Iteration   7: 238.399 us/op
+Iteration   8: 237.164 us/op
+Iteration   9: 238.080 us/op
+Iteration  10: 237.999 us/op
+Iteration  11: 236.974 us/op
+Iteration  12: 237.591 us/op
+Iteration  13: 237.247 us/op
+Iteration  14: 238.467 us/op
+Iteration  15: 238.486 us/op
+Iteration  16: 238.083 us/op
+Iteration  17: 239.671 us/op
+Iteration  18: 236.966 us/op
+Iteration  19: 236.696 us/op
+Iteration  20: 237.530 us/op
+
+# Run progress: 24.44% complete, ETA 00:22:47
+# Fork: 3 of 3
+# Warmup Iteration   1: 578.032 us/op
+# Warmup Iteration   2: 236.892 us/op
+# Warmup Iteration   3: 234.398 us/op
+# Warmup Iteration   4: 229.230 us/op
+# Warmup Iteration   5: 229.634 us/op
+# Warmup Iteration   6: 229.849 us/op
+# Warmup Iteration   7: 231.253 us/op
+# Warmup Iteration   8: 229.691 us/op
+# Warmup Iteration   9: 230.475 us/op
+# Warmup Iteration  10: 229.563 us/op
+# Warmup Iteration  11: 230.118 us/op
+# Warmup Iteration  12: 230.574 us/op
+# Warmup Iteration  13: 230.299 us/op
+# Warmup Iteration  14: 231.471 us/op
+# Warmup Iteration  15: 230.537 us/op
+# Warmup Iteration  16: 231.715 us/op
+# Warmup Iteration  17: 231.950 us/op
+# Warmup Iteration  18: 229.952 us/op
+# Warmup Iteration  19: 230.112 us/op
+# Warmup Iteration  20: 230.762 us/op
+Iteration   1: 230.892 us/op
+Iteration   2: 230.800 us/op
+Iteration   3: 231.569 us/op
+Iteration   4: 232.485 us/op
+Iteration   5: 230.727 us/op
+Iteration   6: 231.570 us/op
+Iteration   7: 231.606 us/op
+Iteration   8: 233.379 us/op
+Iteration   9: 231.126 us/op
+Iteration  10: 231.049 us/op
+Iteration  11: 232.190 us/op
+Iteration  12: 231.775 us/op
+Iteration  13: 231.519 us/op
+Iteration  14: 232.602 us/op
+Iteration  15: 233.497 us/op
+Iteration  16: 233.461 us/op
+Iteration  17: 230.708 us/op
+Iteration  18: 232.301 us/op
+Iteration  19: 230.778 us/op
+Iteration  20: 231.056 us/op
+
+
+Result "GroovyDynamicMethod5_10":
+  239.274 ±(99.9%) 3.148 us/op [Average]
+  (min, avg, max) = (230.708, 239.274, 250.225), stdev = 7.040
+  CI (99.9%): [236.126, 242.422] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod5_2_default3Proxy
+
+# Run progress: 26.67% complete, ETA 00:22:06
+# Fork: 1 of 3
+# Warmup Iteration   1: 260.343 us/op
+# Warmup Iteration   2: 184.122 us/op
+# Warmup Iteration   3: 184.065 us/op
+# Warmup Iteration   4: 180.066 us/op
+# Warmup Iteration   5: 179.951 us/op
+# Warmup Iteration   6: 180.069 us/op
+# Warmup Iteration   7: 179.828 us/op
+# Warmup Iteration   8: 180.535 us/op
+# Warmup Iteration   9: 180.874 us/op
+# Warmup Iteration  10: 180.455 us/op
+# Warmup Iteration  11: 180.654 us/op
+# Warmup Iteration  12: 180.509 us/op
+# Warmup Iteration  13: 180.473 us/op
+# Warmup Iteration  14: 180.691 us/op
+# Warmup Iteration  15: 181.471 us/op
+# Warmup Iteration  16: 181.373 us/op
+# Warmup Iteration  17: 180.812 us/op
+# Warmup Iteration  18: 180.946 us/op
+# Warmup Iteration  19: 182.405 us/op
+# Warmup Iteration  20: 181.902 us/op
+Iteration   1: 181.866 us/op
+Iteration   2: 180.099 us/op
+Iteration   3: 180.714 us/op
+Iteration   4: 180.297 us/op
+Iteration   5: 180.296 us/op
+Iteration   6: 180.994 us/op
+Iteration   7: 181.748 us/op
+Iteration   8: 181.014 us/op
+Iteration   9: 181.020 us/op
+Iteration  10: 181.585 us/op
+Iteration  11: 181.562 us/op
+Iteration  12: 182.156 us/op
+Iteration  13: 181.487 us/op
+Iteration  14: 181.305 us/op
+Iteration  15: 181.371 us/op
+Iteration  16: 181.999 us/op
+Iteration  17: 182.092 us/op
+Iteration  18: 181.389 us/op
+Iteration  19: 181.641 us/op
+Iteration  20: 182.174 us/op
+
+# Run progress: 28.89% complete, ETA 00:21:26
+# Fork: 2 of 3
+# Warmup Iteration   1: 256.600 us/op
+# Warmup Iteration   2: 177.397 us/op
+# Warmup Iteration   3: 177.090 us/op
+# Warmup Iteration   4: 173.204 us/op
+# Warmup Iteration   5: 177.775 us/op
+# Warmup Iteration   6: 173.208 us/op
+# Warmup Iteration   7: 173.150 us/op
+# Warmup Iteration   8: 173.548 us/op
+# Warmup Iteration   9: 173.140 us/op
+# Warmup Iteration  10: 173.553 us/op
+# Warmup Iteration  11: 173.092 us/op
+# Warmup Iteration  12: 173.345 us/op
+# Warmup Iteration  13: 172.938 us/op
+# Warmup Iteration  14: 172.934 us/op
+# Warmup Iteration  15: 172.990 us/op
+# Warmup Iteration  16: 173.127 us/op
+# Warmup Iteration  17: 172.968 us/op
+# Warmup Iteration  18: 174.321 us/op
+# Warmup Iteration  19: 173.586 us/op
+# Warmup Iteration  20: 173.772 us/op
+Iteration   1: 173.259 us/op
+Iteration   2: 173.189 us/op
+Iteration   3: 173.536 us/op
+Iteration   4: 173.585 us/op
+Iteration   5: 173.717 us/op
+Iteration   6: 173.403 us/op
+Iteration   7: 173.777 us/op
+Iteration   8: 173.967 us/op
+Iteration   9: 174.364 us/op
+Iteration  10: 173.983 us/op
+Iteration  11: 174.961 us/op
+Iteration  12: 174.609 us/op
+Iteration  13: 174.742 us/op
+Iteration  14: 174.595 us/op
+Iteration  15: 175.186 us/op
+Iteration  16: 173.610 us/op
+Iteration  17: 173.520 us/op
+Iteration  18: 175.312 us/op
+Iteration  19: 173.965 us/op
+Iteration  20: 174.008 us/op
+
+# Run progress: 31.11% complete, ETA 00:20:46
+# Fork: 3 of 3
+# Warmup Iteration   1: 251.307 us/op
+# Warmup Iteration   2: 174.779 us/op
+# Warmup Iteration   3: 174.877 us/op
+# Warmup Iteration   4: 170.988 us/op
+# Warmup Iteration   5: 175.494 us/op
+# Warmup Iteration   6: 170.770 us/op
+# Warmup Iteration   7: 170.753 us/op
+# Warmup Iteration   8: 170.536 us/op
+# Warmup Iteration   9: 170.741 us/op
+# Warmup Iteration  10: 170.884 us/op
+# Warmup Iteration  11: 171.086 us/op
+# Warmup Iteration  12: 170.678 us/op
+# Warmup Iteration  13: 170.748 us/op
+# Warmup Iteration  14: 170.783 us/op
+# Warmup Iteration  15: 170.793 us/op
+# Warmup Iteration  16: 170.921 us/op
+# Warmup Iteration  17: 170.803 us/op
+# Warmup Iteration  18: 170.994 us/op
+# Warmup Iteration  19: 171.227 us/op
+# Warmup Iteration  20: 171.974 us/op
+Iteration   1: 171.621 us/op
+Iteration   2: 171.606 us/op
+Iteration   3: 171.922 us/op
+Iteration   4: 173.367 us/op
+Iteration   5: 172.093 us/op
+Iteration   6: 172.481 us/op
+Iteration   7: 172.295 us/op
+Iteration   8: 172.236 us/op
+Iteration   9: 172.900 us/op
+Iteration  10: 173.161 us/op
+Iteration  11: 173.513 us/op
+Iteration  12: 173.463 us/op
+Iteration  13: 173.138 us/op
+Iteration  14: 173.661 us/op
+Iteration  15: 172.741 us/op
+Iteration  16: 173.580 us/op
+Iteration  17: 172.055 us/op
+Iteration  18: 172.417 us/op
+Iteration  19: 172.736 us/op
+Iteration  20: 172.643 us/op
+
+
+Result "GroovyDynamicMethod5_2_default3Proxy":
+  176.029 ±(99.9%) 1.735 us/op [Average]
+  (min, avg, max) = (171.606, 176.029, 182.174), stdev = 3.882
+  CI (99.9%): [174.293, 177.764] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod0_0
+
+# Run progress: 33.33% complete, ETA 00:20:06
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.004 us/op
+# Warmup Iteration   2: 0.003 us/op
+# Warmup Iteration   3: 0.003 us/op
+# Warmup Iteration   4: 0.003 us/op
+# Warmup Iteration   5: 0.003 us/op
+# Warmup Iteration   6: 0.003 us/op
+# Warmup Iteration   7: 0.003 us/op
+# Warmup Iteration   8: 0.003 us/op
+# Warmup Iteration   9: 0.003 us/op
+# Warmup Iteration  10: 0.003 us/op
+# Warmup Iteration  11: 0.003 us/op
+# Warmup Iteration  12: 0.003 us/op
+# Warmup Iteration  13: 0.003 us/op
+# Warmup Iteration  14: 0.003 us/op
+# Warmup Iteration  15: 0.003 us/op
+# Warmup Iteration  16: 0.003 us/op
+# Warmup Iteration  17: 0.003 us/op
+# Warmup Iteration  18: 0.003 us/op
+# Warmup Iteration  19: 0.003 us/op
+# Warmup Iteration  20: 0.003 us/op
+Iteration   1: 0.003 us/op
+Iteration   2: 0.003 us/op
+Iteration   3: 0.003 us/op
+Iteration   4: 0.003 us/op
+Iteration   5: 0.003 us/op
+Iteration   6: 0.003 us/op
+Iteration   7: 0.003 us/op
+Iteration   8: 0.003 us/op
+Iteration   9: 0.003 us/op
+Iteration  10: 0.003 us/op
+Iteration  11: 0.003 us/op
+Iteration  12: 0.003 us/op
+Iteration  13: 0.003 us/op
+Iteration  14: 0.003 us/op
+Iteration  15: 0.003 us/op
+Iteration  16: 0.003 us/op
+Iteration  17: 0.003 us/op
+Iteration  18: 0.003 us/op
+Iteration  19: 0.003 us/op
+Iteration  20: 0.003 us/op
+
+# Run progress: 35.56% complete, ETA 00:19:26
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.004 us/op
+# Warmup Iteration   2: 0.003 us/op
+# Warmup Iteration   3: 0.003 us/op
+# Warmup Iteration   4: 0.003 us/op
+# Warmup Iteration   5: 0.003 us/op
+# Warmup Iteration   6: 0.003 us/op
+# Warmup Iteration   7: 0.003 us/op
+# Warmup Iteration   8: 0.003 us/op
+# Warmup Iteration   9: 0.003 us/op
+# Warmup Iteration  10: 0.003 us/op
+# Warmup Iteration  11: 0.003 us/op
+# Warmup Iteration  12: 0.003 us/op
+# Warmup Iteration  13: 0.003 us/op
+# Warmup Iteration  14: 0.003 us/op
+# Warmup Iteration  15: 0.003 us/op
+# Warmup Iteration  16: 0.003 us/op
+# Warmup Iteration  17: 0.003 us/op
+# Warmup Iteration  18: 0.003 us/op
+# Warmup Iteration  19: 0.003 us/op
+# Warmup Iteration  20: 0.003 us/op
+Iteration   1: 0.003 us/op
+Iteration   2: 0.003 us/op
+Iteration   3: 0.003 us/op
+Iteration   4: 0.003 us/op
+Iteration   5: 0.003 us/op
+Iteration   6: 0.003 us/op
+Iteration   7: 0.003 us/op
+Iteration   8: 0.003 us/op
+Iteration   9: 0.003 us/op
+Iteration  10: 0.003 us/op
+Iteration  11: 0.003 us/op
+Iteration  12: 0.003 us/op
+Iteration  13: 0.003 us/op
+Iteration  14: 0.003 us/op
+Iteration  15: 0.003 us/op
+Iteration  16: 0.003 us/op
+Iteration  17: 0.003 us/op
+Iteration  18: 0.003 us/op
+Iteration  19: 0.003 us/op
+Iteration  20: 0.003 us/op
+
+# Run progress: 37.78% complete, ETA 00:18:45
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.004 us/op
+# Warmup Iteration   2: 0.003 us/op
+# Warmup Iteration   3: 0.003 us/op
+# Warmup Iteration   4: 0.003 us/op
+# Warmup Iteration   5: 0.003 us/op
+# Warmup Iteration   6: 0.003 us/op
+# Warmup Iteration   7: 0.003 us/op
+# Warmup Iteration   8: 0.003 us/op
+# Warmup Iteration   9: 0.003 us/op
+# Warmup Iteration  10: 0.003 us/op
+# Warmup Iteration  11: 0.003 us/op
+# Warmup Iteration  12: 0.003 us/op
+# Warmup Iteration  13: 0.003 us/op
+# Warmup Iteration  14: 0.003 us/op
+# Warmup Iteration  15: 0.003 us/op
+# Warmup Iteration  16: 0.003 us/op
+# Warmup Iteration  17: 0.003 us/op
+# Warmup Iteration  18: 0.003 us/op
+# Warmup Iteration  19: 0.003 us/op
+# Warmup Iteration  20: 0.003 us/op
+Iteration   1: 0.003 us/op
+Iteration   2: 0.003 us/op
+Iteration   3: 0.003 us/op
+Iteration   4: 0.003 us/op
+Iteration   5: 0.003 us/op
+Iteration   6: 0.003 us/op
+Iteration   7: 0.003 us/op
+Iteration   8: 0.003 us/op
+Iteration   9: 0.003 us/op
+Iteration  10: 0.003 us/op
+Iteration  11: 0.003 us/op
+Iteration  12: 0.003 us/op
+Iteration  13: 0.003 us/op
+Iteration  14: 0.003 us/op
+Iteration  15: 0.003 us/op
+Iteration  16: 0.003 us/op
+Iteration  17: 0.003 us/op
+Iteration  18: 0.003 us/op
+Iteration  19: 0.003 us/op
+Iteration  20: 0.003 us/op
+
+
+Result "GroovyInvokeDynamicMethod0_0":
+  0.003 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.003, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.003, 0.003] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod3_3
+
+# Run progress: 40.00% complete, ETA 00:18:05
+# Fork: 1 of 3
+# Warmup Iteration   1: 21985.686 us/op
+# Warmup Iteration   2: 8248.763 us/op
+# Warmup Iteration   3: 8139.772 us/op
+# Warmup Iteration   4: 8053.410 us/op
+# Warmup Iteration   5: 8740.916 us/op
+# Warmup Iteration   6: 7910.763 us/op
+# Warmup Iteration   7: 7929.376 us/op
+# Warmup Iteration   8: 8160.091 us/op
+# Warmup Iteration   9: 7942.860 us/op
+# Warmup Iteration  10: 7829.624 us/op
+# Warmup Iteration  11: 7851.920 us/op
+# Warmup Iteration  12: 7961.095 us/op
+# Warmup Iteration  13: 7960.377 us/op
+# Warmup Iteration  14: 7938.470 us/op
+# Warmup Iteration  15: 7969.021 us/op
+# Warmup Iteration  16: 7993.835 us/op
+# Warmup Iteration  17: 7896.453 us/op
+# Warmup Iteration  18: 7909.957 us/op
+# Warmup Iteration  19: 8020.891 us/op
+# Warmup Iteration  20: 8045.743 us/op
+Iteration   1: 8011.260 us/op
+Iteration   2: 8048.195 us/op
+Iteration   3: 8041.400 us/op
+Iteration   4: 8030.720 us/op
+Iteration   5: 8016.860 us/op
+Iteration   6: 8064.991 us/op
+Iteration   7: 8131.774 us/op
+Iteration   8: 8091.380 us/op
+Iteration   9: 8038.163 us/op
+Iteration  10: 7944.165 us/op
+Iteration  11: 8102.715 us/op
+Iteration  12: 8012.578 us/op
+Iteration  13: 8095.787 us/op
+Iteration  14: 7991.575 us/op
+Iteration  15: 8066.691 us/op
+Iteration  16: 8105.167 us/op
+Iteration  17: 7986.663 us/op
+Iteration  18: 8119.350 us/op
+Iteration  19: 8137.269 us/op
+Iteration  20: 7810.176 us/op
+
+# Run progress: 42.22% complete, ETA 00:17:25
+# Fork: 2 of 3
+# Warmup Iteration   1: 23293.564 us/op
+# Warmup Iteration   2: 7959.805 us/op
+# Warmup Iteration   3: 7746.627 us/op
+# Warmup Iteration   4: 7544.372 us/op
+# Warmup Iteration   5: 7663.690 us/op
+# Warmup Iteration   6: 7548.195 us/op
+# Warmup Iteration   7: 7536.965 us/op
+# Warmup Iteration   8: 7792.702 us/op
+# Warmup Iteration   9: 7308.238 us/op
+# Warmup Iteration  10: 7420.582 us/op
+# Warmup Iteration  11: 7406.845 us/op
+# Warmup Iteration  12: 7385.494 us/op
+# Warmup Iteration  13: 7398.882 us/op
+# Warmup Iteration  14: 7459.352 us/op
+# Warmup Iteration  15: 7414.295 us/op
+# Warmup Iteration  16: 7376.886 us/op
+# Warmup Iteration  17: 7457.303 us/op
+# Warmup Iteration  18: 7456.231 us/op
+# Warmup Iteration  19: 7458.447 us/op
+# Warmup Iteration  20: 7455.048 us/op
+Iteration   1: 7492.719 us/op
+Iteration   2: 7540.205 us/op
+Iteration   3: 7594.975 us/op
+Iteration   4: 7509.248 us/op
+Iteration   5: 7551.389 us/op
+Iteration   6: 7596.044 us/op
+Iteration   7: 7646.682 us/op
+Iteration   8: 7620.475 us/op
+Iteration   9: 7569.287 us/op
+Iteration  10: 7711.116 us/op
+Iteration  11: 7470.000 us/op
+Iteration  12: 7571.992 us/op
+Iteration  13: 7588.444 us/op
+Iteration  14: 7553.699 us/op
+Iteration  15: 7564.691 us/op
+Iteration  16: 7511.578 us/op
+Iteration  17: 7496.248 us/op
+Iteration  18: 7543.391 us/op
+Iteration  19: 7405.618 us/op
+Iteration  20: 7434.929 us/op
+
+# Run progress: 44.44% complete, ETA 00:16:45
+# Fork: 3 of 3
+# Warmup Iteration   1: 19293.559 us/op
+# Warmup Iteration   2: 8100.873 us/op
+# Warmup Iteration   3: 8026.815 us/op
+# Warmup Iteration   4: 7853.888 us/op
+# Warmup Iteration   5: 8309.075 us/op
+# Warmup Iteration   6: 7838.972 us/op
+# Warmup Iteration   7: 7932.201 us/op
+# Warmup Iteration   8: 8158.405 us/op
+# Warmup Iteration   9: 7915.071 us/op
+# Warmup Iteration  10: 7950.038 us/op
+# Warmup Iteration  11: 7832.017 us/op
+# Warmup Iteration  12: 7879.583 us/op
+# Warmup Iteration  13: 7862.655 us/op
+# Warmup Iteration  14: 7885.951 us/op
+# Warmup Iteration  15: 8409.873 us/op
+# Warmup Iteration  16: 9474.501 us/op
+# Warmup Iteration  17: 8040.108 us/op
+# Warmup Iteration  18: 7856.587 us/op
+# Warmup Iteration  19: 7800.874 us/op
+# Warmup Iteration  20: 7842.135 us/op
+Iteration   1: 7823.509 us/op
+Iteration   2: 7841.454 us/op
+Iteration   3: 7863.079 us/op
+Iteration   4: 7926.018 us/op
+Iteration   5: 7916.072 us/op
+Iteration   6: 7858.131 us/op
+Iteration   7: 7852.069 us/op
+Iteration   8: 7951.798 us/op
+Iteration   9: 7926.838 us/op
+Iteration  10: 7885.152 us/op
+Iteration  11: 7935.306 us/op
+Iteration  12: 7800.298 us/op
+Iteration  13: 7960.879 us/op
+Iteration  14: 7949.436 us/op
+Iteration  15: 7896.032 us/op
+Iteration  16: 7854.666 us/op
+Iteration  17: 7820.399 us/op
+Iteration  18: 7717.298 us/op
+Iteration  19: 7605.016 us/op
+Iteration  20: 7615.003 us/op
+
+
+Result "GroovyInvokeDynamicMethod3_3":
+  7813.634 ±(99.9%) 98.766 us/op [Average]
+  (min, avg, max) = (7405.618, 7813.634, 8137.269), stdev = 220.904
+  CI (99.9%): [7714.868, 7912.400] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod5Proxy
+
+# Run progress: 46.67% complete, ETA 00:16:05
+# Fork: 1 of 3
+# Warmup Iteration   1: 20518.575 us/op
+# Warmup Iteration   2: 10106.648 us/op
+# Warmup Iteration   3: 9211.644 us/op
+# Warmup Iteration   4: 8727.027 us/op
+# Warmup Iteration   5: 9227.629 us/op
+# Warmup Iteration   6: 8900.583 us/op
+# Warmup Iteration   7: 8906.161 us/op
+# Warmup Iteration   8: 9023.408 us/op
+# Warmup Iteration   9: 8841.832 us/op
+# Warmup Iteration  10: 8871.922 us/op
+# Warmup Iteration  11: 8789.512 us/op
+# Warmup Iteration  12: 8831.403 us/op
+# Warmup Iteration  13: 8864.062 us/op
+# Warmup Iteration  14: 8857.220 us/op
+# Warmup Iteration  15: 8836.253 us/op
+# Warmup Iteration  16: 8922.634 us/op
+# Warmup Iteration  17: 8931.526 us/op
+# Warmup Iteration  18: 8908.339 us/op
+# Warmup Iteration  19: 8954.770 us/op
+# Warmup Iteration  20: 8869.956 us/op
+Iteration   1: 8776.500 us/op
+Iteration   2: 8962.576 us/op
+Iteration   3: 8904.592 us/op
+Iteration   4: 8946.967 us/op
+Iteration   5: 8967.413 us/op
+Iteration   6: 8972.844 us/op
+Iteration   7: 8941.503 us/op
+Iteration   8: 8874.692 us/op
+Iteration   9: 8999.153 us/op
+Iteration  10: 8826.557 us/op
+Iteration  11: 8902.499 us/op
+Iteration  12: 8729.586 us/op
+Iteration  13: 8915.513 us/op
+Iteration  14: 8839.131 us/op
+Iteration  15: 8942.642 us/op
+Iteration  16: 8782.198 us/op
+Iteration  17: 8677.745 us/op
+Iteration  18: 8665.190 us/op
+Iteration  19: 8695.594 us/op
+Iteration  20: 8728.968 us/op
+
+# Run progress: 48.89% complete, ETA 00:15:25
+# Fork: 2 of 3
+# Warmup Iteration   1: 21953.199 us/op
+# Warmup Iteration   2: 9577.876 us/op
+# Warmup Iteration   3: 9490.765 us/op
+# Warmup Iteration   4: 9047.194 us/op
+# Warmup Iteration   5: 9209.696 us/op
+# Warmup Iteration   6: 8889.729 us/op
+# Warmup Iteration   7: 9043.509 us/op
+# Warmup Iteration   8: 9169.782 us/op
+# Warmup Iteration   9: 8853.972 us/op
+# Warmup Iteration  10: 8898.318 us/op
+# Warmup Iteration  11: 8896.116 us/op
+# Warmup Iteration  12: 8878.627 us/op
+# Warmup Iteration  13: 8869.248 us/op
+# Warmup Iteration  14: 8937.879 us/op
+# Warmup Iteration  15: 8809.868 us/op
+# Warmup Iteration  16: 8909.564 us/op
+# Warmup Iteration  17: 8934.679 us/op
+# Warmup Iteration  18: 8915.342 us/op
+# Warmup Iteration  19: 8936.947 us/op
+# Warmup Iteration  20: 8877.150 us/op
+Iteration   1: 8807.182 us/op
+Iteration   2: 8884.186 us/op
+Iteration   3: 8865.969 us/op
+Iteration   4: 8979.951 us/op
+Iteration   5: 8934.743 us/op
+Iteration   6: 8893.520 us/op
+Iteration   7: 8976.872 us/op
+Iteration   8: 8968.150 us/op
+Iteration   9: 9053.731 us/op
+Iteration  10: 8948.396 us/op
+Iteration  11: 9079.407 us/op
+Iteration  12: 8979.853 us/op
+Iteration  13: 9015.359 us/op
+Iteration  14: 8862.542 us/op
+Iteration  15: 8806.554 us/op
+Iteration  16: 8842.860 us/op
+Iteration  17: 8844.805 us/op
+Iteration  18: 8808.981 us/op
+Iteration  19: 8747.643 us/op
+Iteration  20: 8787.419 us/op
+
+# Run progress: 51.11% complete, ETA 00:14:45
+# Fork: 3 of 3
+# Warmup Iteration   1: 28598.713 us/op
+# Warmup Iteration   2: 10165.335 us/op
+# Warmup Iteration   3: 9411.570 us/op
+# Warmup Iteration   4: 8902.524 us/op
+# Warmup Iteration   5: 9243.254 us/op
+# Warmup Iteration   6: 8951.578 us/op
+# Warmup Iteration   7: 8927.471 us/op
+# Warmup Iteration   8: 9380.343 us/op
+# Warmup Iteration   9: 8902.958 us/op
+# Warmup Iteration  10: 8893.866 us/op
+# Warmup Iteration  11: 8852.547 us/op
+# Warmup Iteration  12: 8882.577 us/op
+# Warmup Iteration  13: 8924.098 us/op
+# Warmup Iteration  14: 8856.478 us/op
+# Warmup Iteration  15: 8969.006 us/op
+# Warmup Iteration  16: 8924.368 us/op
+# Warmup Iteration  17: 8885.745 us/op
+# Warmup Iteration  18: 8953.110 us/op
+# Warmup Iteration  19: 8975.351 us/op
+# Warmup Iteration  20: 8983.836 us/op
+Iteration   1: 8973.786 us/op
+Iteration   2: 8950.709 us/op
+Iteration   3: 8878.548 us/op
+Iteration   4: 8950.257 us/op
+Iteration   5: 8958.883 us/op
+Iteration   6: 9142.200 us/op
+Iteration   7: 8938.455 us/op
+Iteration   8: 9068.147 us/op
+Iteration   9: 8964.673 us/op
+Iteration  10: 9001.338 us/op
+Iteration  11: 8859.615 us/op
+Iteration  12: 9050.628 us/op
+Iteration  13: 8944.745 us/op
+Iteration  14: 8967.834 us/op
+Iteration  15: 8920.496 us/op
+Iteration  16: 8940.621 us/op
+Iteration  17: 8928.108 us/op
+Iteration  18: 8806.561 us/op
+Iteration  19: 8814.044 us/op
+Iteration  20: 8858.809 us/op
+
+
+Result "GroovyInvokeDynamicMethod5Proxy":
+  8900.974 ±(99.9%) 45.411 us/op [Average]
+  (min, avg, max) = (8665.190, 8900.974, 9142.200), stdev = 101.568
+  CI (99.9%): [8855.563, 8946.385] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod5_10
+
+# Run progress: 53.33% complete, ETA 00:14:05
+# Fork: 1 of 3
+# Warmup Iteration   1: 19720.662 us/op
+# Warmup Iteration   2: 9132.025 us/op
+# Warmup Iteration   3: 9095.893 us/op
+# Warmup Iteration   4: 8854.642 us/op
+# Warmup Iteration   5: 9077.547 us/op
+# Warmup Iteration   6: 8807.062 us/op
+# Warmup Iteration   7: 8727.524 us/op
+# Warmup Iteration   8: 8778.978 us/op
+# Warmup Iteration   9: 8812.433 us/op
+# Warmup Iteration  10: 8794.038 us/op
+# Warmup Iteration  11: 8819.126 us/op
+# Warmup Iteration  12: 8760.273 us/op
+# Warmup Iteration  13: 8760.213 us/op
+# Warmup Iteration  14: 8862.810 us/op
+# Warmup Iteration  15: 8758.755 us/op
+# Warmup Iteration  16: 8807.978 us/op
+# Warmup Iteration  17: 8740.291 us/op
+# Warmup Iteration  18: 8690.679 us/op
+# Warmup Iteration  19: 8755.319 us/op
+# Warmup Iteration  20: 8717.216 us/op
+Iteration   1: 8658.709 us/op
+Iteration   2: 8818.066 us/op
+Iteration   3: 9083.690 us/op
+Iteration   4: 9092.696 us/op
+Iteration   5: 8739.431 us/op
+Iteration   6: 9684.422 us/op
+Iteration   7: 8909.557 us/op
+Iteration   8: 8793.040 us/op
+Iteration   9: 8711.145 us/op
+Iteration  10: 8587.517 us/op
+Iteration  11: 8576.700 us/op
+Iteration  12: 8663.684 us/op
+Iteration  13: 8594.989 us/op
+Iteration  14: 8641.474 us/op
+Iteration  15: 8565.102 us/op
+Iteration  16: 8576.870 us/op
+Iteration  17: 8604.585 us/op
+Iteration  18: 8601.853 us/op
+Iteration  19: 8559.539 us/op
+Iteration  20: 8616.908 us/op
+
+# Run progress: 55.56% complete, ETA 00:13:25
+# Fork: 2 of 3
+# Warmup Iteration   1: 34912.929 us/op
+# Warmup Iteration   2: 9930.642 us/op
+# Warmup Iteration   3: 9379.574 us/op
+# Warmup Iteration   4: 8825.317 us/op
+# Warmup Iteration   5: 9095.993 us/op
+# Warmup Iteration   6: 8841.489 us/op
+# Warmup Iteration   7: 8855.593 us/op
+# Warmup Iteration   8: 9194.148 us/op
+# Warmup Iteration   9: 8921.044 us/op
+# Warmup Iteration  10: 8825.191 us/op
+# Warmup Iteration  11: 8904.570 us/op
+# Warmup Iteration  12: 8758.126 us/op
+# Warmup Iteration  13: 8798.755 us/op
+# Warmup Iteration  14: 8854.131 us/op
+# Warmup Iteration  15: 8868.873 us/op
+# Warmup Iteration  16: 8916.962 us/op
+# Warmup Iteration  17: 8854.762 us/op
+# Warmup Iteration  18: 8852.266 us/op
+# Warmup Iteration  19: 8844.688 us/op
+# Warmup Iteration  20: 8959.968 us/op
+Iteration   1: 8859.388 us/op
+Iteration   2: 8915.832 us/op
+Iteration   3: 8966.075 us/op
+Iteration   4: 8859.919 us/op
+Iteration   5: 8921.379 us/op
+Iteration   6: 8927.804 us/op
+Iteration   7: 8949.527 us/op
+Iteration   8: 8952.022 us/op
+Iteration   9: 8998.424 us/op
+Iteration  10: 9133.860 us/op
+Iteration  11: 9511.096 us/op
+Iteration  12: 9198.625 us/op
+Iteration  13: 9047.954 us/op
+Iteration  14: 9021.965 us/op
+Iteration  15: 8887.885 us/op
+Iteration  16: 8793.228 us/op
+Iteration  17: 8824.894 us/op
+Iteration  18: 8877.657 us/op
+Iteration  19: 8756.878 us/op
+Iteration  20: 8861.892 us/op
+
+# Run progress: 57.78% complete, ETA 00:12:45
+# Fork: 3 of 3
+# Warmup Iteration   1: 36265.852 us/op
+# Warmup Iteration   2: 9749.090 us/op
+# Warmup Iteration   3: 9224.671 us/op
+# Warmup Iteration   4: 8888.048 us/op
+# Warmup Iteration   5: 8989.110 us/op
+# Warmup Iteration   6: 8855.312 us/op
+# Warmup Iteration   7: 8718.255 us/op
+# Warmup Iteration   8: 9182.078 us/op
+# Warmup Iteration   9: 8637.239 us/op
+# Warmup Iteration  10: 8737.811 us/op
+# Warmup Iteration  11: 8691.642 us/op
+# Warmup Iteration  12: 8851.246 us/op
+# Warmup Iteration  13: 8705.531 us/op
+# Warmup Iteration  14: 8824.176 us/op
+# Warmup Iteration  15: 8813.246 us/op
+# Warmup Iteration  16: 8700.400 us/op
+# Warmup Iteration  17: 8729.828 us/op
+# Warmup Iteration  18: 8670.573 us/op
+# Warmup Iteration  19: 8727.826 us/op
+# Warmup Iteration  20: 8750.470 us/op
+Iteration   1: 8652.738 us/op
+Iteration   2: 8827.085 us/op
+Iteration   3: 8657.151 us/op
+Iteration   4: 8637.341 us/op
+Iteration   5: 8770.606 us/op
+Iteration   6: 8790.210 us/op
+Iteration   7: 8790.993 us/op
+Iteration   8: 8794.619 us/op
+Iteration   9: 8709.705 us/op
+Iteration  10: 8783.711 us/op
+Iteration  11: 8801.641 us/op
+Iteration  12: 8905.324 us/op
+Iteration  13: 8791.797 us/op
+Iteration  14: 8778.752 us/op
+Iteration  15: 8793.377 us/op
+Iteration  16: 8767.724 us/op
+Iteration  17: 8737.970 us/op
+Iteration  18: 8634.391 us/op
+Iteration  19: 8630.795 us/op
+Iteration  20: 8665.966 us/op
+
+
+Result "GroovyInvokeDynamicMethod5_10":
+  8821.136 ±(99.9%) 94.937 us/op [Average]
+  (min, avg, max) = (8559.539, 8821.136, 9684.422), stdev = 212.340
+  CI (99.9%): [8726.199, 8916.073] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod5_2_default3Proxy
+
+# Run progress: 60.00% complete, ETA 00:12:04
+# Fork: 1 of 3
+# Warmup Iteration   1: 29718.577 us/op
+# Warmup Iteration   2: 8596.356 us/op
+# Warmup Iteration   3: 7981.750 us/op
+# Warmup Iteration   4: 7599.535 us/op
+# Warmup Iteration   5: 7961.120 us/op
+# Warmup Iteration   6: 7769.655 us/op
+# Warmup Iteration   7: 7605.867 us/op
+# Warmup Iteration   8: 7647.423 us/op
+# Warmup Iteration   9: 7869.869 us/op
+# Warmup Iteration  10: 7675.433 us/op
+# Warmup Iteration  11: 7706.333 us/op
+# Warmup Iteration  12: 7636.899 us/op
+# Warmup Iteration  13: 7760.539 us/op
+# Warmup Iteration  14: 7639.550 us/op
+# Warmup Iteration  15: 7712.977 us/op
+# Warmup Iteration  16: 7647.134 us/op
+# Warmup Iteration  17: 7578.389 us/op
+# Warmup Iteration  18: 7656.282 us/op
+# Warmup Iteration  19: 7640.063 us/op
+# Warmup Iteration  20: 7574.334 us/op
+Iteration   1: 7642.614 us/op
+Iteration   2: 7641.348 us/op
+Iteration   3: 7648.092 us/op
+Iteration   4: 7603.903 us/op
+Iteration   5: 7608.651 us/op
+Iteration   6: 7738.236 us/op
+Iteration   7: 7792.654 us/op
+Iteration   8: 7653.941 us/op
+Iteration   9: 7745.795 us/op
+Iteration  10: 7690.490 us/op
+Iteration  11: 7660.327 us/op
+Iteration  12: 7737.108 us/op
+Iteration  13: 7719.342 us/op
+Iteration  14: 7633.333 us/op
+Iteration  15: 7641.857 us/op
+Iteration  16: 7674.932 us/op
+Iteration  17: 7581.526 us/op
+Iteration  18: 7618.614 us/op
+Iteration  19: 7547.873 us/op
+Iteration  20: 7431.292 us/op
+
+# Run progress: 62.22% complete, ETA 00:11:24
+# Fork: 2 of 3
+# Warmup Iteration   1: 22045.996 us/op
+# Warmup Iteration   2: 7421.746 us/op
+# Warmup Iteration   3: 7241.937 us/op
+# Warmup Iteration   4: 7217.179 us/op
+# Warmup Iteration   5: 7289.016 us/op
+# Warmup Iteration   6: 7090.392 us/op
+# Warmup Iteration   7: 7069.078 us/op
+# Warmup Iteration   8: 7427.450 us/op
+# Warmup Iteration   9: 7030.161 us/op
+# Warmup Iteration  10: 7105.522 us/op
+# Warmup Iteration  11: 7073.328 us/op
+# Warmup Iteration  12: 7121.935 us/op
+# Warmup Iteration  13: 7080.569 us/op
+# Warmup Iteration  14: 7077.814 us/op
+# Warmup Iteration  15: 7715.424 us/op
+# Warmup Iteration  16: 7514.124 us/op
+# Warmup Iteration  17: 7148.176 us/op
+# Warmup Iteration  18: 7115.501 us/op
+# Warmup Iteration  19: 7079.428 us/op
+# Warmup Iteration  20: 7160.858 us/op
+Iteration   1: 7171.576 us/op
+Iteration   2: 7140.814 us/op
+Iteration   3: 7201.459 us/op
+Iteration   4: 7148.539 us/op
+Iteration   5: 7114.504 us/op
+Iteration   6: 7222.201 us/op
+Iteration   7: 7189.831 us/op
+Iteration   8: 7177.027 us/op
+Iteration   9: 7233.321 us/op
+Iteration  10: 7257.107 us/op
+Iteration  11: 7200.379 us/op
+Iteration  12: 7237.185 us/op
+Iteration  13: 7170.949 us/op
+Iteration  14: 6986.179 us/op
+Iteration  15: 7094.453 us/op
+Iteration  16: 6968.155 us/op
+Iteration  17: 6945.804 us/op
+Iteration  18: 7019.190 us/op
+Iteration  19: 7011.003 us/op
+Iteration  20: 6963.053 us/op
+
+# Run progress: 64.44% complete, ETA 00:10:44
+# Fork: 3 of 3
+# Warmup Iteration   1: 15905.700 us/op
+# Warmup Iteration   2: 7585.343 us/op
+# Warmup Iteration   3: 7427.752 us/op
+# Warmup Iteration   4: 7245.467 us/op
+# Warmup Iteration   5: 7520.389 us/op
+# Warmup Iteration   6: 7349.347 us/op
+# Warmup Iteration   7: 7325.098 us/op
+# Warmup Iteration   8: 7621.711 us/op
+# Warmup Iteration   9: 7335.378 us/op
+# Warmup Iteration  10: 7379.392 us/op
+# Warmup Iteration  11: 7284.179 us/op
+# Warmup Iteration  12: 7348.157 us/op
+# Warmup Iteration  13: 7300.336 us/op
+# Warmup Iteration  14: 7211.181 us/op
+# Warmup Iteration  15: 7272.602 us/op
+# Warmup Iteration  16: 7300.990 us/op
+# Warmup Iteration  17: 7323.163 us/op
+# Warmup Iteration  18: 7324.841 us/op
+# Warmup Iteration  19: 7337.679 us/op
+# Warmup Iteration  20: 7199.574 us/op
+Iteration   1: 7332.762 us/op
+Iteration   2: 7296.733 us/op
+Iteration   3: 7282.778 us/op
+Iteration   4: 7285.041 us/op
+Iteration   5: 7324.104 us/op
+Iteration   6: 7420.346 us/op
+Iteration   7: 7371.888 us/op
+Iteration   8: 7305.020 us/op
+Iteration   9: 7348.290 us/op
+Iteration  10: 7289.750 us/op
+Iteration  11: 7317.840 us/op
+Iteration  12: 7385.597 us/op
+Iteration  13: 7936.232 us/op
+Iteration  14: 8912.598 us/op
+Iteration  15: 8325.019 us/op
+Iteration  16: 7204.361 us/op
+Iteration  17: 7258.516 us/op
+Iteration  18: 7214.339 us/op
+Iteration  19: 7190.019 us/op
+Iteration  20: 7189.828 us/op
+
+
+Result "GroovyInvokeDynamicMethod5_2_default3Proxy":
+  7410.929 ±(99.9%) 151.807 us/op [Average]
+  (min, avg, max) = (6945.804, 7410.929, 8912.598), stdev = 339.539
+  CI (99.9%): [7259.121, 7562.736] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod0_0
+
+# Run progress: 66.67% complete, ETA 00:10:04
+# Fork: 1 of 3
+# Warmup Iteration   1: 0.002 us/op
+# Warmup Iteration   2: 0.002 us/op
+# Warmup Iteration   3: 0.002 us/op
+# Warmup Iteration   4: 0.002 us/op
+# Warmup Iteration   5: 0.002 us/op
+# Warmup Iteration   6: 0.002 us/op
+# Warmup Iteration   7: 0.002 us/op
+# Warmup Iteration   8: 0.002 us/op
+# Warmup Iteration   9: 0.002 us/op
+# Warmup Iteration  10: 0.002 us/op
+# Warmup Iteration  11: 0.002 us/op
+# Warmup Iteration  12: 0.002 us/op
+# Warmup Iteration  13: 0.002 us/op
+# Warmup Iteration  14: 0.002 us/op
+# Warmup Iteration  15: 0.002 us/op
+# Warmup Iteration  16: 0.002 us/op
+# Warmup Iteration  17: 0.002 us/op
+# Warmup Iteration  18: 0.002 us/op
+# Warmup Iteration  19: 0.002 us/op
+# Warmup Iteration  20: 0.002 us/op
+Iteration   1: 0.002 us/op
+Iteration   2: 0.002 us/op
+Iteration   3: 0.002 us/op
+Iteration   4: 0.002 us/op
+Iteration   5: 0.002 us/op
+Iteration   6: 0.002 us/op
+Iteration   7: 0.002 us/op
+Iteration   8: 0.002 us/op
+Iteration   9: 0.002 us/op
+Iteration  10: 0.002 us/op
+Iteration  11: 0.002 us/op
+Iteration  12: 0.002 us/op
+Iteration  13: 0.002 us/op
+Iteration  14: 0.002 us/op
+Iteration  15: 0.002 us/op
+Iteration  16: 0.002 us/op
+Iteration  17: 0.002 us/op
+Iteration  18: 0.002 us/op
+Iteration  19: 0.002 us/op
+Iteration  20: 0.002 us/op
+
+# Run progress: 68.89% complete, ETA 00:09:23
+# Fork: 2 of 3
+# Warmup Iteration   1: 0.002 us/op
+# Warmup Iteration   2: 0.002 us/op
+# Warmup Iteration   3: 0.002 us/op
+# Warmup Iteration   4: 0.002 us/op
+# Warmup Iteration   5: 0.002 us/op
+# Warmup Iteration   6: 0.002 us/op
+# Warmup Iteration   7: 0.002 us/op
+# Warmup Iteration   8: 0.002 us/op
+# Warmup Iteration   9: 0.002 us/op
+# Warmup Iteration  10: 0.002 us/op
+# Warmup Iteration  11: 0.002 us/op
+# Warmup Iteration  12: 0.002 us/op
+# Warmup Iteration  13: 0.002 us/op
+# Warmup Iteration  14: 0.002 us/op
+# Warmup Iteration  15: 0.002 us/op
+# Warmup Iteration  16: 0.002 us/op
+# Warmup Iteration  17: 0.002 us/op
+# Warmup Iteration  18: 0.002 us/op
+# Warmup Iteration  19: 0.002 us/op
+# Warmup Iteration  20: 0.002 us/op
+Iteration   1: 0.002 us/op
+Iteration   2: 0.002 us/op
+Iteration   3: 0.002 us/op
+Iteration   4: 0.002 us/op
+Iteration   5: 0.002 us/op
+Iteration   6: 0.002 us/op
+Iteration   7: 0.002 us/op
+Iteration   8: 0.002 us/op
+Iteration   9: 0.002 us/op
+Iteration  10: 0.002 us/op
+Iteration  11: 0.002 us/op
+Iteration  12: 0.002 us/op
+Iteration  13: 0.002 us/op
+Iteration  14: 0.002 us/op
+Iteration  15: 0.002 us/op
+Iteration  16: 0.002 us/op
+Iteration  17: 0.002 us/op
+Iteration  18: 0.002 us/op
+Iteration  19: 0.002 us/op
+Iteration  20: 0.002 us/op
+
+# Run progress: 71.11% complete, ETA 00:08:43
+# Fork: 3 of 3
+# Warmup Iteration   1: 0.002 us/op
+# Warmup Iteration   2: 0.002 us/op
+# Warmup Iteration   3: 0.002 us/op
+# Warmup Iteration   4: 0.002 us/op
+# Warmup Iteration   5: 0.002 us/op
+# Warmup Iteration   6: 0.002 us/op
+# Warmup Iteration   7: 0.002 us/op
+# Warmup Iteration   8: 0.002 us/op
+# Warmup Iteration   9: 0.002 us/op
+# Warmup Iteration  10: 0.002 us/op
+# Warmup Iteration  11: 0.002 us/op
+# Warmup Iteration  12: 0.002 us/op
+# Warmup Iteration  13: 0.002 us/op
+# Warmup Iteration  14: 0.002 us/op
+# Warmup Iteration  15: 0.002 us/op
+# Warmup Iteration  16: 0.002 us/op
+# Warmup Iteration  17: 0.002 us/op
+# Warmup Iteration  18: 0.002 us/op
+# Warmup Iteration  19: 0.002 us/op
+# Warmup Iteration  20: 0.002 us/op
+Iteration   1: 0.002 us/op
+Iteration   2: 0.002 us/op
+Iteration   3: 0.002 us/op
+Iteration   4: 0.002 us/op
+Iteration   5: 0.002 us/op
+Iteration   6: 0.002 us/op
+Iteration   7: 0.002 us/op
+Iteration   8: 0.002 us/op
+Iteration   9: 0.002 us/op
+Iteration  10: 0.002 us/op
+Iteration  11: 0.002 us/op
+Iteration  12: 0.002 us/op
+Iteration  13: 0.002 us/op
+Iteration  14: 0.002 us/op
+Iteration  15: 0.002 us/op
+Iteration  16: 0.002 us/op
+Iteration  17: 0.002 us/op
+Iteration  18: 0.002 us/op
+Iteration  19: 0.002 us/op
+Iteration  20: 0.002 us/op
+
+
+Result "kotlinDynamicMethod0_0":
+  0.002 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod3_3
+
+# Run progress: 73.33% complete, ETA 00:08:03
+# Fork: 1 of 3
+# Warmup Iteration   1: 60.886 us/op
+# Warmup Iteration   2: 52.255 us/op
+# Warmup Iteration   3: 51.820 us/op
+# Warmup Iteration   4: 51.285 us/op
+# Warmup Iteration   5: 51.257 us/op
+# Warmup Iteration   6: 51.190 us/op
+# Warmup Iteration   7: 51.023 us/op
+# Warmup Iteration   8: 51.184 us/op
+# Warmup Iteration   9: 51.062 us/op
+# Warmup Iteration  10: 51.131 us/op
+# Warmup Iteration  11: 51.095 us/op
+# Warmup Iteration  12: 51.283 us/op
+# Warmup Iteration  13: 51.561 us/op
+# Warmup Iteration  14: 51.106 us/op
+# Warmup Iteration  15: 51.217 us/op
+# Warmup Iteration  16: 51.310 us/op
+# Warmup Iteration  17: 52.036 us/op
+# Warmup Iteration  18: 51.672 us/op
+# Warmup Iteration  19: 51.557 us/op
+# Warmup Iteration  20: 51.665 us/op
+Iteration   1: 51.970 us/op
+Iteration   2: 51.550 us/op
+Iteration   3: 51.825 us/op
+Iteration   4: 51.773 us/op
+Iteration   5: 51.903 us/op
+Iteration   6: 52.157 us/op
+Iteration   7: 51.565 us/op
+Iteration   8: 51.596 us/op
+Iteration   9: 51.990 us/op
+Iteration  10: 51.661 us/op
+Iteration  11: 51.631 us/op
+Iteration  12: 52.040 us/op
+Iteration  13: 52.447 us/op
+Iteration  14: 51.796 us/op
+Iteration  15: 51.738 us/op
+Iteration  16: 51.883 us/op
+Iteration  17: 51.786 us/op
+Iteration  18: 51.781 us/op
+Iteration  19: 52.059 us/op
+Iteration  20: 51.789 us/op
+
+# Run progress: 75.56% complete, ETA 00:07:22
+# Fork: 2 of 3
+# Warmup Iteration   1: 59.760 us/op
+# Warmup Iteration   2: 52.391 us/op
+# Warmup Iteration   3: 51.779 us/op
+# Warmup Iteration   4: 51.067 us/op
+# Warmup Iteration   5: 51.142 us/op
+# Warmup Iteration   6: 51.153 us/op
+# Warmup Iteration   7: 51.422 us/op
+# Warmup Iteration   8: 51.256 us/op
+# Warmup Iteration   9: 51.092 us/op
+# Warmup Iteration  10: 51.170 us/op
+# Warmup Iteration  11: 51.234 us/op
+# Warmup Iteration  12: 51.308 us/op
+# Warmup Iteration  13: 51.557 us/op
+# Warmup Iteration  14: 51.364 us/op
+# Warmup Iteration  15: 51.425 us/op
+# Warmup Iteration  16: 51.477 us/op
+# Warmup Iteration  17: 51.413 us/op
+# Warmup Iteration  18: 51.837 us/op
+# Warmup Iteration  19: 51.582 us/op
+# Warmup Iteration  20: 51.380 us/op
+Iteration   1: 51.388 us/op
+Iteration   2: 51.583 us/op
+Iteration   3: 51.425 us/op
+Iteration   4: 51.491 us/op
+Iteration   5: 51.594 us/op
+Iteration   6: 51.844 us/op
+Iteration   7: 51.260 us/op
+Iteration   8: 51.698 us/op
+Iteration   9: 51.600 us/op
+Iteration  10: 51.291 us/op
+Iteration  11: 51.500 us/op
+Iteration  12: 51.408 us/op
+Iteration  13: 51.511 us/op
+Iteration  14: 51.622 us/op
+Iteration  15: 51.487 us/op
+Iteration  16: 51.301 us/op
+Iteration  17: 51.638 us/op
+Iteration  18: 51.535 us/op
+Iteration  19: 51.740 us/op
+Iteration  20: 51.789 us/op
+
+# Run progress: 77.78% complete, ETA 00:06:42
+# Fork: 3 of 3
+# Warmup Iteration   1: 59.629 us/op
+# Warmup Iteration   2: 52.412 us/op
+# Warmup Iteration   3: 53.396 us/op
+# Warmup Iteration   4: 51.034 us/op
+# Warmup Iteration   5: 51.496 us/op
+# Warmup Iteration   6: 51.065 us/op
+# Warmup Iteration   7: 50.993 us/op
+# Warmup Iteration   8: 51.107 us/op
+# Warmup Iteration   9: 51.419 us/op
+# Warmup Iteration  10: 51.172 us/op
+# Warmup Iteration  11: 51.078 us/op
+# Warmup Iteration  12: 51.317 us/op
+# Warmup Iteration  13: 51.562 us/op
+# Warmup Iteration  14: 51.242 us/op
+# Warmup Iteration  15: 51.425 us/op
+# Warmup Iteration  16: 51.567 us/op
+# Warmup Iteration  17: 51.669 us/op
+# Warmup Iteration  18: 51.192 us/op
+# Warmup Iteration  19: 51.559 us/op
+# Warmup Iteration  20: 51.723 us/op
+Iteration   1: 51.204 us/op
+Iteration   2: 51.199 us/op
+Iteration   3: 51.429 us/op
+Iteration   4: 51.445 us/op
+Iteration   5: 51.576 us/op
+Iteration   6: 51.572 us/op
+Iteration   7: 51.653 us/op
+Iteration   8: 51.601 us/op
+Iteration   9: 51.543 us/op
+Iteration  10: 51.012 us/op
+Iteration  11: 51.048 us/op
+Iteration  12: 51.149 us/op
+Iteration  13: 51.075 us/op
+Iteration  14: 51.048 us/op
+Iteration  15: 51.017 us/op
+Iteration  16: 51.211 us/op
+Iteration  17: 51.229 us/op
+Iteration  18: 51.256 us/op
+Iteration  19: 51.859 us/op
+Iteration  20: 51.552 us/op
+
+
+Result "kotlinDynamicMethod3_3":
+  51.572 ±(99.9%) 0.134 us/op [Average]
+  (min, avg, max) = (51.012, 51.572, 52.447), stdev = 0.300
+  CI (99.9%): [51.438, 51.706] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod5Proxy
+
+# Run progress: 80.00% complete, ETA 00:06:02
+# Fork: 1 of 3
+# Warmup Iteration   1: 79.704 us/op
+# Warmup Iteration   2: 64.716 us/op
+# Warmup Iteration   3: 64.770 us/op
+# Warmup Iteration   4: 63.119 us/op
+# Warmup Iteration   5: 65.602 us/op
+# Warmup Iteration   6: 62.859 us/op
+# Warmup Iteration   7: 63.097 us/op
+# Warmup Iteration   8: 63.313 us/op
+# Warmup Iteration   9: 62.760 us/op
+# Warmup Iteration  10: 62.904 us/op
+# Warmup Iteration  11: 62.946 us/op
+# Warmup Iteration  12: 62.955 us/op
+# Warmup Iteration  13: 62.937 us/op
+# Warmup Iteration  14: 63.395 us/op
+# Warmup Iteration  15: 62.831 us/op
+# Warmup Iteration  16: 62.975 us/op
+# Warmup Iteration  17: 62.961 us/op
+# Warmup Iteration  18: 62.862 us/op
+# Warmup Iteration  19: 63.111 us/op
+# Warmup Iteration  20: 63.186 us/op
+Iteration   1: 63.399 us/op
+Iteration   2: 63.154 us/op
+Iteration   3: 63.137 us/op
+Iteration   4: 63.809 us/op
+Iteration   5: 63.683 us/op
+Iteration   6: 63.084 us/op
+Iteration   7: 63.800 us/op
+Iteration   8: 63.130 us/op
+Iteration   9: 63.235 us/op
+Iteration  10: 63.473 us/op
+Iteration  11: 63.708 us/op
+Iteration  12: 63.620 us/op
+Iteration  13: 63.493 us/op
+Iteration  14: 63.366 us/op
+Iteration  15: 63.606 us/op
+Iteration  16: 63.216 us/op
+Iteration  17: 63.281 us/op
+Iteration  18: 63.509 us/op
+Iteration  19: 63.275 us/op
+Iteration  20: 63.567 us/op
+
+# Run progress: 82.22% complete, ETA 00:05:22
+# Fork: 2 of 3
+# Warmup Iteration   1: 81.269 us/op
+# Warmup Iteration   2: 64.171 us/op
+# Warmup Iteration   3: 65.143 us/op
+# Warmup Iteration   4: 62.494 us/op
+# Warmup Iteration   5: 62.391 us/op
+# Warmup Iteration   6: 62.642 us/op
+# Warmup Iteration   7: 62.338 us/op
+# Warmup Iteration   8: 62.461 us/op
+# Warmup Iteration   9: 62.258 us/op
+# Warmup Iteration  10: 62.245 us/op
+# Warmup Iteration  11: 62.550 us/op
+# Warmup Iteration  12: 62.405 us/op
+# Warmup Iteration  13: 62.440 us/op
+# Warmup Iteration  14: 62.577 us/op
+# Warmup Iteration  15: 62.942 us/op
+# Warmup Iteration  16: 62.573 us/op
+# Warmup Iteration  17: 62.884 us/op
+# Warmup Iteration  18: 63.126 us/op
+# Warmup Iteration  19: 63.051 us/op
+# Warmup Iteration  20: 63.257 us/op
+Iteration   1: 62.952 us/op
+Iteration   2: 63.084 us/op
+Iteration   3: 63.340 us/op
+Iteration   4: 62.646 us/op
+Iteration   5: 63.038 us/op
+Iteration   6: 63.151 us/op
+Iteration   7: 62.748 us/op
+Iteration   8: 62.681 us/op
+Iteration   9: 62.897 us/op
+Iteration  10: 63.172 us/op
+Iteration  11: 62.851 us/op
+Iteration  12: 62.950 us/op
+Iteration  13: 63.452 us/op
+Iteration  14: 63.227 us/op
+Iteration  15: 63.021 us/op
+Iteration  16: 63.061 us/op
+Iteration  17: 63.005 us/op
+Iteration  18: 62.988 us/op
+Iteration  19: 63.123 us/op
+Iteration  20: 62.780 us/op
+
+# Run progress: 84.44% complete, ETA 00:04:41
+# Fork: 3 of 3
+# Warmup Iteration   1: 76.095 us/op
+# Warmup Iteration   2: 64.495 us/op
+# Warmup Iteration   3: 64.372 us/op
+# Warmup Iteration   4: 62.799 us/op
+# Warmup Iteration   5: 62.887 us/op
+# Warmup Iteration   6: 67.199 us/op
+# Warmup Iteration   7: 66.722 us/op
+# Warmup Iteration   8: 63.769 us/op
+# Warmup Iteration   9: 62.916 us/op
+# Warmup Iteration  10: 62.769 us/op
+# Warmup Iteration  11: 62.962 us/op
+# Warmup Iteration  12: 62.847 us/op
+# Warmup Iteration  13: 63.087 us/op
+# Warmup Iteration  14: 63.222 us/op
+# Warmup Iteration  15: 63.059 us/op
+# Warmup Iteration  16: 63.479 us/op
+# Warmup Iteration  17: 63.211 us/op
+# Warmup Iteration  18: 63.377 us/op
+# Warmup Iteration  19: 62.729 us/op
+# Warmup Iteration  20: 62.689 us/op
+Iteration   1: 62.823 us/op
+Iteration   2: 63.818 us/op
+Iteration   3: 63.466 us/op
+Iteration   4: 63.054 us/op
+Iteration   5: 63.033 us/op
+Iteration   6: 63.624 us/op
+Iteration   7: 63.297 us/op
+Iteration   8: 62.942 us/op
+Iteration   9: 62.926 us/op
+Iteration  10: 63.098 us/op
+Iteration  11: 63.367 us/op
+Iteration  12: 63.039 us/op
+Iteration  13: 63.130 us/op
+Iteration  14: 63.216 us/op
+Iteration  15: 63.182 us/op
+Iteration  16: 63.216 us/op
+Iteration  17: 63.344 us/op
+Iteration  18: 63.250 us/op
+Iteration  19: 63.320 us/op
+Iteration  20: 63.358 us/op
+
+
+Result "kotlinDynamicMethod5Proxy":
+  63.220 ±(99.9%) 0.126 us/op [Average]
+  (min, avg, max) = (62.646, 63.220, 63.818), stdev = 0.282
+  CI (99.9%): [63.094, 63.346] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod5_10
+
+# Run progress: 86.67% complete, ETA 00:04:01
+# Fork: 1 of 3
+# Warmup Iteration   1: 77.674 us/op
+# Warmup Iteration   2: 64.335 us/op
+# Warmup Iteration   3: 64.288 us/op
+# Warmup Iteration   4: 62.925 us/op
+# Warmup Iteration   5: 62.766 us/op
+# Warmup Iteration   6: 62.817 us/op
+# Warmup Iteration   7: 63.140 us/op
+# Warmup Iteration   8: 62.812 us/op
+# Warmup Iteration   9: 63.100 us/op
+# Warmup Iteration  10: 63.451 us/op
+# Warmup Iteration  11: 62.918 us/op
+# Warmup Iteration  12: 62.981 us/op
+# Warmup Iteration  13: 62.892 us/op
+# Warmup Iteration  14: 63.092 us/op
+# Warmup Iteration  15: 63.157 us/op
+# Warmup Iteration  16: 63.444 us/op
+# Warmup Iteration  17: 63.495 us/op
+# Warmup Iteration  18: 63.250 us/op
+# Warmup Iteration  19: 63.388 us/op
+# Warmup Iteration  20: 63.085 us/op
+Iteration   1: 63.458 us/op
+Iteration   2: 62.938 us/op
+Iteration   3: 63.623 us/op
+Iteration   4: 63.071 us/op
+Iteration   5: 63.063 us/op
+Iteration   6: 63.249 us/op
+Iteration   7: 63.381 us/op
+Iteration   8: 63.189 us/op
+Iteration   9: 63.412 us/op
+Iteration  10: 63.403 us/op
+Iteration  11: 63.213 us/op
+Iteration  12: 63.170 us/op
+Iteration  13: 63.086 us/op
+Iteration  14: 63.507 us/op
+Iteration  15: 63.394 us/op
+Iteration  16: 63.590 us/op
+Iteration  17: 63.069 us/op
+Iteration  18: 63.075 us/op
+Iteration  19: 63.217 us/op
+Iteration  20: 63.419 us/op
+
+# Run progress: 88.89% complete, ETA 00:03:21
+# Fork: 2 of 3
+# Warmup Iteration   1: 77.672 us/op
+# Warmup Iteration   2: 65.175 us/op
+# Warmup Iteration   3: 64.891 us/op
+# Warmup Iteration   4: 63.282 us/op
+# Warmup Iteration   5: 63.425 us/op
+# Warmup Iteration   6: 63.550 us/op
+# Warmup Iteration   7: 63.335 us/op
+# Warmup Iteration   8: 63.575 us/op
+# Warmup Iteration   9: 63.712 us/op
+# Warmup Iteration  10: 63.265 us/op
+# Warmup Iteration  11: 63.368 us/op
+# Warmup Iteration  12: 63.369 us/op
+# Warmup Iteration  13: 63.699 us/op
+# Warmup Iteration  14: 63.485 us/op
+# Warmup Iteration  15: 63.561 us/op
+# Warmup Iteration  16: 63.765 us/op
+# Warmup Iteration  17: 63.624 us/op
+# Warmup Iteration  18: 63.771 us/op
+# Warmup Iteration  19: 63.949 us/op
+# Warmup Iteration  20: 63.851 us/op
+Iteration   1: 64.320 us/op
+Iteration   2: 63.424 us/op
+Iteration   3: 63.345 us/op
+Iteration   4: 63.401 us/op
+Iteration   5: 63.318 us/op
+Iteration   6: 63.300 us/op
+Iteration   7: 63.717 us/op
+Iteration   8: 63.714 us/op
+Iteration   9: 63.810 us/op
+Iteration  10: 63.795 us/op
+Iteration  11: 63.821 us/op
+Iteration  12: 63.885 us/op
+Iteration  13: 63.784 us/op
+Iteration  14: 63.574 us/op
+Iteration  15: 63.584 us/op
+Iteration  16: 63.672 us/op
+Iteration  17: 63.843 us/op
+Iteration  18: 63.771 us/op
+Iteration  19: 63.805 us/op
+Iteration  20: 63.832 us/op
+
+# Run progress: 91.11% complete, ETA 00:02:41
+# Fork: 3 of 3
+# Warmup Iteration   1: 74.652 us/op
+# Warmup Iteration   2: 63.732 us/op
+# Warmup Iteration   3: 63.792 us/op
+# Warmup Iteration   4: 62.327 us/op
+# Warmup Iteration   5: 62.217 us/op
+# Warmup Iteration   6: 62.196 us/op
+# Warmup Iteration   7: 62.256 us/op
+# Warmup Iteration   8: 62.285 us/op
+# Warmup Iteration   9: 62.397 us/op
+# Warmup Iteration  10: 62.373 us/op
+# Warmup Iteration  11: 62.358 us/op
+# Warmup Iteration  12: 62.347 us/op
+# Warmup Iteration  13: 62.343 us/op
+# Warmup Iteration  14: 62.688 us/op
+# Warmup Iteration  15: 62.462 us/op
+# Warmup Iteration  16: 62.495 us/op
+# Warmup Iteration  17: 62.444 us/op
+# Warmup Iteration  18: 62.935 us/op
+# Warmup Iteration  19: 62.497 us/op
+# Warmup Iteration  20: 62.467 us/op
+Iteration   1: 62.790 us/op
+Iteration   2: 63.117 us/op
+Iteration   3: 62.660 us/op
+Iteration   4: 62.719 us/op
+Iteration   5: 62.880 us/op
+Iteration   6: 62.806 us/op
+Iteration   7: 62.883 us/op
+Iteration   8: 62.871 us/op
+Iteration   9: 62.584 us/op
+Iteration  10: 62.717 us/op
+Iteration  11: 62.816 us/op
+Iteration  12: 62.718 us/op
+Iteration  13: 62.695 us/op
+Iteration  14: 62.983 us/op
+Iteration  15: 62.639 us/op
+Iteration  16: 62.928 us/op
+Iteration  17: 63.000 us/op
+Iteration  18: 62.709 us/op
+Iteration  19: 62.726 us/op
+Iteration  20: 62.850 us/op
+
+
+Result "kotlinDynamicMethod5_10":
+  63.256 ±(99.9%) 0.184 us/op [Average]
+  (min, avg, max) = (62.584, 63.256, 64.320), stdev = 0.412
+  CI (99.9%): [63.071, 63.440] (assumes normal distribution)
+
+
+# JMH 1.15 (released 225 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod5_2_default3Proxy
+
+# Run progress: 93.33% complete, ETA 00:02:00
+# Fork: 1 of 3
+# Warmup Iteration   1: 62.871 us/op
+# Warmup Iteration   2: 52.356 us/op
+# Warmup Iteration   3: 50.844 us/op
+# Warmup Iteration   4: 50.823 us/op
+# Warmup Iteration   5: 50.902 us/op
+# Warmup Iteration   6: 50.925 us/op
+# Warmup Iteration   7: 51.010 us/op
+# Warmup Iteration   8: 51.053 us/op
+# Warmup Iteration   9: 51.001 us/op
+# Warmup Iteration  10: 51.182 us/op
+# Warmup Iteration  11: 50.967 us/op
+# Warmup Iteration  12: 51.142 us/op
+# Warmup Iteration  13: 51.407 us/op
+# Warmup Iteration  14: 50.853 us/op
+# Warmup Iteration  15: 50.932 us/op
+# Warmup Iteration  16: 51.386 us/op
+# Warmup Iteration  17: 51.196 us/op
+# Warmup Iteration  18: 51.278 us/op
+# Warmup Iteration  19: 51.040 us/op
+# Warmup Iteration  20: 51.200 us/op
+Iteration   1: 50.869 us/op
+Iteration   2: 51.210 us/op
+Iteration   3: 51.075 us/op
+Iteration   4: 51.107 us/op
+Iteration   5: 51.188 us/op
+Iteration   6: 51.368 us/op
+Iteration   7: 51.303 us/op
+Iteration   8: 50.754 us/op
+Iteration   9: 50.895 us/op
+Iteration  10: 50.945 us/op
+Iteration  11: 50.900 us/op
+Iteration  12: 50.847 us/op
+Iteration  13: 51.102 us/op
+Iteration  14: 51.392 us/op
+Iteration  15: 50.835 us/op
+Iteration  16: 50.888 us/op
+Iteration  17: 51.338 us/op
+Iteration  18: 51.237 us/op
+Iteration  19: 51.282 us/op
+Iteration  20: 51.273 us/op
+
+# Run progress: 95.56% complete, ETA 00:01:20
+# Fork: 2 of 3
+# Warmup Iteration   1: 66.004 us/op
+# Warmup Iteration   2: 55.541 us/op
+# Warmup Iteration   3: 53.801 us/op
+# Warmup Iteration   4: 55.133 us/op
+# Warmup Iteration   5: 53.637 us/op
+# Warmup Iteration   6: 53.708 us/op
+# Warmup Iteration   7: 53.681 us/op
+# Warmup Iteration   8: 53.698 us/op
+# Warmup Iteration   9: 53.713 us/op
+# Warmup Iteration  10: 53.688 us/op
+# Warmup Iteration  11: 53.746 us/op
+# Warmup Iteration  12: 53.662 us/op
+# Warmup Iteration  13: 53.697 us/op
+# Warmup Iteration  14: 53.781 us/op
+# Warmup Iteration  15: 53.691 us/op
+# Warmup Iteration  16: 53.880 us/op
+# Warmup Iteration  17: 53.845 us/op
+# Warmup Iteration  18: 53.794 us/op
+# Warmup Iteration  19: 53.742 us/op
+# Warmup Iteration  20: 53.798 us/op
+Iteration   1: 54.098 us/op
+Iteration   2: 54.525 us/op
+Iteration   3: 53.677 us/op
+Iteration   4: 53.691 us/op
+Iteration   5: 53.902 us/op
+Iteration   6: 54.286 us/op
+Iteration   7: 53.776 us/op
+Iteration   8: 54.494 us/op
+Iteration   9: 53.831 us/op
+Iteration  10: 53.973 us/op
+Iteration  11: 53.866 us/op
+Iteration  12: 54.062 us/op
+Iteration  13: 54.340 us/op
+Iteration  14: 54.154 us/op
+Iteration  15: 54.089 us/op
+Iteration  16: 54.019 us/op
+Iteration  17: 54.168 us/op
+Iteration  18: 54.044 us/op
+Iteration  19: 53.983 us/op
+Iteration  20: 54.242 us/op
+
+# Run progress: 97.78% complete, ETA 00:00:40
+# Fork: 3 of 3
+# Warmup Iteration   1: 62.584 us/op
+# Warmup Iteration   2: 52.436 us/op
+# Warmup Iteration   3: 50.940 us/op
+# Warmup Iteration   4: 52.193 us/op
+# Warmup Iteration   5: 50.841 us/op
+# Warmup Iteration   6: 50.991 us/op
+# Warmup Iteration   7: 50.819 us/op
+# Warmup Iteration   8: 50.863 us/op
+# Warmup Iteration   9: 50.796 us/op
+# Warmup Iteration  10: 51.107 us/op
+# Warmup Iteration  11: 50.919 us/op
+# Warmup Iteration  12: 50.942 us/op
+# Warmup Iteration  13: 50.905 us/op
+# Warmup Iteration  14: 50.835 us/op
+# Warmup Iteration  15: 51.005 us/op
+# Warmup Iteration  16: 51.023 us/op
+# Warmup Iteration  17: 51.063 us/op
+# Warmup Iteration  18: 51.670 us/op
+# Warmup Iteration  19: 51.343 us/op
+# Warmup Iteration  20: 50.975 us/op
+Iteration   1: 51.066 us/op
+Iteration   2: 51.295 us/op
+Iteration   3: 51.275 us/op
+Iteration   4: 51.138 us/op
+Iteration   5: 51.390 us/op
+Iteration   6: 51.234 us/op
+Iteration   7: 50.994 us/op
+Iteration   8: 50.993 us/op
+Iteration   9: 50.932 us/op
+Iteration  10: 51.278 us/op
+Iteration  11: 51.426 us/op
+Iteration  12: 51.664 us/op
+Iteration  13: 51.394 us/op
+Iteration  14: 51.202 us/op
+Iteration  15: 51.558 us/op
+Iteration  16: 51.317 us/op
+Iteration  17: 51.171 us/op
+Iteration  18: 51.220 us/op
+Iteration  19: 51.239 us/op
+Iteration  20: 51.335 us/op
+
+
+Result "kotlinDynamicMethod5_2_default3Proxy":
+  52.136 ±(99.9%) 0.621 us/op [Average]
+  (min, avg, max) = (50.754, 52.136, 54.525), stdev = 1.390
+  CI (99.9%): [51.514, 52.757] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:30:11
+
+Benchmark                                               Mode  Cnt     Score     Error  Units
+MyBenchmark.GroovyDynamicMethod0_0                      avgt   60     0.007 ±   0.001  us/op
+MyBenchmark.GroovyDynamicMethod3_3                      avgt   60   171.771 ±   1.669  us/op
+MyBenchmark.GroovyDynamicMethod5Proxy                   avgt   60   213.625 ±   4.099  us/op
+MyBenchmark.GroovyDynamicMethod5_10                     avgt   60   239.274 ±   3.148  us/op
+MyBenchmark.GroovyDynamicMethod5_2_default3Proxy        avgt   60   176.029 ±   1.735  us/op
+MyBenchmark.GroovyInvokeDynamicMethod0_0                avgt   60     0.003 ±   0.001  us/op
+MyBenchmark.GroovyInvokeDynamicMethod3_3                avgt   60  7813.634 ±  98.766  us/op
+MyBenchmark.GroovyInvokeDynamicMethod5Proxy             avgt   60  8900.974 ±  45.411  us/op
+MyBenchmark.GroovyInvokeDynamicMethod5_10               avgt   60  8821.136 ±  94.937  us/op
+MyBenchmark.GroovyInvokeDynamicMethod5_2_default3Proxy  avgt   60  7410.929 ± 151.807  us/op
+MyBenchmark.kotlinDynamicMethod0_0                      avgt   60     0.002 ±   0.001  us/op
+MyBenchmark.kotlinDynamicMethod3_3                      avgt   60    51.572 ±   0.134  us/op
+MyBenchmark.kotlinDynamicMethod5Proxy                   avgt   60    63.220 ±   0.126  us/op
+MyBenchmark.kotlinDynamicMethod5_10                     avgt   60    63.256 ±   0.184  us/op
+MyBenchmark.kotlinDynamicMethod5_2_default3Proxy        avgt   60    52.136 ±   0.621  us/op
