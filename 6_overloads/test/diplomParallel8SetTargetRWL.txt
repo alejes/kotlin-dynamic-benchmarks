@@ -1,0 +1,933 @@
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod0_0
+
+# Run progress: 0.00% complete, ETA 00:10:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.015 ±(99.9%) 0.003 us/op
+# Warmup Iteration   2: 0.014 ±(99.9%) 0.001 us/op
+# Warmup Iteration   3: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration   4: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration   5: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration   6: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration   7: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration   8: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration   9: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  10: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  11: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  12: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  13: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  14: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  15: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  16: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  17: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  18: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  19: 0.013 ±(99.9%) 0.001 us/op
+# Warmup Iteration  20: 0.013 ±(99.9%) 0.001 us/op
+Iteration   1: 0.013 ±(99.9%) 0.001 us/op
+Iteration   2: 0.013 ±(99.9%) 0.001 us/op
+Iteration   3: 0.013 ±(99.9%) 0.001 us/op
+Iteration   4: 0.013 ±(99.9%) 0.001 us/op
+Iteration   5: 0.013 ±(99.9%) 0.001 us/op
+Iteration   6: 0.013 ±(99.9%) 0.001 us/op
+Iteration   7: 0.013 ±(99.9%) 0.001 us/op
+Iteration   8: 0.013 ±(99.9%) 0.001 us/op
+Iteration   9: 0.013 ±(99.9%) 0.001 us/op
+Iteration  10: 0.013 ±(99.9%) 0.001 us/op
+Iteration  11: 0.013 ±(99.9%) 0.001 us/op
+Iteration  12: 0.013 ±(99.9%) 0.001 us/op
+Iteration  13: 0.013 ±(99.9%) 0.001 us/op
+Iteration  14: 0.013 ±(99.9%) 0.001 us/op
+Iteration  15: 0.013 ±(99.9%) 0.001 us/op
+Iteration  16: 0.013 ±(99.9%) 0.001 us/op
+Iteration  17: 0.013 ±(99.9%) 0.001 us/op
+Iteration  18: 0.013 ±(99.9%) 0.001 us/op
+Iteration  19: 0.013 ±(99.9%) 0.001 us/op
+Iteration  20: 0.013 ±(99.9%) 0.001 us/op
+
+
+Result "GroovyDynamicMethod0_0":
+  0.013 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.013, 0.013, 0.013), stdev = 0.001
+  CI (99.9%): [0.013, 0.013] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod3_3
+
+# Run progress: 6.67% complete, ETA 00:09:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 912.226 ±(99.9%) 166.423 us/op
+# Warmup Iteration   2: 483.010 ±(99.9%) 6.339 us/op
+# Warmup Iteration   3: 482.969 ±(99.9%) 12.006 us/op
+# Warmup Iteration   4: 486.769 ±(99.9%) 11.088 us/op
+# Warmup Iteration   5: 484.702 ±(99.9%) 15.449 us/op
+# Warmup Iteration   6: 481.625 ±(99.9%) 12.769 us/op
+# Warmup Iteration   7: 487.645 ±(99.9%) 16.089 us/op
+# Warmup Iteration   8: 482.801 ±(99.9%) 14.215 us/op
+# Warmup Iteration   9: 484.255 ±(99.9%) 15.910 us/op
+# Warmup Iteration  10: 484.936 ±(99.9%) 10.127 us/op
+# Warmup Iteration  11: 483.518 ±(99.9%) 12.064 us/op
+# Warmup Iteration  12: 486.658 ±(99.9%) 10.688 us/op
+# Warmup Iteration  13: 487.009 ±(99.9%) 13.465 us/op
+# Warmup Iteration  14: 485.697 ±(99.9%) 13.976 us/op
+# Warmup Iteration  15: 485.324 ±(99.9%) 11.682 us/op
+# Warmup Iteration  16: 490.573 ±(99.9%) 17.289 us/op
+# Warmup Iteration  17: 494.820 ±(99.9%) 11.317 us/op
+# Warmup Iteration  18: 491.479 ±(99.9%) 15.639 us/op
+# Warmup Iteration  19: 491.111 ±(99.9%) 11.343 us/op
+# Warmup Iteration  20: 492.346 ±(99.9%) 18.012 us/op
+Iteration   1: 493.098 ±(99.9%) 17.684 us/op
+Iteration   2: 494.678 ±(99.9%) 24.054 us/op
+Iteration   3: 490.379 ±(99.9%) 10.893 us/op
+Iteration   4: 489.473 ±(99.9%) 10.484 us/op
+Iteration   5: 492.550 ±(99.9%) 12.897 us/op
+Iteration   6: 494.434 ±(99.9%) 21.721 us/op
+Iteration   7: 491.723 ±(99.9%) 18.307 us/op
+Iteration   8: 493.733 ±(99.9%) 15.243 us/op
+Iteration   9: 493.099 ±(99.9%) 12.132 us/op
+Iteration  10: 491.816 ±(99.9%) 17.765 us/op
+Iteration  11: 495.400 ±(99.9%) 13.598 us/op
+Iteration  12: 491.489 ±(99.9%) 15.368 us/op
+Iteration  13: 493.484 ±(99.9%) 9.340 us/op
+Iteration  14: 492.764 ±(99.9%) 14.740 us/op
+Iteration  15: 491.736 ±(99.9%) 9.267 us/op
+Iteration  16: 491.800 ±(99.9%) 13.532 us/op
+Iteration  17: 494.879 ±(99.9%) 21.397 us/op
+Iteration  18: 492.899 ±(99.9%) 9.164 us/op
+Iteration  19: 491.668 ±(99.9%) 11.601 us/op
+Iteration  20: 489.987 ±(99.9%) 15.672 us/op
+
+
+Result "GroovyDynamicMethod3_3":
+  492.554 ±(99.9%) 1.405 us/op [Average]
+  (min, avg, max) = (489.473, 492.554, 495.400), stdev = 1.619
+  CI (99.9%): [491.149, 493.960] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod5Proxy
+
+# Run progress: 13.33% complete, ETA 00:08:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 6072.521 ±(99.9%) 1902.266 us/op
+# Warmup Iteration   2: 821.258 ±(99.9%) 28.990 us/op
+# Warmup Iteration   3: 556.953 ±(99.9%) 12.023 us/op
+# Warmup Iteration   4: 557.404 ±(99.9%) 13.623 us/op
+# Warmup Iteration   5: 550.358 ±(99.9%) 11.074 us/op
+# Warmup Iteration   6: 553.327 ±(99.9%) 12.893 us/op
+# Warmup Iteration   7: 551.491 ±(99.9%) 10.175 us/op
+# Warmup Iteration   8: 554.292 ±(99.9%) 11.945 us/op
+# Warmup Iteration   9: 554.029 ±(99.9%) 15.195 us/op
+# Warmup Iteration  10: 553.233 ±(99.9%) 12.285 us/op
+# Warmup Iteration  11: 559.646 ±(99.9%) 27.032 us/op
+# Warmup Iteration  12: 555.566 ±(99.9%) 19.130 us/op
+# Warmup Iteration  13: 560.196 ±(99.9%) 18.399 us/op
+# Warmup Iteration  14: 554.563 ±(99.9%) 10.822 us/op
+# Warmup Iteration  15: 558.111 ±(99.9%) 13.180 us/op
+# Warmup Iteration  16: 557.544 ±(99.9%) 17.226 us/op
+# Warmup Iteration  17: 558.138 ±(99.9%) 14.405 us/op
+# Warmup Iteration  18: 556.069 ±(99.9%) 7.131 us/op
+# Warmup Iteration  19: 558.350 ±(99.9%) 17.115 us/op
+# Warmup Iteration  20: 555.471 ±(99.9%) 10.667 us/op
+Iteration   1: 556.070 ±(99.9%) 11.381 us/op
+Iteration   2: 556.285 ±(99.9%) 13.761 us/op
+Iteration   3: 556.102 ±(99.9%) 5.301 us/op
+Iteration   4: 559.404 ±(99.9%) 24.546 us/op
+Iteration   5: 557.219 ±(99.9%) 16.202 us/op
+Iteration   6: 557.146 ±(99.9%) 12.999 us/op
+Iteration   7: 556.031 ±(99.9%) 6.298 us/op
+Iteration   8: 556.835 ±(99.9%) 16.787 us/op
+Iteration   9: 558.870 ±(99.9%) 14.492 us/op
+Iteration  10: 561.520 ±(99.9%) 17.093 us/op
+Iteration  11: 553.640 ±(99.9%) 8.634 us/op
+Iteration  12: 556.569 ±(99.9%) 10.676 us/op
+Iteration  13: 554.329 ±(99.9%) 11.185 us/op
+Iteration  14: 556.233 ±(99.9%) 12.474 us/op
+Iteration  15: 555.202 ±(99.9%) 8.213 us/op
+Iteration  16: 554.500 ±(99.9%) 18.169 us/op
+Iteration  17: 555.525 ±(99.9%) 13.663 us/op
+Iteration  18: 558.059 ±(99.9%) 20.636 us/op
+Iteration  19: 556.892 ±(99.9%) 17.778 us/op
+Iteration  20: 557.789 ±(99.9%) 13.155 us/op
+
+
+Result "GroovyDynamicMethod5Proxy":
+  556.711 ±(99.9%) 1.592 us/op [Average]
+  (min, avg, max) = (553.640, 556.711, 561.520), stdev = 1.833
+  CI (99.9%): [555.119, 558.303] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod5_10
+
+# Run progress: 20.00% complete, ETA 00:08:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 5336.427 ±(99.9%) 1285.671 us/op
+# Warmup Iteration   2: 732.145 ±(99.9%) 25.268 us/op
+# Warmup Iteration   3: 612.865 ±(99.9%) 14.828 us/op
+# Warmup Iteration   4: 615.100 ±(99.9%) 17.136 us/op
+# Warmup Iteration   5: 608.755 ±(99.9%) 14.904 us/op
+# Warmup Iteration   6: 610.534 ±(99.9%) 15.321 us/op
+# Warmup Iteration   7: 609.076 ±(99.9%) 12.337 us/op
+# Warmup Iteration   8: 611.335 ±(99.9%) 14.099 us/op
+# Warmup Iteration   9: 610.797 ±(99.9%) 18.507 us/op
+# Warmup Iteration  10: 610.472 ±(99.9%) 17.208 us/op
+# Warmup Iteration  11: 613.453 ±(99.9%) 24.319 us/op
+# Warmup Iteration  12: 617.990 ±(99.9%) 21.256 us/op
+# Warmup Iteration  13: 612.993 ±(99.9%) 12.732 us/op
+# Warmup Iteration  14: 611.332 ±(99.9%) 7.449 us/op
+# Warmup Iteration  15: 612.630 ±(99.9%) 14.201 us/op
+# Warmup Iteration  16: 614.385 ±(99.9%) 13.026 us/op
+# Warmup Iteration  17: 612.518 ±(99.9%) 20.515 us/op
+# Warmup Iteration  18: 612.536 ±(99.9%) 14.965 us/op
+# Warmup Iteration  19: 614.466 ±(99.9%) 20.830 us/op
+# Warmup Iteration  20: 615.692 ±(99.9%) 20.269 us/op
+Iteration   1: 615.203 ±(99.9%) 22.881 us/op
+Iteration   2: 612.543 ±(99.9%) 8.787 us/op
+Iteration   3: 613.276 ±(99.9%) 15.991 us/op
+Iteration   4: 614.966 ±(99.9%) 17.915 us/op
+Iteration   5: 611.237 ±(99.9%) 8.956 us/op
+Iteration   6: 611.945 ±(99.9%) 10.752 us/op
+Iteration   7: 612.800 ±(99.9%) 10.404 us/op
+Iteration   8: 613.683 ±(99.9%) 13.593 us/op
+Iteration   9: 613.540 ±(99.9%) 16.320 us/op
+Iteration  10: 613.543 ±(99.9%) 8.087 us/op
+Iteration  11: 612.759 ±(99.9%) 16.932 us/op
+Iteration  12: 614.705 ±(99.9%) 10.753 us/op
+Iteration  13: 614.793 ±(99.9%) 19.470 us/op
+Iteration  14: 612.088 ±(99.9%) 14.472 us/op
+Iteration  15: 619.626 ±(99.9%) 21.426 us/op
+Iteration  16: 617.300 ±(99.9%) 10.258 us/op
+Iteration  17: 614.562 ±(99.9%) 15.274 us/op
+Iteration  18: 611.320 ±(99.9%) 15.424 us/op
+Iteration  19: 611.725 ±(99.9%) 15.022 us/op
+Iteration  20: 615.236 ±(99.9%) 13.001 us/op
+
+
+Result "GroovyDynamicMethod5_10":
+  613.843 ±(99.9%) 1.798 us/op [Average]
+  (min, avg, max) = (611.237, 613.843, 619.626), stdev = 2.070
+  CI (99.9%): [612.045, 615.640] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyDynamicMethod5_2_default3Proxy
+
+# Run progress: 26.67% complete, ETA 00:07:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 696.295 ±(99.9%) 103.112 us/op
+# Warmup Iteration   2: 480.872 ±(99.9%) 9.268 us/op
+# Warmup Iteration   3: 475.239 ±(99.9%) 10.345 us/op
+# Warmup Iteration   4: 480.132 ±(99.9%) 8.005 us/op
+# Warmup Iteration   5: 476.683 ±(99.9%) 13.443 us/op
+# Warmup Iteration   6: 476.766 ±(99.9%) 11.339 us/op
+# Warmup Iteration   7: 475.174 ±(99.9%) 10.159 us/op
+# Warmup Iteration   8: 476.370 ±(99.9%) 12.574 us/op
+# Warmup Iteration   9: 476.551 ±(99.9%) 12.754 us/op
+# Warmup Iteration  10: 477.236 ±(99.9%) 13.607 us/op
+# Warmup Iteration  11: 475.621 ±(99.9%) 13.427 us/op
+# Warmup Iteration  12: 478.929 ±(99.9%) 14.804 us/op
+# Warmup Iteration  13: 479.192 ±(99.9%) 13.804 us/op
+# Warmup Iteration  14: 479.639 ±(99.9%) 9.066 us/op
+# Warmup Iteration  15: 482.292 ±(99.9%) 8.058 us/op
+# Warmup Iteration  16: 479.691 ±(99.9%) 7.240 us/op
+# Warmup Iteration  17: 478.767 ±(99.9%) 10.739 us/op
+# Warmup Iteration  18: 480.806 ±(99.9%) 11.046 us/op
+# Warmup Iteration  19: 479.926 ±(99.9%) 11.690 us/op
+# Warmup Iteration  20: 479.851 ±(99.9%) 10.846 us/op
+Iteration   1: 481.792 ±(99.9%) 15.556 us/op
+Iteration   2: 478.912 ±(99.9%) 8.736 us/op
+Iteration   3: 477.694 ±(99.9%) 8.904 us/op
+Iteration   4: 482.508 ±(99.9%) 19.037 us/op
+Iteration   5: 482.011 ±(99.9%) 11.495 us/op
+Iteration   6: 478.985 ±(99.9%) 8.217 us/op
+Iteration   7: 480.887 ±(99.9%) 11.508 us/op
+Iteration   8: 481.787 ±(99.9%) 12.208 us/op
+Iteration   9: 481.186 ±(99.9%) 8.667 us/op
+Iteration  10: 482.123 ±(99.9%) 14.350 us/op
+Iteration  11: 479.788 ±(99.9%) 9.639 us/op
+Iteration  12: 480.536 ±(99.9%) 4.332 us/op
+Iteration  13: 483.188 ±(99.9%) 15.072 us/op
+Iteration  14: 479.870 ±(99.9%) 11.328 us/op
+Iteration  15: 479.356 ±(99.9%) 10.380 us/op
+Iteration  16: 480.902 ±(99.9%) 15.200 us/op
+Iteration  17: 480.506 ±(99.9%) 10.581 us/op
+Iteration  18: 481.200 ±(99.9%) 7.880 us/op
+Iteration  19: 481.318 ±(99.9%) 12.393 us/op
+Iteration  20: 480.007 ±(99.9%) 11.593 us/op
+
+
+Result "GroovyDynamicMethod5_2_default3Proxy":
+  480.728 ±(99.9%) 1.188 us/op [Average]
+  (min, avg, max) = (477.694, 480.728, 483.188), stdev = 1.368
+  CI (99.9%): [479.540, 481.916] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod0_0
+
+# Run progress: 33.33% complete, ETA 00:06:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.007 ±(99.9%) 0.001 us/op
+# Warmup Iteration   2: 0.007 ±(99.9%) 0.001 us/op
+# Warmup Iteration   3: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   4: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   5: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   6: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   7: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   8: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   9: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  10: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  11: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  12: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  13: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  14: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  15: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  16: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  17: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  18: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  19: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration  20: 0.005 ±(99.9%) 0.001 us/op
+Iteration   1: 0.005 ±(99.9%) 0.001 us/op
+Iteration   2: 0.005 ±(99.9%) 0.001 us/op
+Iteration   3: 0.005 ±(99.9%) 0.001 us/op
+Iteration   4: 0.005 ±(99.9%) 0.001 us/op
+Iteration   5: 0.005 ±(99.9%) 0.001 us/op
+Iteration   6: 0.005 ±(99.9%) 0.001 us/op
+Iteration   7: 0.005 ±(99.9%) 0.001 us/op
+Iteration   8: 0.005 ±(99.9%) 0.001 us/op
+Iteration   9: 0.005 ±(99.9%) 0.001 us/op
+Iteration  10: 0.005 ±(99.9%) 0.001 us/op
+Iteration  11: 0.005 ±(99.9%) 0.001 us/op
+Iteration  12: 0.005 ±(99.9%) 0.001 us/op
+Iteration  13: 0.005 ±(99.9%) 0.001 us/op
+Iteration  14: 0.005 ±(99.9%) 0.001 us/op
+Iteration  15: 0.005 ±(99.9%) 0.001 us/op
+Iteration  16: 0.005 ±(99.9%) 0.001 us/op
+Iteration  17: 0.005 ±(99.9%) 0.001 us/op
+Iteration  18: 0.005 ±(99.9%) 0.001 us/op
+Iteration  19: 0.005 ±(99.9%) 0.001 us/op
+Iteration  20: 0.005 ±(99.9%) 0.001 us/op
+
+
+Result "GroovyInvokeDynamicMethod0_0":
+  0.005 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.005, 0.005, 0.005), stdev = 0.001
+  CI (99.9%): [0.005, 0.005] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod3_3
+
+# Run progress: 40.00% complete, ETA 00:06:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 52323.978 ±(99.9%) 21495.425 us/op
+# Warmup Iteration   2: 41665.177 ±(99.9%) 6607.174 us/op
+# Warmup Iteration   3: 40451.652 ±(99.9%) 6386.613 us/op
+# Warmup Iteration   4: 40406.101 ±(99.9%) 4563.107 us/op
+# Warmup Iteration   5: 40024.493 ±(99.9%) 2922.507 us/op
+# Warmup Iteration   6: 39974.608 ±(99.9%) 6970.925 us/op
+# Warmup Iteration   7: 37389.731 ±(99.9%) 2796.685 us/op
+# Warmup Iteration   8: 35619.755 ±(99.9%) 5232.653 us/op
+# Warmup Iteration   9: 34600.061 ±(99.9%) 3423.782 us/op
+# Warmup Iteration  10: 33941.638 ±(99.9%) 3512.416 us/op
+# Warmup Iteration  11: 34387.404 ±(99.9%) 5268.187 us/op
+# Warmup Iteration  12: 36906.443 ±(99.9%) 8519.912 us/op
+# Warmup Iteration  13: 35404.587 ±(99.9%) 4402.939 us/op
+# Warmup Iteration  14: 34753.255 ±(99.9%) 4906.999 us/op
+# Warmup Iteration  15: 35564.716 ±(99.9%) 7908.324 us/op
+# Warmup Iteration  16: 35838.586 ±(99.9%) 5189.462 us/op
+# Warmup Iteration  17: 35606.681 ±(99.9%) 4961.938 us/op
+# Warmup Iteration  18: 36686.357 ±(99.9%) 4898.211 us/op
+# Warmup Iteration  19: 36143.093 ±(99.9%) 7305.218 us/op
+# Warmup Iteration  20: 35398.993 ±(99.9%) 5577.363 us/op
+Iteration   1: 35549.968 ±(99.9%) 5556.974 us/op
+Iteration   2: 36295.456 ±(99.9%) 5786.460 us/op
+Iteration   3: 36078.997 ±(99.9%) 6175.305 us/op
+Iteration   4: 35856.626 ±(99.9%) 4917.372 us/op
+Iteration   5: 34896.920 ±(99.9%) 3553.065 us/op
+Iteration   6: 35195.271 ±(99.9%) 7193.039 us/op
+Iteration   7: 36664.508 ±(99.9%) 4006.279 us/op
+Iteration   8: 38243.195 ±(99.9%) 7524.747 us/op
+Iteration   9: 35477.126 ±(99.9%) 6275.544 us/op
+Iteration  10: 36627.312 ±(99.9%) 4585.208 us/op
+Iteration  11: 35788.952 ±(99.9%) 4684.251 us/op
+Iteration  12: 36890.328 ±(99.9%) 7615.758 us/op
+Iteration  13: 36825.785 ±(99.9%) 5003.685 us/op
+Iteration  14: 36230.438 ±(99.9%) 5835.971 us/op
+Iteration  15: 37168.357 ±(99.9%) 5146.488 us/op
+Iteration  16: 37203.092 ±(99.9%) 4681.566 us/op
+Iteration  17: 34401.876 ±(99.9%) 5954.934 us/op
+Iteration  18: 35639.767 ±(99.9%) 4041.497 us/op
+Iteration  19: 35055.434 ±(99.9%) 4159.517 us/op
+Iteration  20: 36858.531 ±(99.9%) 4895.413 us/op
+
+
+Result "GroovyInvokeDynamicMethod3_3":
+  36147.397 ±(99.9%) 811.287 us/op [Average]
+  (min, avg, max) = (34401.876, 36147.397, 38243.195), stdev = 934.279
+  CI (99.9%): [35336.110, 36958.684] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod5Proxy
+
+# Run progress: 46.67% complete, ETA 00:05:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 68169.172 ±(99.9%) 27692.773 us/op
+# Warmup Iteration   2: 40894.439 ±(99.9%) 4387.912 us/op
+# Warmup Iteration   3: 38496.591 ±(99.9%) 6395.808 us/op
+# Warmup Iteration   4: 40087.872 ±(99.9%) 8585.676 us/op
+# Warmup Iteration   5: 39737.470 ±(99.9%) 4430.726 us/op
+# Warmup Iteration   6: 37387.268 ±(99.9%) 6081.269 us/op
+# Warmup Iteration   7: 37769.006 ±(99.9%) 7085.341 us/op
+# Warmup Iteration   8: 37469.673 ±(99.9%) 7803.805 us/op
+# Warmup Iteration   9: 36174.462 ±(99.9%) 4659.776 us/op
+# Warmup Iteration  10: 37555.606 ±(99.9%) 5809.615 us/op
+# Warmup Iteration  11: 36261.209 ±(99.9%) 2857.548 us/op
+# Warmup Iteration  12: 36688.462 ±(99.9%) 4250.119 us/op
+# Warmup Iteration  13: 36445.970 ±(99.9%) 5369.444 us/op
+# Warmup Iteration  14: 36575.451 ±(99.9%) 6494.924 us/op
+# Warmup Iteration  15: 38181.710 ±(99.9%) 4329.201 us/op
+# Warmup Iteration  16: 37161.541 ±(99.9%) 6374.847 us/op
+# Warmup Iteration  17: 37515.192 ±(99.9%) 4565.291 us/op
+# Warmup Iteration  18: 36783.453 ±(99.9%) 5714.296 us/op
+# Warmup Iteration  19: 38210.818 ±(99.9%) 5458.005 us/op
+# Warmup Iteration  20: 38571.839 ±(99.9%) 7973.430 us/op
+Iteration   1: 38242.057 ±(99.9%) 8033.738 us/op
+Iteration   2: 37479.410 ±(99.9%) 6553.415 us/op
+Iteration   3: 37470.719 ±(99.9%) 5428.424 us/op
+Iteration   4: 38385.814 ±(99.9%) 4937.919 us/op
+Iteration   5: 38074.445 ±(99.9%) 4144.993 us/op
+Iteration   6: 38501.595 ±(99.9%) 6141.637 us/op
+Iteration   7: 38952.563 ±(99.9%) 4796.887 us/op
+Iteration   8: 37712.477 ±(99.9%) 3892.583 us/op
+Iteration   9: 38969.381 ±(99.9%) 6180.332 us/op
+Iteration  10: 38899.548 ±(99.9%) 5303.835 us/op
+Iteration  11: 38353.275 ±(99.9%) 6629.956 us/op
+Iteration  12: 38122.282 ±(99.9%) 5424.505 us/op
+Iteration  13: 37741.430 ±(99.9%) 7569.291 us/op
+Iteration  14: 37843.504 ±(99.9%) 4995.484 us/op
+Iteration  15: 38128.134 ±(99.9%) 9757.254 us/op
+Iteration  16: 38974.169 ±(99.9%) 5111.444 us/op
+Iteration  17: 39532.144 ±(99.9%) 4872.698 us/op
+Iteration  18: 39201.861 ±(99.9%) 4947.781 us/op
+Iteration  19: 38129.078 ±(99.9%) 6754.753 us/op
+Iteration  20: 38092.922 ±(99.9%) 4865.365 us/op
+
+
+Result "GroovyInvokeDynamicMethod5Proxy":
+  38340.340 ±(99.9%) 506.013 us/op [Average]
+  (min, avg, max) = (37470.719, 38340.340, 39532.144), stdev = 582.725
+  CI (99.9%): [37834.328, 38846.353] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod5_10
+
+# Run progress: 53.33% complete, ETA 00:04:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 71398.669 ±(99.9%) 23925.824 us/op
+# Warmup Iteration   2: 45397.840 ±(99.9%) 6578.256 us/op
+# Warmup Iteration   3: 44728.439 ±(99.9%) 5380.418 us/op
+# Warmup Iteration   4: 42785.388 ±(99.9%) 3848.401 us/op
+# Warmup Iteration   5: 43625.802 ±(99.9%) 4243.960 us/op
+# Warmup Iteration   6: 41003.431 ±(99.9%) 3968.956 us/op
+# Warmup Iteration   7: 39843.438 ±(99.9%) 3088.495 us/op
+# Warmup Iteration   8: 39219.713 ±(99.9%) 4106.138 us/op
+# Warmup Iteration   9: 38694.828 ±(99.9%) 6214.663 us/op
+# Warmup Iteration  10: 39340.436 ±(99.9%) 3969.746 us/op
+# Warmup Iteration  11: 40661.261 ±(99.9%) 12137.848 us/op
+# Warmup Iteration  12: 39801.983 ±(99.9%) 5633.945 us/op
+# Warmup Iteration  13: 38499.305 ±(99.9%) 4034.035 us/op
+# Warmup Iteration  14: 38793.727 ±(99.9%) 7991.318 us/op
+# Warmup Iteration  15: 39396.381 ±(99.9%) 3980.402 us/op
+# Warmup Iteration  16: 39198.482 ±(99.9%) 4451.928 us/op
+# Warmup Iteration  17: 41241.712 ±(99.9%) 6835.674 us/op
+# Warmup Iteration  18: 40193.273 ±(99.9%) 6944.301 us/op
+# Warmup Iteration  19: 40102.230 ±(99.9%) 6726.591 us/op
+# Warmup Iteration  20: 39586.272 ±(99.9%) 4428.614 us/op
+Iteration   1: 39991.234 ±(99.9%) 6546.832 us/op
+Iteration   2: 39588.748 ±(99.9%) 4956.954 us/op
+Iteration   3: 38901.114 ±(99.9%) 4824.028 us/op
+Iteration   4: 40230.402 ±(99.9%) 5922.412 us/op
+Iteration   5: 40499.135 ±(99.9%) 5596.303 us/op
+Iteration   6: 39854.139 ±(99.9%) 6819.572 us/op
+Iteration   7: 39339.131 ±(99.9%) 4769.232 us/op
+Iteration   8: 40931.714 ±(99.9%) 5877.584 us/op
+Iteration   9: 41613.101 ±(99.9%) 10157.808 us/op
+Iteration  10: 40294.870 ±(99.9%) 6764.545 us/op
+Iteration  11: 39653.711 ±(99.9%) 5159.983 us/op
+Iteration  12: 39607.879 ±(99.9%) 5255.905 us/op
+Iteration  13: 40870.181 ±(99.9%) 5193.719 us/op
+Iteration  14: 41342.820 ±(99.9%) 6194.082 us/op
+Iteration  15: 40252.400 ±(99.9%) 6949.682 us/op
+Iteration  16: 40418.149 ±(99.9%) 6213.453 us/op
+Iteration  17: 41075.987 ±(99.9%) 4613.546 us/op
+Iteration  18: 39965.653 ±(99.9%) 6013.121 us/op
+Iteration  19: 39339.230 ±(99.9%) 4517.241 us/op
+Iteration  20: 40122.208 ±(99.9%) 5238.145 us/op
+
+
+Result "GroovyInvokeDynamicMethod5_10":
+  40194.590 ±(99.9%) 617.884 us/op [Average]
+  (min, avg, max) = (38901.114, 40194.590, 41613.101), stdev = 711.556
+  CI (99.9%): [39576.707, 40812.474] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.GroovyInvokeDynamicMethod5_2_default3Proxy
+
+# Run progress: 60.00% complete, ETA 00:04:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 68450.853 ±(99.9%) 22654.234 us/op
+# Warmup Iteration   2: 36075.506 ±(99.9%) 2741.334 us/op
+# Warmup Iteration   3: 35340.225 ±(99.9%) 6320.969 us/op
+# Warmup Iteration   4: 35949.040 ±(99.9%) 5585.412 us/op
+# Warmup Iteration   5: 36477.354 ±(99.9%) 4233.252 us/op
+# Warmup Iteration   6: 35411.818 ±(99.9%) 7429.074 us/op
+# Warmup Iteration   7: 35746.109 ±(99.9%) 5126.421 us/op
+# Warmup Iteration   8: 34965.994 ±(99.9%) 6495.224 us/op
+# Warmup Iteration   9: 34278.039 ±(99.9%) 5361.310 us/op
+# Warmup Iteration  10: 34285.691 ±(99.9%) 4191.314 us/op
+# Warmup Iteration  11: 34895.446 ±(99.9%) 5509.565 us/op
+# Warmup Iteration  12: 35566.198 ±(99.9%) 4009.044 us/op
+# Warmup Iteration  13: 36830.802 ±(99.9%) 8092.119 us/op
+# Warmup Iteration  14: 36845.698 ±(99.9%) 7821.775 us/op
+# Warmup Iteration  15: 34353.122 ±(99.9%) 5902.096 us/op
+# Warmup Iteration  16: 34920.053 ±(99.9%) 6269.410 us/op
+# Warmup Iteration  17: 34502.889 ±(99.9%) 4615.172 us/op
+# Warmup Iteration  18: 35109.649 ±(99.9%) 5678.701 us/op
+# Warmup Iteration  19: 35644.739 ±(99.9%) 7643.275 us/op
+# Warmup Iteration  20: 35050.397 ±(99.9%) 6306.189 us/op
+Iteration   1: 35310.318 ±(99.9%) 3869.479 us/op
+Iteration   2: 35851.886 ±(99.9%) 2574.902 us/op
+Iteration   3: 35896.689 ±(99.9%) 4028.018 us/op
+Iteration   4: 36136.028 ±(99.9%) 5858.403 us/op
+Iteration   5: 33157.568 ±(99.9%) 2986.286 us/op
+Iteration   6: 33851.280 ±(99.9%) 2247.465 us/op
+Iteration   7: 33799.820 ±(99.9%) 5190.352 us/op
+Iteration   8: 35238.893 ±(99.9%) 5374.071 us/op
+Iteration   9: 36816.451 ±(99.9%) 4661.662 us/op
+Iteration  10: 34701.666 ±(99.9%) 1775.261 us/op
+Iteration  11: 36341.293 ±(99.9%) 6680.608 us/op
+Iteration  12: 36635.787 ±(99.9%) 6107.587 us/op
+Iteration  13: 36030.511 ±(99.9%) 5401.096 us/op
+Iteration  14: 35551.602 ±(99.9%) 4257.584 us/op
+Iteration  15: 34625.707 ±(99.9%) 6562.094 us/op
+Iteration  16: 34347.801 ±(99.9%) 3862.088 us/op
+Iteration  17: 34627.863 ±(99.9%) 4978.180 us/op
+Iteration  18: 35158.308 ±(99.9%) 3645.481 us/op
+Iteration  19: 36521.395 ±(99.9%) 7446.124 us/op
+Iteration  20: 36332.029 ±(99.9%) 5705.894 us/op
+
+
+Result "GroovyInvokeDynamicMethod5_2_default3Proxy":
+  35346.645 ±(99.9%) 907.958 us/op [Average]
+  (min, avg, max) = (33157.568, 35346.645, 36816.451), stdev = 1045.605
+  CI (99.9%): [34438.687, 36254.602] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod0_0
+
+# Run progress: 66.67% complete, ETA 00:03:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   2: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration   3: 0.005 ±(99.9%) 0.001 us/op
+# Warmup Iteration   4: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration   5: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration   6: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration   7: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration   8: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration   9: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  10: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  11: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  12: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  13: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  14: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  15: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  16: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  17: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  18: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  19: 0.004 ±(99.9%) 0.001 us/op
+# Warmup Iteration  20: 0.004 ±(99.9%) 0.001 us/op
+Iteration   1: 0.004 ±(99.9%) 0.001 us/op
+Iteration   2: 0.004 ±(99.9%) 0.001 us/op
+Iteration   3: 0.004 ±(99.9%) 0.001 us/op
+Iteration   4: 0.004 ±(99.9%) 0.001 us/op
+Iteration   5: 0.004 ±(99.9%) 0.001 us/op
+Iteration   6: 0.004 ±(99.9%) 0.001 us/op
+Iteration   7: 0.004 ±(99.9%) 0.001 us/op
+Iteration   8: 0.004 ±(99.9%) 0.001 us/op
+Iteration   9: 0.004 ±(99.9%) 0.001 us/op
+Iteration  10: 0.004 ±(99.9%) 0.001 us/op
+Iteration  11: 0.004 ±(99.9%) 0.001 us/op
+Iteration  12: 0.004 ±(99.9%) 0.001 us/op
+Iteration  13: 0.004 ±(99.9%) 0.001 us/op
+Iteration  14: 0.004 ±(99.9%) 0.001 us/op
+Iteration  15: 0.004 ±(99.9%) 0.001 us/op
+Iteration  16: 0.004 ±(99.9%) 0.001 us/op
+Iteration  17: 0.004 ±(99.9%) 0.001 us/op
+Iteration  18: 0.004 ±(99.9%) 0.001 us/op
+Iteration  19: 0.004 ±(99.9%) 0.001 us/op
+Iteration  20: 0.004 ±(99.9%) 0.001 us/op
+
+
+Result "kotlinDynamicMethod0_0":
+  0.004 ±(99.9%) 0.001 us/op [Average]
+  (min, avg, max) = (0.004, 0.004, 0.004), stdev = 0.001
+  CI (99.9%): [0.004, 0.004] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod3_3
+
+# Run progress: 73.33% complete, ETA 00:02:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 8834.532 ±(99.9%) 2235.121 us/op
+# Warmup Iteration   2: 9790.578 ±(99.9%) 3009.868 us/op
+# Warmup Iteration   3: 10191.820 ±(99.9%) 1675.038 us/op
+# Warmup Iteration   4: 9897.021 ±(99.9%) 1657.899 us/op
+# Warmup Iteration   5: 9158.154 ±(99.9%) 1165.066 us/op
+# Warmup Iteration   6: 9588.118 ±(99.9%) 2491.392 us/op
+# Warmup Iteration   7: 9925.965 ±(99.9%) 910.283 us/op
+# Warmup Iteration   8: 10302.989 ±(99.9%) 2586.897 us/op
+# Warmup Iteration   9: 10048.722 ±(99.9%) 1082.069 us/op
+# Warmup Iteration  10: 9766.936 ±(99.9%) 1402.809 us/op
+# Warmup Iteration  11: 9652.786 ±(99.9%) 1766.292 us/op
+# Warmup Iteration  12: 9627.766 ±(99.9%) 1423.762 us/op
+# Warmup Iteration  13: 9630.746 ±(99.9%) 1248.537 us/op
+# Warmup Iteration  14: 9438.729 ±(99.9%) 1339.098 us/op
+# Warmup Iteration  15: 9587.368 ±(99.9%) 1436.115 us/op
+# Warmup Iteration  16: 9758.887 ±(99.9%) 1676.367 us/op
+# Warmup Iteration  17: 9523.808 ±(99.9%) 1625.469 us/op
+# Warmup Iteration  18: 9838.457 ±(99.9%) 2611.117 us/op
+# Warmup Iteration  19: 9543.613 ±(99.9%) 999.997 us/op
+# Warmup Iteration  20: 9567.633 ±(99.9%) 1038.119 us/op
+Iteration   1: 9711.525 ±(99.9%) 1317.580 us/op
+Iteration   2: 9853.388 ±(99.9%) 2541.040 us/op
+Iteration   3: 9910.778 ±(99.9%) 1738.927 us/op
+Iteration   4: 9597.326 ±(99.9%) 1471.175 us/op
+Iteration   5: 9841.666 ±(99.9%) 1200.378 us/op
+Iteration   6: 9820.139 ±(99.9%) 1632.669 us/op
+Iteration   7: 9895.845 ±(99.9%) 1817.407 us/op
+Iteration   8: 9775.652 ±(99.9%) 1329.274 us/op
+Iteration   9: 9878.157 ±(99.9%) 1834.964 us/op
+Iteration  10: 9892.636 ±(99.9%) 2157.650 us/op
+Iteration  11: 9726.133 ±(99.9%) 1286.900 us/op
+Iteration  12: 9756.217 ±(99.9%) 1137.937 us/op
+Iteration  13: 9949.285 ±(99.9%) 1559.957 us/op
+Iteration  14: 9779.107 ±(99.9%) 2165.810 us/op
+Iteration  15: 9810.699 ±(99.9%) 934.619 us/op
+Iteration  16: 9743.268 ±(99.9%) 1652.699 us/op
+Iteration  17: 9656.681 ±(99.9%) 1755.597 us/op
+Iteration  18: 9791.548 ±(99.9%) 1160.555 us/op
+Iteration  19: 9674.690 ±(99.9%) 2305.634 us/op
+Iteration  20: 9708.793 ±(99.9%) 1112.729 us/op
+
+
+Result "kotlinDynamicMethod3_3":
+  9788.677 ±(99.9%) 81.199 us/op [Average]
+  (min, avg, max) = (9597.326, 9788.677, 9949.285), stdev = 93.509
+  CI (99.9%): [9707.478, 9869.876] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod5Proxy
+
+# Run progress: 80.00% complete, ETA 00:02:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 7532.543 ±(99.9%) 940.497 us/op
+# Warmup Iteration   2: 8615.056 ±(99.9%) 1198.687 us/op
+# Warmup Iteration   3: 8563.675 ±(99.9%) 1000.884 us/op
+# Warmup Iteration   4: 8007.878 ±(99.9%) 1108.418 us/op
+# Warmup Iteration   5: 8318.327 ±(99.9%) 1580.843 us/op
+# Warmup Iteration   6: 8305.439 ±(99.9%) 1583.492 us/op
+# Warmup Iteration   7: 8093.227 ±(99.9%) 749.659 us/op
+# Warmup Iteration   8: 8168.722 ±(99.9%) 937.280 us/op
+# Warmup Iteration   9: 7670.933 ±(99.9%) 946.534 us/op
+# Warmup Iteration  10: 8121.678 ±(99.9%) 566.439 us/op
+# Warmup Iteration  11: 7085.340 ±(99.9%) 1351.691 us/op
+# Warmup Iteration  12: 6441.448 ±(99.9%) 1267.645 us/op
+# Warmup Iteration  13: 6411.890 ±(99.9%) 1685.352 us/op
+# Warmup Iteration  14: 6616.022 ±(99.9%) 1543.476 us/op
+# Warmup Iteration  15: 6367.616 ±(99.9%) 1134.057 us/op
+# Warmup Iteration  16: 6565.818 ±(99.9%) 977.509 us/op
+# Warmup Iteration  17: 6400.144 ±(99.9%) 1475.190 us/op
+# Warmup Iteration  18: 6344.974 ±(99.9%) 1098.845 us/op
+# Warmup Iteration  19: 6482.781 ±(99.9%) 1069.745 us/op
+# Warmup Iteration  20: 6467.544 ±(99.9%) 299.760 us/op
+Iteration   1: 6754.502 ±(99.9%) 2584.194 us/op
+Iteration   2: 6532.279 ±(99.9%) 945.010 us/op
+Iteration   3: 6809.861 ±(99.9%) 1252.657 us/op
+Iteration   4: 6474.109 ±(99.9%) 972.398 us/op
+Iteration   5: 6747.065 ±(99.9%) 1005.610 us/op
+Iteration   6: 6633.593 ±(99.9%) 1031.305 us/op
+Iteration   7: 6770.905 ±(99.9%) 1585.909 us/op
+Iteration   8: 6575.987 ±(99.9%) 824.934 us/op
+Iteration   9: 6769.927 ±(99.9%) 1454.361 us/op
+Iteration  10: 6734.907 ±(99.9%) 950.676 us/op
+Iteration  11: 6674.334 ±(99.9%) 1036.055 us/op
+Iteration  12: 6520.770 ±(99.9%) 927.274 us/op
+Iteration  13: 6565.948 ±(99.9%) 1038.668 us/op
+Iteration  14: 6690.948 ±(99.9%) 1107.133 us/op
+Iteration  15: 6835.401 ±(99.9%) 1171.348 us/op
+Iteration  16: 6867.034 ±(99.9%) 1391.062 us/op
+Iteration  17: 6606.661 ±(99.9%) 1348.622 us/op
+Iteration  18: 6816.469 ±(99.9%) 889.235 us/op
+Iteration  19: 6623.907 ±(99.9%) 987.756 us/op
+Iteration  20: 6770.995 ±(99.9%) 866.544 us/op
+
+
+Result "kotlinDynamicMethod5Proxy":
+  6688.780 ±(99.9%) 100.597 us/op [Average]
+  (min, avg, max) = (6474.109, 6688.780, 6867.034), stdev = 115.848
+  CI (99.9%): [6588.183, 6789.377] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod5_10
+
+# Run progress: 86.67% complete, ETA 00:01:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 9750.894 ±(99.9%) 1469.326 us/op
+# Warmup Iteration   2: 9886.884 ±(99.9%) 1338.542 us/op
+# Warmup Iteration   3: 10410.754 ±(99.9%) 1911.663 us/op
+# Warmup Iteration   4: 10414.444 ±(99.9%) 1155.700 us/op
+# Warmup Iteration   5: 10028.095 ±(99.9%) 1749.424 us/op
+# Warmup Iteration   6: 10018.949 ±(99.9%) 1655.312 us/op
+# Warmup Iteration   7: 10415.997 ±(99.9%) 1689.595 us/op
+# Warmup Iteration   8: 10578.898 ±(99.9%) 3050.293 us/op
+# Warmup Iteration   9: 10476.841 ±(99.9%) 1627.864 us/op
+# Warmup Iteration  10: 10350.542 ±(99.9%) 1173.425 us/op
+# Warmup Iteration  11: 10306.153 ±(99.9%) 1630.390 us/op
+# Warmup Iteration  12: 11081.983 ±(99.9%) 3004.048 us/op
+# Warmup Iteration  13: 10488.945 ±(99.9%) 1860.189 us/op
+# Warmup Iteration  14: 9627.974 ±(99.9%) 1443.773 us/op
+# Warmup Iteration  15: 9965.027 ±(99.9%) 1543.928 us/op
+# Warmup Iteration  16: 9603.053 ±(99.9%) 1804.598 us/op
+# Warmup Iteration  17: 9765.206 ±(99.9%) 1689.196 us/op
+# Warmup Iteration  18: 9943.354 ±(99.9%) 1066.383 us/op
+# Warmup Iteration  19: 9669.571 ±(99.9%) 2706.526 us/op
+# Warmup Iteration  20: 9810.175 ±(99.9%) 798.931 us/op
+Iteration   1: 9913.682 ±(99.9%) 1855.959 us/op
+Iteration   2: 9847.686 ±(99.9%) 1919.858 us/op
+Iteration   3: 9910.145 ±(99.9%) 2079.618 us/op
+Iteration   4: 9818.370 ±(99.9%) 1666.204 us/op
+Iteration   5: 9739.340 ±(99.9%) 1252.405 us/op
+Iteration   6: 9910.758 ±(99.9%) 1477.678 us/op
+Iteration   7: 9857.392 ±(99.9%) 2016.785 us/op
+Iteration   8: 10007.490 ±(99.9%) 1793.766 us/op
+Iteration   9: 10110.449 ±(99.9%) 2419.006 us/op
+Iteration  10: 9755.944 ±(99.9%) 1491.258 us/op
+Iteration  11: 10266.530 ±(99.9%) 2145.616 us/op
+Iteration  12: 10110.658 ±(99.9%) 2122.204 us/op
+Iteration  13: 9800.543 ±(99.9%) 2341.257 us/op
+Iteration  14: 9963.338 ±(99.9%) 1564.486 us/op
+Iteration  15: 9988.259 ±(99.9%) 2041.148 us/op
+Iteration  16: 9976.844 ±(99.9%) 1986.419 us/op
+Iteration  17: 10129.011 ±(99.9%) 2477.491 us/op
+Iteration  18: 10015.033 ±(99.9%) 2809.447 us/op
+Iteration  19: 10311.659 ±(99.9%) 1337.112 us/op
+Iteration  20: 9981.303 ±(99.9%) 1023.639 us/op
+
+
+Result "kotlinDynamicMethod5_10":
+  9970.722 ±(99.9%) 135.417 us/op [Average]
+  (min, avg, max) = (9739.340, 9970.722, 10311.659), stdev = 155.947
+  CI (99.9%): [9835.304, 10106.139] (assumes normal distribution)
+
+
+# JMH 1.15 (released 227 days ago, please consider updating!)
+# VM version: JDK 1.8.0_121, VM 25.121-b13
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 8 threads, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.kotlinDynamicMethod5_2_default3Proxy
+
+# Run progress: 93.33% complete, ETA 00:00:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 8217.431 ±(99.9%) 1954.906 us/op
+# Warmup Iteration   2: 8494.371 ±(99.9%) 1435.727 us/op
+# Warmup Iteration   3: 8846.308 ±(99.9%) 1645.475 us/op
+# Warmup Iteration   4: 9269.747 ±(99.9%) 1785.136 us/op
+# Warmup Iteration   5: 9161.005 ±(99.9%) 2522.491 us/op
+# Warmup Iteration   6: 8937.960 ±(99.9%) 1369.623 us/op
+# Warmup Iteration   7: 8859.044 ±(99.9%) 983.738 us/op
+# Warmup Iteration   8: 9262.708 ±(99.9%) 1832.958 us/op
+# Warmup Iteration   9: 9256.166 ±(99.9%) 1651.455 us/op
+# Warmup Iteration  10: 8852.706 ±(99.9%) 2406.157 us/op
+# Warmup Iteration  11: 9075.047 ±(99.9%) 1769.339 us/op
+# Warmup Iteration  12: 8805.740 ±(99.9%) 1620.903 us/op
+# Warmup Iteration  13: 9134.815 ±(99.9%) 1993.829 us/op
+# Warmup Iteration  14: 8978.580 ±(99.9%) 1642.831 us/op
+# Warmup Iteration  15: 8730.375 ±(99.9%) 1796.186 us/op
+# Warmup Iteration  16: 9070.797 ±(99.9%) 2331.308 us/op
+# Warmup Iteration  17: 8783.049 ±(99.9%) 1905.126 us/op
+# Warmup Iteration  18: 9267.964 ±(99.9%) 1749.107 us/op
+# Warmup Iteration  19: 9007.689 ±(99.9%) 1199.868 us/op
+# Warmup Iteration  20: 9087.302 ±(99.9%) 1820.380 us/op
+Iteration   1: 9102.044 ±(99.9%) 1963.194 us/op
+Iteration   2: 8879.651 ±(99.9%) 624.637 us/op
+Iteration   3: 8941.329 ±(99.9%) 1469.843 us/op
+Iteration   4: 9263.607 ±(99.9%) 1173.480 us/op
+Iteration   5: 9042.913 ±(99.9%) 867.057 us/op
+Iteration   6: 8966.618 ±(99.9%) 1186.214 us/op
+Iteration   7: 9348.924 ±(99.9%) 1651.142 us/op
+Iteration   8: 9137.967 ±(99.9%) 1717.948 us/op
+Iteration   9: 9094.892 ±(99.9%) 1956.957 us/op
+Iteration  10: 9298.199 ±(99.9%) 1949.061 us/op
+Iteration  11: 9025.731 ±(99.9%) 1381.149 us/op
+Iteration  12: 9175.983 ±(99.9%) 1964.553 us/op
+Iteration  13: 9417.347 ±(99.9%) 1323.926 us/op
+Iteration  14: 8855.575 ±(99.9%) 1295.996 us/op
+Iteration  15: 9160.531 ±(99.9%) 869.264 us/op
+Iteration  16: 9266.977 ±(99.9%) 1690.802 us/op
+Iteration  17: 9048.794 ±(99.9%) 1259.206 us/op
+Iteration  18: 9195.836 ±(99.9%) 1700.393 us/op
+Iteration  19: 9278.124 ±(99.9%) 1149.298 us/op
+Iteration  20: 9225.187 ±(99.9%) 1802.203 us/op
+
+
+Result "kotlinDynamicMethod5_2_default3Proxy":
+  9136.311 ±(99.9%) 135.171 us/op [Average]
+  (min, avg, max) = (8855.575, 9136.311, 9417.347), stdev = 155.663
+  CI (99.9%): [9001.141, 9271.482] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:20
+
+Benchmark                                               Mode  Cnt      Score     Error  Units
+MyBenchmark.GroovyDynamicMethod0_0                      avgt   20      0.013 ±   0.001  us/op
+MyBenchmark.GroovyDynamicMethod3_3                      avgt   20    492.554 ±   1.405  us/op
+MyBenchmark.GroovyDynamicMethod5Proxy                   avgt   20    556.711 ±   1.592  us/op
+MyBenchmark.GroovyDynamicMethod5_10                     avgt   20    613.843 ±   1.798  us/op
+MyBenchmark.GroovyDynamicMethod5_2_default3Proxy        avgt   20    480.728 ±   1.188  us/op
+MyBenchmark.GroovyInvokeDynamicMethod0_0                avgt   20      0.005 ±   0.001  us/op
+MyBenchmark.GroovyInvokeDynamicMethod3_3                avgt   20  36147.397 ± 811.287  us/op
+MyBenchmark.GroovyInvokeDynamicMethod5Proxy             avgt   20  38340.340 ± 506.013  us/op
+MyBenchmark.GroovyInvokeDynamicMethod5_10               avgt   20  40194.590 ± 617.884  us/op
+MyBenchmark.GroovyInvokeDynamicMethod5_2_default3Proxy  avgt   20  35346.645 ± 907.958  us/op
+MyBenchmark.kotlinDynamicMethod0_0                      avgt   20      0.004 ±   0.001  us/op
+MyBenchmark.kotlinDynamicMethod3_3                      avgt   20   9788.677 ±  81.199  us/op
+MyBenchmark.kotlinDynamicMethod5Proxy                   avgt   20   6688.780 ± 100.597  us/op
+MyBenchmark.kotlinDynamicMethod5_10                     avgt   20   9970.722 ± 135.417  us/op
+MyBenchmark.kotlinDynamicMethod5_2_default3Proxy        avgt   20   9136.311 ± 135.171  us/op
