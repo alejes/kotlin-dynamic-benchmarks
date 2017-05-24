@@ -55,7 +55,7 @@ public class MyBenchmark {
         list = shuffle(list);
     }
 
-    @Benchmark
+    /*@Benchmark
     public int kotlinDynamicMethod0_0() {
         return KotlinRunnerDynamic.method0_0Proxy();
     }
@@ -81,6 +81,31 @@ public class MyBenchmark {
     }
 
     @Benchmark
+    public int kotlinDynamicMethod5_15() {
+        return KotlinRunnerDynamic.method5_15Proxy(list);
+    }
+
+    @Benchmark
+    public int kotlinDynamicMethod5_20() {
+        return KotlinRunnerDynamic.method5_20Proxy(list);
+    }
+
+    @Benchmark
+    public int kotlinDynamicMethod7_10() {
+        return KotlinRunnerDynamic.method7_10Proxy(list);
+    }
+
+    @Benchmark
+    public int kotlinDynamicMethod10_10() {
+        return KotlinRunnerDynamic.method10_10Proxy(list);
+    }
+
+    @Benchmark
+    public int kotlinDynamicMethod13_10() {
+        return KotlinRunnerDynamic.method13_10Proxy(list);
+    }
+
+    @Benchmark
     public int GroovyDynamicMethod0_0() {
         return GroovyRunnerDynamic.method0_0Proxy();
     }
@@ -103,9 +128,34 @@ public class MyBenchmark {
     @Benchmark
     public int GroovyDynamicMethod5_10() {
         return GroovyRunnerDynamic.method5_10Proxy(list);
+    }*/
+
+    @Benchmark
+    public int GroovyDynamicMethod5_15() {
+        return GroovyRunnerDynamic.method5_15Proxy(list);
     }
 
     @Benchmark
+    public int GroovyDynamicMethod5_20() {
+        return GroovyRunnerDynamic.method5_20Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyDynamicMethod7_10() {
+        return GroovyRunnerDynamic.method7_10Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyDynamicMethod10_10() {
+        return GroovyRunnerDynamic.method10_10Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyDynamicMethod13_10() {
+        return GroovyRunnerDynamic.method13_10Proxy(list);
+    }
+
+    /*@Benchmark
     public int GroovyInvokeDynamicMethod0_0() {
         return GroovyRunnerInvokeDynamic.method0_0Proxy();
     }
@@ -129,5 +179,30 @@ public class MyBenchmark {
     public int GroovyInvokeDynamicMethod5_10() {
         return GroovyRunnerInvokeDynamic.method5_10Proxy(list);
     }
+
+    @Benchmark
+    public int GroovyInvokeDynamicMethod5_15() {
+        return GroovyRunnerInvokeDynamic.method5_15Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyInvokeDynamicMethod5_20() {
+        return GroovyRunnerInvokeDynamic.method5_20Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyInvokeDynamicMethod7_10() {
+        return GroovyRunnerInvokeDynamic.method7_10Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyInvokeDynamicMethod10_10() {
+        return GroovyRunnerInvokeDynamic.method10_10Proxy(list);
+    }
+
+    @Benchmark
+    public int GroovyInvokeDynamicMethod13_10() {
+        return GroovyRunnerInvokeDynamic.method13_10Proxy(list);
+    }*/
 
 }

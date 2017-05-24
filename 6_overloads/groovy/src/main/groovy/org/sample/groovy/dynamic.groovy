@@ -3,6 +3,7 @@ package org.sample.groovy
 
 class GroovyRunnerDynamic {
     static overloads = new OverloadsStatic()
+
     static int method0_0Proxy() {
         def res = 0
         res += overloads.method0_1()
@@ -37,6 +38,46 @@ class GroovyRunnerDynamic {
         def res = 0
         for (arg in args) {
             res += overloads.method5_10(11, 33, arg, 23232, 55)
+        }
+        return res
+    }
+
+    static int method5_15Proxy(List args) {
+        def res = 0
+        for (arg1 in args) {
+            res += overloads.method5_15(11, "33d", arg1, "eew", 55)
+        }
+        return res
+    }
+
+    static int method5_20Proxy(List args) {
+        def res = 0
+        for (arg1 in args) {
+            res += overloads.method5_20(11, "33d", arg1, "eew", 55)
+        }
+        return res
+    }
+
+    static int method7_10Proxy(List args) {
+        def res = 0
+        for (arg1 in args) {
+            res += overloads.method7_10(11, 11, 11, 11, 11, 1, arg1)
+        }
+        return res
+    }
+
+    static int method10_10Proxy(List args) {
+        def res = 0
+        for (arg1 in args) {
+            res += overloads.method10_10(11, 11, 11, 11, 11, 11, 11, 11, 1, arg1)
+        }
+        return res
+    }
+
+    static int method13_10Proxy(List args) {
+        def res = 0
+        for (arg1 in args) {
+            res += overloads.method13_10(11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, arg1)
         }
         return res
     }
