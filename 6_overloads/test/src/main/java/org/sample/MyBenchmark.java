@@ -55,7 +55,7 @@ public class MyBenchmark {
         list = shuffle(list);
     }
 
-    /*@Benchmark
+    @Benchmark
     public int kotlinDynamicMethod0_0() {
         return KotlinRunnerDynamic.method0_0Proxy();
     }
@@ -128,7 +128,7 @@ public class MyBenchmark {
     @Benchmark
     public int GroovyDynamicMethod5_10() {
         return GroovyRunnerDynamic.method5_10Proxy(list);
-    }*/
+    }
 
     @Benchmark
     public int GroovyDynamicMethod5_15() {
@@ -155,7 +155,7 @@ public class MyBenchmark {
         return GroovyRunnerDynamic.method13_10Proxy(list);
     }
 
-    /*@Benchmark
+    @Benchmark
     public int GroovyInvokeDynamicMethod0_0() {
         return GroovyRunnerInvokeDynamic.method0_0Proxy();
     }
@@ -203,6 +203,6 @@ public class MyBenchmark {
     @Benchmark
     public int GroovyInvokeDynamicMethod13_10() {
         return GroovyRunnerInvokeDynamic.method13_10Proxy(list);
-    }*/
+    }
 
 }
